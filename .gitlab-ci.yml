@@ -8,8 +8,14 @@ include:
 
 build:
   stage: build
-  extends: .build
+  extends: .build_docker_master
+  only:
+    - master
+  except:
+    - schedules
 
 base_image_update:on-schedule:
   stage: base_image_update
   extends: .docker_base_image_update
+  only:
+    - schedules
