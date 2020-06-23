@@ -1,6 +1,7 @@
 stages:
   - build
   - base_image_update
+  - release
 
 include:
   - remote: https://gitlab.com/bamdadsabbagh/gitlab-ci-templates/raw/master/templates/build_docker_master.gitlab-ci.yml
@@ -19,3 +20,12 @@ base_image_update:on-schedule:
   extends: .docker_base_image_update
   only:
     - schedules
+
+release:on-schedule:
+  stage: release
+  only:
+    - schedules
+  services:
+    - node:latest
+  script:
+    - yarn install
