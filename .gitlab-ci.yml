@@ -18,15 +18,14 @@ build:
 base_image_update:on-schedule:
   stage: base_image_update
   extends: .docker_base_image_update
-  only:
-    - schedules
-    - $JOB == "BASE_IMAGE"
 
 release:on-schedule:
   stage: release
-  only:
-    - schedules
-    - $JOB == "RELEASE"
   image: node:latest
+  only:
+    variables:
+      - $JOB == "RELEASE"
+  before_script:
+    - npm install -g semantic-release @semantic-release/gitlab
   script:
-    - yarn install
+    - semantic-release
