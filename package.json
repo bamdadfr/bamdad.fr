@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "snyk-protect": "snyk protect",
     "style": "stylelint 'src/**/*.{js,jsx,ts,tsx}' --fix",
-    "prepare": "yarn run snyk-protect"
+    "prepare": "yarn run snyk-protect",
+    "release": "semantic-release"
   },
   "dependencies": {
     "@iconify/icons-logos": "^1.0.11",
@@ -39,6 +40,7 @@
   "devDependencies": {
     "@bamdadsabbagh/eslint-config": "^1.1.9",
     "@bamdadsabbagh/stylelint-config": "^1.0.7",
+    "@semantic-release/gitlab-config": "^8.0.0",
     "@types/jest": "^26.0.0",
     "@types/node": "^14.0.13",
     "@types/react": "^16.9.38",
@@ -47,6 +49,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "react-scripts": "3.4.1",
+    "semantic-release": "^17.1.0",
     "typescript": "^3.9.5"
   },
   "snyk": true
