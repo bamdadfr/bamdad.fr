@@ -1,5 +1,15 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+variables:
+  DOCKER_HOST: tcp://docker:2376
+  DOCKER_TLS_CERTDIR: "/certs"
+
 stages:
   - build
+  - base_image_update
 
 include:
   - template: Jobs/Build.gitlab-ci.yml
@@ -7,5 +17,20 @@ include:
 build:
   stage: build
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "master"'
+    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE != "schedule"'
       when: always
+  script:
+    - echo "build..."
+
+base_image_update:on-schedule:
+  stage: base_image_update
+  only:
+    - schedules
+  script:
+    - echo "base_image_update..."
+    - apk update
+    - apk add git bash jq curl
+    - git clone https://github.com/bamdadsabbagh/gitlab-docker-base-image-update
+    - cd gitlab-docker-base-image-update
+    - chmod +x run.sh
+    - ./run.sh
