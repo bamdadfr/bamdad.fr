@@ -3,13 +3,11 @@ stages:
   - base_image_update
 
 include:
-  - template: Jobs/Build.gitlab-ci.yml
+  - remote: https://gitlab.com/bamdadsabbagh/gitlab-ci-templates/raw/master/templates/build_docker.gitlab-ci.yml
 
 build:
   stage: build
-  rules:
-    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE != "schedule"'
-      when: always
+  extends: .build_docker
 
 base_image_update:on-schedule:
   stage: base_image_update
