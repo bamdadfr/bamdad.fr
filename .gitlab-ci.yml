@@ -20,12 +20,13 @@ base_image_update:on-schedule:
   extends: .docker_base_image_update
   only:
     - schedules
+    - $JOB == "BASE_IMAGE"
 
 release:on-schedule:
   stage: release
   only:
     - schedules
-  services:
-    - node:latest
+    - $JOB == "RELEASE"
+  image: node:latest
   script:
     - yarn install
