@@ -4,6 +4,7 @@ stages:
 
 include:
   - remote: https://gitlab.com/bamdadsabbagh/gitlab-ci-templates/raw/master/templates/build_docker.gitlab-ci.yml
+  - remote: https://gitlab.com/bamdadsabbagh/gitlab-ci-templates/raw/master/templates/docker_base_image_update.gitlab-ci.yml
 
 build:
   stage: build
@@ -11,19 +12,4 @@ build:
 
 base_image_update:on-schedule:
   stage: base_image_update
-  only:
-    - schedules
-  image: docker:latest
-  services:
-    - docker:dind
-  variables:
-    DOCKER_HOST: tcp://docker:2376
-    DOCKER_TLS_CERTDIR: "/certs"
-  script:
-    - echo "base_image_update..."
-    - apk update
-    - apk add git bash jq curl
-    - git clone https://github.com/bamdadsabbagh/gitlab-docker-base-image-update
-    - cd gitlab-docker-base-image-update
-    - chmod +x run.sh
-    - ./run.sh
+  extends: .docker_base_image_update
