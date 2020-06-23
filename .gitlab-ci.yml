@@ -9,6 +9,9 @@ include:
 build:
   stage: build
   extends: .build_docker
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE != "schedule"'
+      when: always
 
 base_image_update:on-schedule:
   stage: base_image_update
