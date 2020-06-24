@@ -1,4 +1,4 @@
-name: release
+name: release-semantic
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
 
 jobs:
 
-  release:
-    name: release
+  release-semantic:
+    name: release-semantic
     runs-on: ubuntu-latest
     steps:
 

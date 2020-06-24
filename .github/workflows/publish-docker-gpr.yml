@@ -1,5 +1,10 @@
-name: release-docker
-on: push
+name: publish-docker-gpr
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest 
