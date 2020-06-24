@@ -1,8 +1,8 @@
 name: docker-build-push-gpr
 
-on: [push]
-  # release:
-    # types: [published]
+on:
+  release:
+    types: [published]
 
 jobs:
 
