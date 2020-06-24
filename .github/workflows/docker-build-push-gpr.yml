@@ -1,0 +1,25 @@
+name: docker-build-push-gpr
+
+on:
+  release:
+    types: [published]
+
+jobs:
+
+  docker-build-push-gpr:
+    runs-on: ubuntu-latest 
+    steps:
+
+    - name: git checkout
+      uses: actions/checkout@master
+
+    - name: docker build push
+      uses: docker/build-push-action@v1
+      with:
+        registry: docker.pkg.github.com
+        username: ${{ github.repository_owner }}
+        password: ${{ github.token }}
+        repository: ${{ github.repository }}/${{ github.repository }}
+        tag_with_ref: true
+        tag_with_sha: true
+        tags: latest
