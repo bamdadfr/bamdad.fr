@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
 
+    - run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
+      shell: bash
+
     - name: git checkout
       uses: actions/checkout@master
 
@@ -19,7 +22,7 @@ jobs:
         registry: docker.pkg.github.com
         username: ${{ github.repository_owner }}
         password: ${{ github.token }}
-        repository: ${{ github.repository }}/${{ github.repository | awk -F / '{print $2}' }}
+        repository: ${{ github.repository }}/${{ REPOSITORY_NAME }}
         tag_with_ref: true
         tag_with_sha: true
         tags: latest

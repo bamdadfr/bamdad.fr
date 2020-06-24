@@ -1,11 +1,11 @@
 name: semantic-release
 
 on:
-  push:
-    branches:
-      - master
-  # schedule:
-    # - cron: '0 */6 * * *'
+  # push:
+    # branches:
+      # - master
+  schedule:
+    - cron: '0 */6 * * *'
 
 jobs:
 
