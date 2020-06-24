@@ -1,6 +1,6 @@
 name: docker-build-push-gpr
 
-on: push
+on: [push]
   # release:
     # types: [published]
 
