@@ -19,7 +19,7 @@ jobs:
         registry: docker.pkg.github.com
         username: ${{ github.repository_owner }}
         password: ${{ github.token }}
-        repository: ${{ github.repository }}/${{ github.repository }}
+        repository: ${{ github.repository }}/${{ github.repository | awk -F / '{print $2}' }}
         tag_with_ref: true
         tag_with_sha: true
         tags: latest
