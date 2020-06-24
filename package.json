@@ -1,6 +1,6 @@
 {
   "name": "bamdadsabbagh-www",
-  "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "start": "BROWSER=none react-scripts start",
