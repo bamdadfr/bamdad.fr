@@ -1,11 +1,11 @@
-name: docker-build-push-gpr
+name: published-docker-build-push-gpr
 
 on:
   release:
     types: [published]
 
 jobs:
-
+  # docker build and push to GPR
   docker-build-push-gpr:
     runs-on: ubuntu-latest 
     steps:
@@ -13,16 +13,13 @@ jobs:
     - run: echo ::set-env name=REPO::$(echo "${{ github.repository }}" | awk -F / '{print $2}' | sed -e "s/:refs//")
       shell: bash
 
-    - name: git checkout
-      uses: actions/checkout@master
+    - uses: actions/checkout@master
 
-    - name: docker build push
-      uses: docker/build-push-action@v1
+    - uses: docker/build-push-action@v1
       with:
         registry: docker.pkg.github.com
         username: ${{ github.repository_owner }}
         password: ${{ github.token }}
         repository: ${{ github.repository }}/${{ env.REPO }}
         tag_with_ref: true
-        tag_with_sha: true
         tags: latest
