@@ -1,0 +1,19 @@
+name: hourly-base-image-check
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  push:
+    branches:
+      - master
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - run: |
+          ls -al \
+          && cat Dockerfile
