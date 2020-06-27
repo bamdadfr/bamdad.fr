@@ -24,7 +24,7 @@ jobs:
           chmod +x check.sh
 
       - run: |
-          if ./check.sh ${{ env.BASE_IMAGE }} docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest; then
+          if ./check.sh node:alpine docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest; then
             echo ::set-env name=IS_UP_TO_DATE::'true'
           else
             echo ::set-env name=IS_UP_TO_DATE::'false'
@@ -34,13 +34,8 @@ jobs:
         run: |
           git config --global user.email "asfalte@bamdadsabbagh.com"
           git config --global user.name "asfalte"
-
-      - if: env.IS_UP_TO_DATE != 'true'
-        run: |
           git commit --allow-empty -m "fix: auto base-image-check"
-
-      - if: env.IS_UP_TO_DATE != 'true'
-        run: git push
+          git push
 
       - if: env.IS_UP_TO_DATE != 'true'
         uses: peter-evans/repository-dispatch@v1
