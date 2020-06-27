@@ -20,7 +20,7 @@ jobs:
       - run: docker login -u ${{ github.repository_owner }} -p ${{ github.token }} docker.pkg.github.com
 
       - run: |
-          if ./check.sh nginx:alpine docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest; then
+          if ./check.sh node:alpine docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest; then
             echo ::set-env name=IS_UP_TO_DATE::true
           else
             echo ::set-env name=IS_UP_TO_DATE::false
