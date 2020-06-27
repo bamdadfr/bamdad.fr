@@ -24,6 +24,8 @@ jobs:
           else
             echo ::set-env name=IS_UP_TO_DATE::'false'
           fi
-      
+
+      - run: echo ${{ github.repository }}
+
       - if: env.IS_UP_TO_DATE != 'true'
         run: echo "needs update"
