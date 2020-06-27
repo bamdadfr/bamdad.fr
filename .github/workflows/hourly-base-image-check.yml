@@ -21,7 +21,11 @@ jobs:
 
       - run: |
           if ./check.sh nginx:alpine docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest; then
-            echo "images are up to date"
+            echo ::set-env name=IS_UP_TO_DATE::true
           else
-            echo "image needs an update"
+            echo ::set-env name=IS_UP_TO_DATE::false
           fi
+      
+      - run: |
+          echo "hello there"
+        if: IS_UP_TO_DATE != true
