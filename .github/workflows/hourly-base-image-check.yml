@@ -14,9 +14,9 @@ jobs:
 
       - uses: actions/checkout@v2
 
-      - run: echo ::set-env name=BASE_IMAGE::$(cat Dockerfile | awk 'NR==1{print $2}')
+      - run: echo ::set-env name=BASE_IMAGE::$(cat Dockerfile | awk '{ if ($1=="FROM") print $2 }' | tail -n 1)
         shell: bash
 
       - run: |
           ls -al \
-          && cat ${{ env.BASE_IMAGE }}
+          && echo ${{ env.BASE_IMAGE }}
