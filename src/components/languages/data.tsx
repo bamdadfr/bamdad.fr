@@ -5,6 +5,7 @@ import centosIcon from '@iconify/icons-simple-icons/centos'
 import debianIcon from '@iconify/icons-simple-icons/debian'
 import dockerIcon from '@iconify/icons-simple-icons/docker'
 import gnubashIcon from '@iconify/icons-simple-icons/gnubash'
+import githubactionsIcon from '@iconify/icons-simple-icons/githubactions'
 import googleCloud from '@iconify/icons-logos/google-cloud'
 import laravelIcon from '@iconify/icons-simple-icons/laravel'
 import magentoIcon from '@iconify/icons-simple-icons/magento'
@@ -48,7 +49,12 @@ const Data: Array<any> = [
         'color': '#2496ED',
     },
     {
-        'name': 'google cloud',
+        'name': 'github actions',
+        'icon': <Icon icon={githubactionsIcon} />,
+        'color': '#2088FF',
+    },
+    {
+        'name': 'Google Cloud',
         'icon': <Icon icon={googleCloud} />,
     },
     {

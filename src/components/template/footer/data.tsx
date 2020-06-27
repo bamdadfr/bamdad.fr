@@ -30,13 +30,13 @@ export default [
         'Link to Linkedin',
         '#0077B5',
     ),
-    (k: number): ReactElement => template (
-        k,
-        <Icon icon={gitlabIcon} />,
-        'https://gitlab.com/bamdadsabbagh',
-        'Link to Gitlab',
-        '#db3b21',
-    ),
+    // (k: number): ReactElement => template (
+    //     k,
+    //     <Icon icon={gitlabIcon} />,
+    //     'https://gitlab.com/bamdadsabbagh',
+    //     'Link to Gitlab',
+    //     '#db3b21',
+    // ),
     (k: number): ReactElement => template (
         k,
         <Icon icon={githubIcon} />,
@@ -46,17 +46,17 @@ export default [
     ),
     (k: number): ReactElement => template (
         k,
-        <Icon icon={stackshareIcon} />,
-        'https://stackshare.io/bamdadsabbagh/my-stack',
-        'Link to Stackshare',
-        '#0690FA',
-    ),
-    (k: number): ReactElement => template (
-        k,
         <Icon icon={npmIcon} />,
         'https://www.npmjs.com/~bamdadsabbagh',
         'Link to npm',
         '#cb3837',
+    ),
+    (k: number): ReactElement => template (
+        k,
+        <Icon icon={stackshareIcon} />,
+        'https://stackshare.io/bamdadsabbagh/my-stack',
+        'Link to Stackshare',
+        '#0690FA',
     ),
 ]
 
