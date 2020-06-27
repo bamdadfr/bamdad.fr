@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: '12'
 
+      - run: yarn
+
       - run: npm install -g semantic-release @semantic-release/github @semantic-release/git
 
       - run: semantic-release
