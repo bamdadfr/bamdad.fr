@@ -11,7 +11,6 @@ jobs:
     steps:
 
       - run: echo ::set-env name=REPO::$(echo "${{ github.repository }}" | awk -F / '{print $2}' | sed -e "s/:refs//")
-        shell: bash
 
       - uses: actions/checkout@master
 
