@@ -3,9 +3,6 @@ name: hourly-base-image-check
 on:
   schedule:
     - cron: '0 * * * *'
-  push:
-    branches:
-      - master
 
 jobs:
   check:
@@ -24,7 +21,7 @@ jobs:
           chmod +x check.sh
 
       - run: |
-          if ./check.sh node:alpine docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest; then
+          if ./check.sh ${{ env.BASE_IMAGE }} docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest; then
             echo ::set-env name=IS_UP_TO_DATE::'true'
           else
             echo ::set-env name=IS_UP_TO_DATE::'false'
