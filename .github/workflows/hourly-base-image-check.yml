@@ -26,6 +26,5 @@ jobs:
             echo ::set-env name=IS_UP_TO_DATE::false
           fi
       
-      - run: |
-          echo "hello there"
-        if: ${{ env.IS_UP_TO_DATE }} != true
+      - if: env.IS_UP_TO_DATE == true
+        run: echo "hello there"

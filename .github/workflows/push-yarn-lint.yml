@@ -3,7 +3,8 @@ name: push-yarn-lint
 on:
   push:
     branches:
-      - master
+      - dev
+      # - master
 
 jobs:
   # yarn lint
