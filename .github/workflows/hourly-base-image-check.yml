@@ -18,5 +18,12 @@ jobs:
         shell: bash
 
       - run: |
-          ls -al \
-          && echo ${{ env.BASE_IMAGE }}
+          echo ${{ env.BASE_IMAGE }}
+
+      - run: |
+          docker pull ${{ env.BASE_IMAGE }} \
+          && docker pull docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest
+      
+      - run: |
+          docker inspect nginx:alpine | jq -r .[].RootFS.Layers \
+          && docker inspect docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest | jq -r .[].RootFS.Layers
