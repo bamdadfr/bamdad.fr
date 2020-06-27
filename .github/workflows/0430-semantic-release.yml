@@ -5,12 +5,8 @@ on:
     - cron: '30 4 * * *' # UTC
   repository_dispatch:
     types: [base-image-check]
-  push:
-    branches:
-      - master
 
 jobs:
-  # semantic-release
   semantic-release:
     runs-on: ubuntu-latest
     steps:
@@ -21,8 +17,6 @@ jobs:
         with:
           node-version: '12'
 
-      # - run: yarn install --pure-lockfile --no-progress    
-        
       - run: npm install -g semantic-release @semantic-release/github @semantic-release/git
 
       - run: semantic-release
