@@ -26,7 +26,7 @@ jobs:
       - run: |
           IMAGE_LAYERS=`docker inspect nginx:alpine | jq -r .[].RootFS.Layers` \
           && BASE_IMAGE_LAYERS=`docker inspect docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest | jq -r .[].RootFS.Layers` \
-          && BASE_IMAGE_LAYERS_LENGTH=`docker inspect docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest | jq -r '.[].RootFS.Layers | length'``
+          && BASE_IMAGE_LAYERS_LENGTH=`docker inspect docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest | jq -r '.[].RootFS.Layers | length'`
 
       - run: |
           echo IMAGE_LAYERS
