@@ -29,5 +29,5 @@ jobs:
           && BASE_IMAGE_LAYERS_LENGTH=`docker inspect docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest | jq -r '.[].RootFS.Layers | length'`
 
       - run: |
-          echo IMAGE_LAYERS
+          echo "$IMAGE_LAYERS"
 
