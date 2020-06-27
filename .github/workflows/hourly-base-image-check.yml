@@ -21,10 +21,10 @@ jobs:
 
       - run: |
           if ./check.sh nginx:alpine docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest; then
-            echo ::set-env name=IS_UP_TO_DATE::true
+            echo ::set-env name=IS_UP_TO_DATE::'true'
           else
-            echo ::set-env name=IS_UP_TO_DATE::false
+            echo ::set-env name=IS_UP_TO_DATE::'false'
           fi
       
-      - if: env.IS_UP_TO_DATE == true
+      - if: env.IS_UP_TO_DATE == 'true'
         run: echo "is up to date :D"
