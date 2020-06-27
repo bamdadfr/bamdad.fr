@@ -3,6 +3,8 @@ name: 0430-semantic-release
 on:
   schedule:
     - cron: '30 4 * * *' # UTC
+  repository_dispatch:
+    types: [base-image-check]
 
 jobs:
   # semantic-release
@@ -22,6 +24,5 @@ jobs:
 
       - run: semantic-release
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN_TRIGGERING }} # custom GH_TOKEN so we can trigger events
-          # GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.PAT }} # repo scoped token
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

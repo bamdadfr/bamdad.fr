@@ -29,4 +29,7 @@ jobs:
       - run: echo ${{ env.BASE_IMAGE }} docker.pkg.github.com/${{ github.repository }}/${{ env.IMAGE }}:latest
 
       - if: env.IS_UP_TO_DATE != 'true'
-        run: echo "needs update"
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.PAT }}
+          event-type: base-image-check
