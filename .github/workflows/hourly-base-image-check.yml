@@ -19,4 +19,4 @@ jobs:
 
       - run: docker login -u ${{ github.repository_owner }} -p ${{ github.token }} docker.pkg.github.com
 
-      - run: ls -l
+      - run: ./test.sh
