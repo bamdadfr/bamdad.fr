@@ -28,4 +28,4 @@ jobs:
       
       - run: |
           echo "hello there"
-        if: IS_UP_TO_DATE != true
+        if: ${{ env.IS_UP_TO_DATE }} != true
