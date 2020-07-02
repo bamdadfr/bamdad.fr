@@ -21,7 +21,7 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-spring": "^8.0.19",
-    "snyk": "^1.359.0",
+    "snyk": "^1.359.1",
     "styled-components": "^5.1.1"
   },
   "browserslist": {
