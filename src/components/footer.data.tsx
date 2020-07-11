@@ -1,27 +1,34 @@
 import React, { ReactElement } from 'react'
-// icons
 import { Icon } from '@iconify/react'
 import stackshareIcon from '@iconify/icons-simple-icons/stackshare'
 import githubIcon from '@iconify/icons-simple-icons/github'
 import linkedinIcon from '@iconify/icons-simple-icons/linkedin'
 import npmIcon from '@iconify/icons-simple-icons/npm'
-import SpringText from '../../spring/text'
+import { AnimationText } from './animation.text'
 
-const template = (k: number, icon: ReactElement, link: string, aria: string, color: string): ReactElement => {
+const template = (
+    k: number,
+    icon: ReactElement,
+    link: string,
+    aria: string,
+    color: string,
+): ReactElement => {
 
-    return <SpringText
-        key={k}
-        payload={icon}
-        link={link}
-        ariaLabel={aria}
-        delay={0}
-        show
-        hover={color}
-    />
+    return (
+        <AnimationText
+            key={k}
+            payload={icon}
+            link={link}
+            ariaLabel={aria}
+            delay={0}
+            show
+            hover={color}
+        />
+    )
 
 }
 
-export default [
+export const FooterData = [
     (k: number): ReactElement => template (
         k,
         <Icon icon={linkedinIcon} />,

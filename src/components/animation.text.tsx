@@ -17,7 +17,7 @@ interface Props {
 // https://github.com/react-spring/react-spring/blob/master/types/web.d.ts#L210
 type RenderProps = object
 
-export default function (props: Props): React.ReactElement {
+export const AnimationText = (props: Props): React.ReactElement => {
 
     const {
         payload,

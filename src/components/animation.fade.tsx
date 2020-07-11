@@ -7,7 +7,7 @@ interface Props {
     delay: number,
 }
 
-export default function (props: Props): React.ReactElement {
+export const AnimationFade = (props: Props): React.ReactElement => {
 
     const {
         payload,

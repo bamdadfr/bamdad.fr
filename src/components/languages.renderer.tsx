@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import SpringFade from '../spring/fade'
-import SpringText from '../spring/text'
+import { AnimationFade } from './animation.fade'
+import { AnimationText } from './animation.text'
 // interfaces
-import { IRendererProps } from './types'
+import { IRendererProps } from './languages.types'
 
-export default function (props: IRendererProps): React.ReactElement {
+export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => {
 
     const {
         items,
@@ -73,7 +73,7 @@ export default function (props: IRendererProps): React.ReactElement {
             {items[index].icon !== null
                 ? (
                     <Icon className="is-size-1-tablet is-size-2-mobile" style={{ 'color': items[index].color }}>
-                        <SpringFade
+                        <AnimationFade
                             payload={items[index].icon}
                             show={show}
                             delay={350} // 350
@@ -82,7 +82,7 @@ export default function (props: IRendererProps): React.ReactElement {
                 ) : null}
 
             <Text className="is-size-6-desktop is-size-6-mobile">
-                <SpringText
+                <AnimationText
                     payload={items[index].name}
                     show={show}
                     delay={0}

@@ -22,7 +22,7 @@ import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
-const Data: Array<any> = [
+export const LanguagesData: Array<any> = [
     {
         'name': 'Arch Linux',
         'icon': <Icon icon={archlinuxIcon} />,
@@ -128,5 +128,3 @@ const Data: Array<any> = [
         'color': '#1C78C0',
     },
 ]
-
-export default Data

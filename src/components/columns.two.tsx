@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import styled from 'styled-components'
-import data from './data'
+import { ColumnsData } from './columns.data'
 
 const Column = styled.div`
     /* border: 1px dashed blue; */
@@ -8,31 +8,28 @@ const Column = styled.div`
     align-self: flex-end;
 `
 
-const FirstColumns = styled.div`
+const SecondColumns = styled.div`
     /* border: 1px dashed blue; */
 
-    height: 200px;
+    white-space: nowrap;
+    height: 110px;
 `
 
-export default (): ReactElement => {
+export const ColumnsTwo = (): ReactElement => {
 
     return (
         <Column
             className="column is-one-fifth-fullhd is-4-desktop is-4-tablet is-full-mobile is-paddingless"
         >
-            <FirstColumns className="columns is-marginless is-mobile">
+            <SecondColumns className="columns is-marginless is-mobile">
                 <Column className="column is-full is-paddingless">
 
-                    <div className="is-size-4-desktop is-size-5-tablet is-size-5-mobile">
-
-                        {data[0].map ((e, k) => e (k))}
-
-                    </div>
+                    {ColumnsData[1].map ((e, k) => e (k))}
 
                 </Column>
-            </FirstColumns>
+            </SecondColumns>
         </Column>
+
     )
 
 }
-

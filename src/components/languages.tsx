@@ -1,9 +1,9 @@
 import React from 'react'
-import Renderer from './renderer'
-import Data from './data'
-import { IControllerProps, IArrayElement, IArrayData } from './types'
+import { LanguagesRenderer } from './languages.renderer'
+import { LanguagesData } from './languages.data'
+import { IControllerProps, IArrayElement, IArrayData } from './languages.types'
 
-export default function (props: IControllerProps): React.ReactElement {
+export const Languages = (props: IControllerProps): React.ReactElement => {
 
     const {
         delay,
@@ -64,7 +64,7 @@ export default function (props: IControllerProps): React.ReactElement {
         
         }
 
-        buildData (shuffle (Data))
+        buildData (shuffle (LanguagesData))
 
         new Promise ((resolve): void => {
 
@@ -91,7 +91,7 @@ export default function (props: IControllerProps): React.ReactElement {
 
     return (
         <>
-            <Renderer items={data} />  
+            <LanguagesRenderer items={data} />  
         </>
     )
 

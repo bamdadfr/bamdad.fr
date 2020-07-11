@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import styled from 'styled-components'
-import One from './one'
-import Two from './two'
+import { ColumnsOne } from './columns.one'
+import { ColumnsTwo } from './columns.two'
 
 const Body = styled.div`
     /* border: 1px solid black; */
@@ -14,14 +14,14 @@ const Body = styled.div`
     }
 `
 
-export default (): ReactElement => {
+export const Columns = (): ReactElement => {
 
     return (
         <Body role="main" className="columns is-centered is-mobile is-multiline">
 
-            <One />
+            <ColumnsOne />
 
-            <Two />
+            <ColumnsTwo />
         
         </Body>
     )

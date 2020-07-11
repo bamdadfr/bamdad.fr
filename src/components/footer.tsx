@@ -1,25 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
-import data from './data'
+import { FooterData } from './footer.data'
 
 const TextDiv = styled.div`
     /* border: 1px dashed red; */
 `
 
-const Footer = styled.div`
+const Div = styled.div`
     margin-left: 0.6em;
 `
 
-export default (): React.ReactElement => {
+export const Footer = (): React.ReactElement => {
 
     return (
-        <Footer role="complementary" className="hero-foot has-text-left">
+        <Div role="complementary" className="hero-foot has-text-left">
             <TextDiv className="is-size-4-tablet is-size-5-mobile">
 
-                {data.map ((e, k) => e (k))}
+                {FooterData.map ((e, k) => e (k))}
 
             </TextDiv>
-        </Footer>
+        </Div>
 
     )
 

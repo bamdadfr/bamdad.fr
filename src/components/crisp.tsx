@@ -5,7 +5,7 @@ declare global {
     }
 }
 
-export default (): void => {
+export const Crisp = (): void => {
 
     window.$crisp = []
 
