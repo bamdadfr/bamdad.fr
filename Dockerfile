@@ -2,7 +2,7 @@ FROM node:alpine as build
 
 WORKDIR /app
 
-COPY package.json yarn.lock .snyk ./
+COPY package.json yarn.lock ./
 RUN yarn install --pure-lockfile --no-progress
 
 COPY . ./
