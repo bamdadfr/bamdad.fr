@@ -1,15 +1,14 @@
 import React, { ReactElement } from 'react'
-// components
-import crispChatbot from './crisp-chatbot'
-import Columns from './template/columns'
-import Contact from './template/contact'
-import Footer from './template/footer'
+import { Crisp } from './crisp'
+import { Columns } from './columns'
+import { Contact } from './contact'
+import { Footer } from './footer'
 
-export default function App (): ReactElement {
+export const App = (): ReactElement => {
 
     React.useEffect (() => {
 
-        crispChatbot ()
+        Crisp ()
     
     }, [])
 
