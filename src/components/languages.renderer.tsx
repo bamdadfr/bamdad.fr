@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { AnimationFade } from './animation.fade'
 import { AnimationText } from './animation.text'
-// interfaces
 import { IRendererProps } from './languages.types'
 
 export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => {

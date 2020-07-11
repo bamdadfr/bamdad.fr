@@ -1,7 +1,9 @@
+import type { ReactElement } from 'react'
+
 export interface IArrayElement {
     name: string,
     color: string,
-    icon: React.ReactElement,
+    icon: ReactElement,
 }
 
 export type IArrayData = IArrayElement[]

@@ -1,4 +1,5 @@
-import React, { ReactElement } from 'react'
+import React from 'react'
+import type { ReactElement } from 'react'
 import { Icon } from '@iconify/react'
 import stackshareIcon from '@iconify/icons-simple-icons/stackshare'
 import githubIcon from '@iconify/icons-simple-icons/github'

@@ -1,13 +1,8 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import { useSpring, animated } from 'react-spring'
+import { IProps } from './animation.fade.types'
 
-interface Props {
-    payload: React.ReactElement,
-    show: boolean,
-    delay: number,
-}
-
-export const AnimationFade = (props: Props): React.ReactElement => {
+export const AnimationFade = (props: IProps): ReactElement => {
 
     const {
         payload,

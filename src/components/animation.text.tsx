@@ -1,23 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Transition, animated } from 'react-spring/renderprops'
+import { IAnimationTextProps, IAnimationTextRenderProps } from './animation.text.types'
 
-interface Props {
-    payload: string|React.ReactElement,
-    show: boolean
-    delay: number
-    overflow?: true
-    centered?: true
-    link?: string
-    ariaLabel?: string
-    hover?: string
-}
-
-// TODO: UseTransitionResult<TItem, DS extends object>
-// https://github.com/react-spring/react-spring/blob/master/types/web.d.ts#L210
-type RenderProps = object
-
-export const AnimationText = (props: Props): React.ReactElement => {
+export const AnimationText = (props: IAnimationTextProps): React.ReactElement => {
 
     const {
         payload,
@@ -33,7 +19,7 @@ export const AnimationText = (props: Props): React.ReactElement => {
     const hoverColor = (): string => typeof hover !== 'undefined' ? hover : 'inherit'
     const linkPreventFocus = (e: React.FocusEvent<HTMLAnchorElement>): void => e.currentTarget.blur ()
 
-    const jsx = (renderProps: RenderProps): React.ReactElement => {
+    const jsx = (renderProps: IAnimationTextRenderProps): React.ReactElement => {
 
         if (link) {
 
