@@ -11769,9 +11769,9 @@ watchpack-chokidar2@^2.0.0:
     chokidar "^2.1.8"
 
 watchpack@^1.6.0:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.3.tgz#4034cb29070238c4d68094742e461923047bbaf6"
-  integrity sha512-sNJdSoK95LDhaWtxDu+rPnClePAVBgtsAv8nlKX8JTf46rhMzRDnbuO1FdwyNE9LZ1+371SE5l50Wbe+RhYJfA==
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.4.tgz#6e9da53b3c80bb2d6508188f5b200410866cd30b"
+  integrity sha512-aWAgTW4MoSJzZPAicljkO1hsi1oKj/RRq/OJQh2PKI2UKL04c2Bs+MBOB+BBABHTXJpf9mCwHN7ANCvYsvY2sg==
   dependencies:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
