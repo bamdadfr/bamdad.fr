@@ -1260,10 +1260,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.0.12.tgz#0327f3e44c78aaa85c199e30881c84f26f3b3b07"
   integrity sha512-VC5hcZ2lw1D15iQX5AukQ0m5r6EmRJ5jg6zoTL+XCRwH1RTdu0jUw6uN35uPTKp7OohAj1eLIjjnZw0WPeBkJg==
 
-"@iconify/icons-simple-icons@^1.0.43":
-  version "1.0.43"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.43.tgz#2017679e544c56364918b001e8163f62de469dc0"
-  integrity sha512-fQfiUHQPjyo90GseL2A7XTYfsBh2KUX7u8RC8tIMxbSJFfRz9V2FXXqTAzG77t98Ussqmm55hxS18lR4jWQRMw==
+"@iconify/icons-simple-icons@^1.0.44":
+  version "1.0.44"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.44.tgz#3c01fa99a9f7b931df5b3b936180f7cf2f864d9b"
+  integrity sha512-fi6nPrppY5WdSuNWfME71L3G3qv8AR2DvrfJMcgyZUW3vvMiuo9b3oXHRIACZZvBiGp1riOPATy45nbTAxp9Fw==
 
 "@iconify/react@^1.1.3":
   version "1.1.3"
@@ -3039,9 +3039,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001035, caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001109:
-  version "1.0.30001109"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001109.tgz#a9f3f26a0c3753b063d7acbb48dfb9c0e46f2b19"
-  integrity sha512-4JIXRodHzdS3HdK8nSgIqXYLExOvG+D2/EenSvcub2Kp3QEADjo2v2oUn5g0n0D+UNwG9BtwKOyGcSq2qvQXvQ==
+  version "1.0.30001110"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001110.tgz#9003e3c7f5a43ea6f1193d4d5acba0bfb152c71a"
+  integrity sha512-KqJWeat4rhSHF0ito4yz9q/JuZHkvn71SsBnxge4azjPDbowIjOUnS8i1xpKGxZxU6BFiPqO2hSV2eiCpFQVRw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
