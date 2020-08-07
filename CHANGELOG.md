@@ -1,3 +1,15 @@
+## [0.5.21](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.20...v0.5.21) (2020-08-07)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([c6def28](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/c6def288d31c53769dadc5873174c500a4106f07))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([b94f9f0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b94f9f0bd308f56b75eaa8bbd68425233a5bbd8a))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([7ae4151](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/7ae415155bad1911f1488b3f41b9a4e46b1bf832))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([e40b9c9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/e40b9c925aa56c84453d769f1cffa80acc7a5d39))
+* asfalte: 🔨 git-commit-force-release__push ([1331287](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/13312872ff139c5990ce3dbd23a480885160c10c))
+* better workflow names and upgrade [force-release] ([4d16449](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/4d164497bab055e855bff2572cdf8649c16a259b))
+
 ## [0.5.20](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.19...v0.5.20) (2020-08-06)
 
 
