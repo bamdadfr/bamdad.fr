@@ -44,7 +44,7 @@
     "@types/styled-components": "^5.1.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.2",
     "typescript": "^3.9.7"
   }
 }
