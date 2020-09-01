@@ -1728,9 +1728,9 @@
     "@types/react" "*"
 
 "@types/react-native@*":
-  version "0.63.12"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.12.tgz#fa4aea76220cd11220c4a7c1b7e14e00886539a2"
-  integrity sha512-EPZ4C9OImXDg59entU0wcg/yCelj+XhgvUpPz85VSKia01DULoGwHOyCH3Y3ZdVcijebSR58ekqAz7zHT8o3Tg==
+  version "0.63.13"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.13.tgz#e119c6921c78abdde52a68d0bd7f0effc6191f51"
+  integrity sha512-diqOQUlMB4+l5tldIP38fTkjtPn6pnFMMLfewiMtpUYwB1ID7snQ/ePN98a+3BFG87v8H62Rp/Q1xuudvG4MSg==
   dependencies:
     "@types/react" "*"
 
@@ -8533,9 +8533,9 @@ postcss-browser-comments@^3.0.0:
     postcss "^7"
 
 postcss-calc@^7.0.1:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-7.0.3.tgz#d65cca92a3c52bf27ad37a5f732e0587b74f1623"
-  integrity sha512-IB/EAEmZhIMEIhG7Ov4x+l47UaXOS1n2f4FBUk/aKllQhtSCxWhTzn0nJgkqN7fo/jcWySvWTSB6Syk9L+31bA==
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-7.0.4.tgz#5e177ddb417341e6d4a193c5d9fd8ada79094f8b"
+  integrity sha512-0I79VRAd1UTkaHzY9w83P39YGO/M3bG7/tNLrHGEunBolfoGM0hSjrGvjoeaj0JE/zIw5GsI2KZ0UwDJqv5hjw==
   dependencies:
     postcss "^7.0.27"
     postcss-selector-parser "^6.0.2"
