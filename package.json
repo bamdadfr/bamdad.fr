@@ -1,6 +1,6 @@
 {
   "name": "bamdadsabbagh-www",
-  "version": "0.5.51",
+  "version": "0.5.52",
   "license": "MIT",
   "scripts": {
     "build": "GENERATE_SOURCEMAP=false SKIP_PREFLIGHT_CHECK=true react-scripts build",
