@@ -1,3 +1,11 @@
+## [0.5.55](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.54...v0.5.55) (2020-09-10)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([fcbf1ed](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/fcbf1edadf5ed180aaeda15c18c07e9d1612436b))
+* blocked at v1 [force-release] ([0e1f3bd](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0e1f3bd894bcd3fdeadcbc72d75715613f125769))
+
 ## [0.5.54](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.53...v0.5.54) (2020-09-10)
 
 
