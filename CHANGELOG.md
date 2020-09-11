@@ -1,3 +1,14 @@
+## [0.5.56](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.55...v0.5.56) (2020-09-11)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([55e486c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/55e486c9cd8196aceda62ba440a8234aeb8b0b61))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([33b55ee](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/33b55ee69c0bd6771e37cc10477b53c62b55ed07))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([af1f6e2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/af1f6e2ae1e3010dc3ae7f6789ba7d90c9b7c3dc))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([5efce1f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/5efce1f510b29106b9fd22b4f9ffa3610b5c0b69))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([ac9c07c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ac9c07c1f5c45a62fbc67900f6546a38ae3a9bcd))
+
 ## [0.5.55](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.54...v0.5.55) (2020-09-10)
 
 
