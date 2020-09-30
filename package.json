@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@bamdadsabbagh/eslint-config": "^1.3.61",
-    "@bamdadsabbagh/stylelint-config": "^1.2.78",
+    "@bamdadsabbagh/stylelint-config": "^1.2.79",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
     "@types/react": "^16.9.49",
