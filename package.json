@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@iconify/icons-logos": "^1.0.12",
-    "@iconify/icons-simple-icons": "^1.0.52",
+    "@iconify/icons-simple-icons": "^1.0.53",
     "@iconify/react": "^1.1.3",
     "bulma": "^0.9.1",
     "react": "^16.14.0",
