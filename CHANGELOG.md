@@ -1,3 +1,11 @@
+## [0.6.3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.6.2...v0.6.3) (2020-10-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([f54d090](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/f54d090730b7d715f8f0d1544393071cf452f5fc))
+* testing without service worker [force-release] ([d4fa89a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/d4fa89a42d65138272da9ee369b928bf19538464))
+
 ## [0.6.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.6.1...v0.6.2) (2020-10-20)
 
 
