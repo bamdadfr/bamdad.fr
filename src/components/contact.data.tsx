@@ -22,7 +22,7 @@ const Button = styled.div`
     }
 `
 
-const Template = (k: number, payload: ReactElement, delay: number): ReactElement => {
+const Render = (k: number, payload: ReactElement, delay: number): ReactElement => {
 
     return <AnimationText
         key={k}
@@ -34,10 +34,13 @@ const Template = (k: number, payload: ReactElement, delay: number): ReactElement
 
 }
 
-const ButtonBlueprint = (props: any): ReactElement => {
+const ButtonBlueprint = (
+    style: string,
+    link: any,
+    icon: string,
+    text: string,
+): ReactElement => {
 
-    const { style, link, icon, text } = props
-    
     return (
         <Button
             className={style}
@@ -52,44 +55,44 @@ const ButtonBlueprint = (props: any): ReactElement => {
 
 }
 
-const ButtonCV = (): ReactElement => ButtonBlueprint ({
-    'style': 'button is-outlined',
-    'link': (): void => {
+const ButtonCV = (): ReactElement => ButtonBlueprint (
+    'button is-outlined',
+    (): void => {
 
         window.location.href = 'https://gist.github.com/bamdadsabbagh/fdaed44d9ba38b29673cccae99c89d43'
     
     },
-    'icon': '📚',
-    'text': 'curriculum vitæ',
-})
+    '📚',
+    'curriculum vitæ',
+)
 
-const ButtonPortfolio = (): ReactElement => ButtonBlueprint ({
-    'style': 'button is-danger is-outlined',
-    'link': (): void => {
-
-        window.location.href = 'https://github.com/bamdadsabbagh'
-    
-    },
-    'icon': '👨🏻‍💻',
-    'text': 'portfolio',
-})
-
-const ButtonEmail = (): ReactElement => ButtonBlueprint ({
-    'style': 'button is-warning is-outlined',
-    'link': (): void => {
+const ButtonPortfolio = (): ReactElement => ButtonBlueprint (
+    'button is-danger is-outlined',
+    (): void => {
 
         window.location.href = 'https://github.com/bamdadsabbagh'
     
     },
-    'icon': '✍️',
-    'text': 'email me',
-})
+    '👨🏻‍💻',
+    'portfolio',
+)
+
+const ButtonEmail = (): ReactElement => ButtonBlueprint (
+    'button is-warning is-outlined',
+    (): void => {
+
+        window.location.href = 'https://github.com/bamdadsabbagh'
+    
+    },
+    '✍️',
+    'email me',
+)
 
 export const ContactData = [
     // (k: number): ReactElement => template (k, <buttons.chatbot />, 4000),
-    (k: number): ReactElement => Template (k, <ButtonCV />, 4000),
-    (k: number): ReactElement => Template (k, <ButtonPortfolio />, 5000),
-    (k: number): ReactElement => Template (k, <ButtonEmail />, 6000),
+    (k: number): ReactElement => Render (k, <ButtonCV />, 4000),
+    (k: number): ReactElement => Render (k, <ButtonPortfolio />, 5000),
+    (k: number): ReactElement => Render (k, <ButtonEmail />, 6000),
     // (k: number): ReactElement => template (k, <buttons.call />, 6000),
     // (k: number): ReactElement => template (k, <buttons.cv />, 7000),
 ]
