@@ -37,13 +37,6 @@ export const FooterData = [
         'Link to Linkedin',
         '#0077B5',
     ),
-    // (k: number): ReactElement => template (
-    //     k,
-    //     <Icon icon={gitlabIcon} />,
-    //     'https://gitlab.com/bamdadsabbagh',
-    //     'Link to Gitlab',
-    //     '#db3b21',
-    // ),
     (k: number): ReactElement => template (
         k,
         <Icon icon={githubIcon} />,

@@ -20,9 +20,55 @@ html {
     background: linear-gradient(to bottom right, #5EE7DF, #B490CA);
     background-size: 400% 400%;
 
+    /* breakpoints */
+
+    /* iPhone 4 */
+
+    @media only screen and (max-height: 480px) {
+        font-size: 0.5em;
+    }
+
+    /* iPhone 5/SE */
+
+    @media only screen and (min-height: 481px) {
+        font-size: 0.7em;
+    }
+
+    /* iPhone X */
+
+    @media only screen and (min-width: 375px) and (min-height: 812px) {
+        font-size: 1.1em;
+    }
+
+    /* iPad */
+
+    @media only screen and (min-width: 768px) and (min-height: 1024px) {
+        font-size: 1.1em;
+    }
+
+    /* iPad Pro */
+
+    @media only screen and (min-width: 1024px) and (min-height: 1366px) {
+        font-size: 1.3em;
+    }
+
+    /* Generic Laptop */
+
+    @media only screen and (min-width: 1280px) {
+        font-size: 1.1em;
+    }
+
+    /* 4K */
+
+    @media only screen and (min-height: 2000px) {
+        font-size: 2em;
+    }
+
     /* -webkit-animation: AnimationName 5s cubic-bezier(.42, 0, .58, 1) infinite; */
 
     /* -moz-animation: AnimationName 5s cubic-bezier(.42, 0, .58, 1) infinite; */
+
+    /* animation */
 
     animation: AnimationName 5s cubic-bezier(.42, 0, .58, 1) infinite;
 

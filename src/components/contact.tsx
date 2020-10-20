@@ -10,7 +10,8 @@ const Column = styled.div`
     /* border: 1px dashed blue; */
 
     align-self: flex-end;
-    margin-bottom: -20px;
+
+    /* margin-bottom: -200px; */
 `
 
 const Div = styled.div`

@@ -49,16 +49,21 @@ const buttons = {
     'portfolio': (): React.ReactElement => (
         <Button
             className="button is-danger is-outlined"
+            onClick={(): void => {
+
+                window.location.href = 'https://github.com/bamdadsabbagh'
+            
+            }}
         >
             <span role="img" aria-label="chat">
                 👨🏻‍💻
             </span>
-            &nbsp; check my work
+            &nbsp; portfolio
         </Button>
     ),
     'email': (): React.ReactElement => (
         <Button
-            className="button is-danger is-outlined"
+            className="button is-warning is-outlined"
             onClick={(): void => {
 
                 window.location.href = 'mailto:hello@bamdadsabbagh.com'
@@ -66,7 +71,7 @@ const buttons = {
             }}
         >
             <span role="img" aria-label="computer">
-                👨🏻‍💻
+                ✍️
             </span>
             &nbsp; email me
         </Button>
@@ -86,11 +91,28 @@ const buttons = {
             &nbsp; call me
         </Button>
     ),
+    'cv': (): React.ReactElement => (
+        <Button
+            className="button is-outlined"
+            onClick={(): void => {
+
+                window.location.href = 'https://gist.github.com/bamdadsabbagh/fdaed44d9ba38b29673cccae99c89d43'
+            
+            }}
+        >
+            <span role="img" aria-label="phone">
+                📚
+            </span>
+            &nbsp; curriculum vitæ
+        </Button>
+    ),
 }
 
 export const ContactData = [
-    (k: number): ReactElement => template (k, <buttons.chatbot />, 4000),
-    // (k: number): ReactElement => template (k, <buttons.portfolio />, 4000),
-    (k: number): ReactElement => template (k, <buttons.email />, 5000),
-    (k: number): ReactElement => template (k, <buttons.call />, 6000),
+    // (k: number): ReactElement => template (k, <buttons.chatbot />, 4000),
+    (k: number): ReactElement => template (k, <buttons.cv />, 4000),
+    (k: number): ReactElement => template (k, <buttons.portfolio />, 5000),
+    (k: number): ReactElement => template (k, <buttons.email />, 6000),
+    // (k: number): ReactElement => template (k, <buttons.call />, 6000),
+    // (k: number): ReactElement => template (k, <buttons.cv />, 7000),
 ]

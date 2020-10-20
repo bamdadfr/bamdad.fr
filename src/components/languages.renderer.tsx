@@ -97,7 +97,7 @@ const Icon = styled.div`
     /* border: 1px dashed red; */
 
     padding-left: 30px;
-    margin-bottom: -18px;
+    margin-bottom: -0.3em;
 `
 
 const Text = styled.div`
