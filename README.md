@@ -1,9 +1,11 @@
 # [bamdadsabbagh-www](https://bamdadsabbagh.com/)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf301e9bb60d4c168201a97931d7802c)](https://www.codacy.com/manual/bamdadsabbagh/bamdadsabbagh-www?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bamdadsabbagh/bamdadsabbagh-www&amp;utm_campaign=Badge_Grade)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/bamdadsabbagh-www)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bamdadsabbagh/bamdadsabbagh-www)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f2ef1bd59624b6ccf983/maintainability)](https://codeclimate.com/github/bamdadsabbagh/bamdadsabbagh-www/maintainability)
+
 ![David](https://img.shields.io/david/bamdadsabbagh/bamdadsabbagh-www)
 ![David](https://img.shields.io/david/dev/bamdadsabbagh/bamdadsabbagh-www)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/bamdadsabbagh-www)
 
 ## run
 
