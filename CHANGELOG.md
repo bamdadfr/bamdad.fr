@@ -1,3 +1,14 @@
+## [0.6.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.6.1...v0.6.2) (2020-10-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([3328fce](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/3328fcec1ffe694e1535b71cae94f6fe259a9ad9))
+* better code quality ([98d5e51](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/98d5e51df608f096185822894b346b2f19cb90d9))
+* better code quality ([0ec2363](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0ec23632b55cdcedeb5ec679ad634547bdb810c7))
+* better responsiveness [force-release] ([293ff2e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/293ff2e0cf0c29c7ac842bd9d60f6771b9a35a0c))
+* color "email me" ([78844de](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/78844de6e77c424846d71bcff1b9f0dd998f4d6c))
+
 ## [0.6.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.6.0...v0.6.1) (2020-10-20)
 
 
