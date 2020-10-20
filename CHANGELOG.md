@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.6.0...v0.6.1) (2020-10-20)
+
+
+### Bug Fixes
+
+* better readme ([8bf8276](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8bf8276a36b8f956625451da3a688fbd5ec0791b))
+
 # [0.6.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.5.93...v0.6.0) (2020-10-20)
 
 
