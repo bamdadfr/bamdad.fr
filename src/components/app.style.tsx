@@ -49,7 +49,7 @@ html {
     /* iPad Pro */
 
     @media only screen and (min-width: 1024px) and (min-height: 1366px) {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     /* Generic Laptop */

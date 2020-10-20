@@ -4,16 +4,16 @@ import styled from 'styled-components'
 import { ColumnsData } from './columns.data'
 
 const Column = styled.div`
-    /* border: 1px dashed blue; */
-
     align-self: flex-end;
+
+    /* border: 1px dashed blue; */
 `
 
 const SecondColumns = styled.div`
-    /* border: 1px dashed blue; */
-
     white-space: nowrap;
-    height: 110px;
+    height: 8em;
+
+    /* border: 1px dashed blue; */
 `
 
 export const ColumnsTwo = (): ReactElement => {

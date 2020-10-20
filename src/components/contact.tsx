@@ -7,18 +7,16 @@ const ContactDiv = styled.div`
 `
 
 const Column = styled.div`
-    /* border: 1px dashed blue; */
-
     align-self: flex-end;
 
-    /* margin-bottom: -200px; */
+    /* border: 1px dashed blue; */
 `
 
 const Div = styled.div`
-    /* border: 1px solid black; */
+    margin-top: 4em;
+    height: 4em;
 
-    margin: 10px;
-    height: 60px;
+    /* border: 1px solid black; */
 `
 
 export const Contact = (): React.ReactElement => {

@@ -94,16 +94,16 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
 }
 
 const Icon = styled.div`
-    /* border: 1px dashed red; */
-
     padding-left: 30px;
     margin-bottom: -0.3em;
+
+    /* border: 1px dashed red; */
 `
 
 const Text = styled.div`
-    /* border: 1px dashed red; */
-
     min-height: 1px;
-    margin-bottom: -6px;
+    margin-bottom: -0.3em;
     font-weight: 800;
+
+    /* border: 1px dashed red; */
 `

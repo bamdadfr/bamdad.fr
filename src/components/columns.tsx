@@ -5,14 +5,10 @@ import { ColumnsOne } from './columns.one'
 import { ColumnsTwo } from './columns.two'
 
 const Body = styled.div`
+    margin: 1em;
+    height: 15em;
+
     /* border: 1px solid black; */
-
-    margin: 10px;
-    height: 235px;
-
-    @media only screen and (max-width: 768px) {
-        height: 330px;
-    }
 `
 
 export const Columns = (): ReactElement => {
