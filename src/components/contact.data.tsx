@@ -81,7 +81,7 @@ const ButtonEmail = (): ReactElement => ButtonBlueprint (
     'button is-warning is-outlined',
     (): void => {
 
-        window.location.href = 'https://github.com/bamdadsabbagh'
+        window.location.href = 'mailto:hello@bamdadsabbagh.com'
     
     },
     '✍️',
