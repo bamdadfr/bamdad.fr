@@ -70,7 +70,7 @@ const ButtonPortfolio = (): ReactElement => ButtonBlueprint (
     'button is-danger is-outlined',
     (): void => {
 
-        window.location.href = 'https://github.com/bamdadsabbagh'
+        window.location.href = 'https://gist.github.com/bamdadsabbagh/b34f05a81dbcce33386dd450a1424900'
     
     },
     '👨🏻‍💻',
