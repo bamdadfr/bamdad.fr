@@ -75,7 +75,7 @@ const ButtonPortfolio = (): ReactElement => ButtonBlueprint ({
 })
 
 const ButtonEmail = (): ReactElement => ButtonBlueprint ({
-    'style': 'button is-danger is-outlined',
+    'style': 'button is-warning is-outlined',
     'link': (): void => {
 
         window.location.href = 'https://github.com/bamdadsabbagh'
