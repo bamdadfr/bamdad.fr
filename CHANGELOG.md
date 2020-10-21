@@ -1,3 +1,11 @@
+## [0.7.3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.2...v0.7.3) (2020-10-21)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([63312e4](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/63312e4319e0b786405dc75eb2e7fe28e6508ebc))
+* CV and portfolio opens in new window [force-release] ([b8d11e9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b8d11e95851a804d94d4c271a535ac89cc99eab3))
+
 ## [0.7.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.1...v0.7.2) (2020-10-21)
 
 
