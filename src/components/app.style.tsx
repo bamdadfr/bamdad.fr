@@ -58,6 +58,10 @@ html {
         font-size: 1.1em;
     }
 
+    @media only screen and (min-width: 1440px) and (min-height: 900px) {
+        font-size: 1em;
+    }
+
     /* 4K */
 
     @media only screen and (min-height: 2000px) {
