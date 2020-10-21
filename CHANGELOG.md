@@ -1,3 +1,12 @@
+## [0.7.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.1...v0.7.2) (2020-10-21)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([038a503](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/038a5039b1b375fa7c5fbd77abf8fae6a4a7f62d))
+* asfalte: 🔨 git-commit-force-release__push ([37c8c2c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/37c8c2c4fb13a8850f58f5de0a5f0af84d9b6228))
+* fix for HiDPI screens, added service worker [force-release] ([d2d5423](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/d2d5423a4cfbcead692d820bb2089197e0eaf251))
+
 ## [0.7.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.0...v0.7.1) (2020-10-21)
 
 
