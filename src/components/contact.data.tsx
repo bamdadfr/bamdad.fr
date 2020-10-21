@@ -59,18 +59,18 @@ const ButtonCV = (): ReactElement => ButtonBlueprint (
     'button is-outlined',
     (): void => {
 
-        window.location.href = 'https://gist.github.com/bamdadsabbagh/fdaed44d9ba38b29673cccae99c89d43'
-    
+        window.open ('https://gist.github.com/bamdadsabbagh/fdaed44d9ba38b29673cccae99c89d43', '_blank')
+        
     },
     '📚',
     'curriculum vitæ',
 )
-
+    
 const ButtonPortfolio = (): ReactElement => ButtonBlueprint (
     'button is-danger is-outlined',
     (): void => {
-
-        window.location.href = 'https://gist.github.com/bamdadsabbagh/b34f05a81dbcce33386dd450a1424900'
+            
+        window.open ('https://gist.github.com/bamdadsabbagh/b34f05a81dbcce33386dd450a1424900', '_blank')
     
     },
     '👨🏻‍💻',
