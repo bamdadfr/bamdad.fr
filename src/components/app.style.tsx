@@ -55,8 +55,10 @@ html {
     /* Generic Laptop */
 
     @media only screen and (min-width: 1280px) {
-        font-size: 1.1em;
+        font-size: 1em;
     }
+
+    /* Laptop with HiDPI */
 
     @media only screen and (min-width: 1440px) and (min-height: 900px) {
         font-size: 1em;
