@@ -19,6 +19,6 @@ jobs:
           registry: docker.pkg.github.com
           username: ${{ github.repository_owner }}
           password: ${{ github.token }}
-          repository: ${{ github.repository }}/${{ IMAGE }}
+          repository: ${{ github.repository }}/${{ env.IMAGE }}
           tag_with_ref: true
           tags: latest
