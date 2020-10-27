@@ -59,7 +59,7 @@ const ButtonCV = (): ReactElement => ButtonBlueprint (
     'button is-outlined',
     (): void => {
 
-        window.open ('https://gist.github.com/bamdadsabbagh/fdaed44d9ba38b29673cccae99c89d43', '_blank')
+        window.open ('https://cv.bamdadsabbagh.com', '_blank')
         
     },
     '📚',
@@ -70,7 +70,7 @@ const ButtonPortfolio = (): ReactElement => ButtonBlueprint (
     'button is-danger is-outlined',
     (): void => {
             
-        window.open ('https://gist.github.com/bamdadsabbagh/b34f05a81dbcce33386dd450a1424900', '_blank')
+        window.open ('https://portfolio.bamdadsabbagh.com', '_blank')
     
     },
     '👨🏻‍💻',
