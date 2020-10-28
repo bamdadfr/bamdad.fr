@@ -1,3 +1,11 @@
+## [0.7.21](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.20...v0.7.21) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([6bfbf79](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/6bfbf79cd789081721371cdfb601b07fdd177de1))
+* new syntax for interface declaration? [force-release] ([d437bf9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/d437bf998b0399d532aab827ea7580d2bb91db54))
+
 ## [0.7.20](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.19...v0.7.20) (2020-10-28)
 
 
