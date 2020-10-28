@@ -1,3 +1,15 @@
+## [0.7.15](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.14...v0.7.15) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([3575725](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/357572500e7c89c968752836d984a060a4654560))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([1ae1e84](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/1ae1e846b47bcb20894a6b0cd9c45c0f3ec98eb0))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([af7f955](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/af7f95589b5bd50b03380e28b86108caee057206))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([ee34364](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ee34364eca9433535d258569529b6c9b83961671))
+* asfalte: 🔨 git-commit-force-release__push ([e236b89](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/e236b891a7065f029e8f6ca47c5702fc3ec09174))
+* testing new docker build v2 [force-release] ([10dd7f4](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/10dd7f436420443e79364955f6a13559b26c71d4))
+
 ## [0.7.14](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.13...v0.7.14) (2020-10-28)
 
 
