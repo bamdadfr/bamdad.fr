@@ -1,3 +1,11 @@
+## [0.7.20](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.19...v0.7.20) (2020-10-28)
+
+
+### Bug Fixes
+
+* added QEMU [force-release] ([82f8e0a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/82f8e0acf191a50d5e1840ef4e7e83e9fa120ac6))
+* asfalte: 🔨 git-commit-force-release__push ([78a20d6](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/78a20d6a350b8935dbbc8efadb8c2ce5f2051936))
+
 ## [0.7.19](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.18...v0.7.19) (2020-10-28)
 
 
