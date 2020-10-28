@@ -1,3 +1,11 @@
+## [0.7.24](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.23...v0.7.24) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([b8138a8](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b8138a8df9cd29972ee75e0ed0137f3ef49522de))
+* docker login auth to github [force-release] ([7d90fb6](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/7d90fb6b770c2312f91ca849a270ba5205205932))
+
 ## [0.7.23](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.22...v0.7.23) (2020-10-28)
 
 
