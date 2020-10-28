@@ -1,17 +1,17 @@
 import type { ReactElement } from 'react'
 
 export interface IArrayElement {
-    name: string,
-    color: string,
-    icon: ReactElement,
+    name: string;
+    color: string;
+    icon: ReactElement;
 }
 
 export type IArrayData = IArrayElement[]
 
 export interface IRendererProps {
-    items: IArrayData,
+    items: IArrayData;
 }
 
 export interface IControllerProps {
-    delay: number,
+    delay: number;
 }
