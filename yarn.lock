@@ -1003,7 +1003,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+<<<<<<< HEAD
 "@bamdadsabbagh/eslint-config@^1.4.0":
+=======
+"@bamdadsabbagh/eslint-config@^1.4.1":
+>>>>>>> d0e781b8bf8c1b68e00860e9767ad762388d7285
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@bamdadsabbagh/eslint-config/-/eslint-config-1.4.1.tgz#f69c9ecc102f42a599968234b7977c4ff860436b"
   integrity sha512-2zVl/fzoEEOtHG89FHkYa07CaSnx9Z4eZcHCUZ5Shf/VvYyXF/hQQmQXhIpvP/MUPfXianFeBgqm4Fn3naP9ew==
