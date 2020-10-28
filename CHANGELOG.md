@@ -1,3 +1,11 @@
+## [0.7.25](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.24...v0.7.25) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([9fb416f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/9fb416f21630b61e875b63a967160be62df32e31))
+* rolling back to gpr-v1 [force-release] ([3f327d3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/3f327d39ac8f475955df743415329c12238ac486))
+
 ## [0.7.24](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.23...v0.7.24) (2020-10-28)
 
 
