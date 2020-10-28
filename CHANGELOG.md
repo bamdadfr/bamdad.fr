@@ -1,3 +1,13 @@
+## [0.7.23](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.22...v0.7.23) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([7dd30a9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/7dd30a9b66e531f76a26bd56f1caa48a90cfaf90))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([dfb889d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/dfb889daecb7d9a582daf1429a204b30abaf9c4a))
+* asfalte: 🔨 git-commit-force-release__push ([285273f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/285273f8052c7d03b6480981fdc5a7b3fd3ab657))
+* crisp is now in .jsx instead of .tsx [force-release] ([dbc8634](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/dbc86343813d729211e8ecfbd5d0fa4fae2f78be))
+
 ## [0.7.22](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.21...v0.7.22) (2020-10-28)
 
 
