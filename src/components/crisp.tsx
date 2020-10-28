@@ -1,4 +1,5 @@
 declare global {
+    // eslint-disable-next-line
     interface Window {
         $crisp: any
         CRISP_WEBSITE_ID: any
