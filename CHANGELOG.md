@@ -1,3 +1,11 @@
+## [0.7.17](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.16...v0.7.17) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([9eb71f1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/9eb71f1754d004ebc7d79b035ed69e149915ab3d))
+* trying without buildx [force-release] ([0dc1956](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0dc195682db5f7a0269083f3dbbaf024ec7d09fc))
+
 ## [0.7.16](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.15...v0.7.16) (2020-10-28)
 
 
