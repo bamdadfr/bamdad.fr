@@ -1,3 +1,13 @@
+## [0.7.18](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.17...v0.7.18) (2020-10-28)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([d0e781b](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/d0e781b8bf8c1b68e00860e9767ad762388d7285))
+* asfalte: 🔨 git-commit-force-release__push ([2d94400](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/2d9440045cf7fb17ef32161096871025cb1d4aa9))
+* ci/cd pipeline buildx should be now working [force-release] ([513954d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/513954dfa2e35957e931714710fb7c05813c03a5))
+* finally? [force-release] ([76048ed](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/76048ed988cd07b2189d169d79985d9ca06f20a5))
+
 ## [0.7.17](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.16...v0.7.17) (2020-10-28)
 
 
