@@ -1,4 +1,4 @@
-name: docker-build-push-gpr-v1__published
+name: docker-build-push-gpr-v2__published
 
 on:
   release:
@@ -14,11 +14,18 @@ jobs:
 
       - uses: actions/checkout@master
 
-      - uses: docker/build-push-action@v1
+      - uses: docker/setup-buildx-action@v1
+
+      - uses: docker/login-action@v1
         with:
           registry: docker.pkg.github.com
           username: ${{ github.repository_owner }}
           password: ${{ github.token }}
-          repository: ${{ github.repository }}/${{ env.IMAGE }}
-          tag_with_ref: true
-          tags: latest
+
+      - uses: docker/build-push-action@v1
+        with:
+          context: .
+          file: ./Dockerfile
+          pull: true
+          push: true
+          tags: ${{ github.repository }}/${{ env.IMAGE }}:latest
