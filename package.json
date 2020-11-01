@@ -1,6 +1,6 @@
 {
   "name": "bamdadsabbagh-www",
-  "version": "0.7.28",
+  "version": "0.7.29",
   "license": "MIT",
   "scripts": {
     "build": "yarn build:clean && yarn build:run",
