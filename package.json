@@ -37,7 +37,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@bamdadsabbagh/eslint-config": "^1.4.3",
+    "@bamdadsabbagh/eslint-config": "^1.4.4",
     "@bamdadsabbagh/stylelint-config": "^1.2.101",
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.6",
