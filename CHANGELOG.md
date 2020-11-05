@@ -1,3 +1,16 @@
+## [0.7.34](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.33...v0.7.34) (2020-11-05)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([ef91991](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ef9199198c5f47d0a75af863121ec6096d347432))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([7b57399](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/7b5739946131a44d2a0d15d1d3d322dd2ca093d2))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([025629a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/025629ad58d29d7deac8f0f8fd5478e4be834f70))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([0c54e2c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0c54e2cf587079f8dcee4c5c34ee41c7eb9340d8))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([ed0319e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ed0319e1a35b8a9e79525b4f172f7fc92fe7960a))
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([b5e53e0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b5e53e07705de23ae425df7ec8edc29c8c164a8a))
+* error in build time ([8248152](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8248152d0a430aadce98c8e9e44ac2fcf6151eb7))
+
 ## [0.7.33](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.32...v0.7.33) (2020-11-05)
 
 
