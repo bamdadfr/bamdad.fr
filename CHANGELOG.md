@@ -1,3 +1,10 @@
+## [0.7.53](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.52...v0.7.53) (2020-11-09)
+
+
+### Bug Fixes
+
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([cab225f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/cab225f31b72782ac5aaee697e46544e66883bb4))
+
 ## [0.7.52](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.51...v0.7.52) (2020-11-09)
 
 
