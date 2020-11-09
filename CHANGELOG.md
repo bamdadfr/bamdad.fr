@@ -1,3 +1,13 @@
+## [0.7.39](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.38...v0.7.39) (2020-11-09)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([27ad115](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/27ad115287563958ccb1bdd3348a63f04d829275))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([85b8f11](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/85b8f11737463aab20f37c0acc775add208470dc))
+* asfalte: 🐳 docker-base-image-check-gpr__0x100 ([5629f72](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/5629f72a9294e3c1d80b67d49b3a32020a1ce006))
+* updated to latest env workflow ([cf2f300](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/cf2f3009ddaa0c0e0f583fd5ca6e5f0c923cfb39))
+
 ## [0.7.38](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.37...v0.7.38) (2020-11-09)
 
 
