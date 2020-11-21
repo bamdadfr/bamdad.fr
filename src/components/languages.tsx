@@ -66,7 +66,7 @@ export const Languages = (props: IControllerProps): React.ReactElement => {
 
         buildData (shuffle (LanguagesData))
 
-        new Promise ((resolve): void => {
+        new Promise<void> ((resolve) => {
 
             setTimeout (() => {
 

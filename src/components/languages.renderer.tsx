@@ -27,7 +27,7 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
         
         }
 
-        new Promise ((resolve): void => {
+        new Promise<void> ((resolve) => {
 
             setTimeout (() => {
 
@@ -39,7 +39,7 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
             }, 2400) // 3800
         
         })
-            .then (() => new Promise ((resolve): void => {
+            .then (() => new Promise<void> ((resolve) => {
 
                 // wait the shown icon to disappear to change index
                 setTimeout (() => {
@@ -51,7 +51,7 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
                 }, 1200) // 1900
             
             }))
-            .then (() => new Promise ((resolve): void => {
+            .then (() => new Promise<void> ((resolve) => {
 
                 // wait between two icons
                 setTimeout (() => {
