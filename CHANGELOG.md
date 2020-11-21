@@ -1,3 +1,11 @@
+## [0.7.69](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.68...v0.7.69) (2020-11-21)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([2e2a63f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/2e2a63fcd01e0df3ff4b9a116f97ee17ce0c0966))
+* fixed syntax for void promises [force-release] ([e11bbe9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/e11bbe900043eadf11c36e5d64eb982416767ea1))
+
 ## [0.7.68](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.67...v0.7.68) (2020-11-21)
 
 
