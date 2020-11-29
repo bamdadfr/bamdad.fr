@@ -1,4 +1,4 @@
-# [bamdadsabbagh-www](https://bamdadsabbagh.com/)
+#
 
 <p align=center>
     <font size=10>
