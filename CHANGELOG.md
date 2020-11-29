@@ -1,3 +1,15 @@
+## [0.7.77](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.76...v0.7.77) (2020-11-29)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release__push ([091e724](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/091e724d21518e80c72b455f70fc4524ea207307))
+
+
+### Performance Improvements
+
+* updated react-scripts and types ([e1782fb](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/e1782fb8ca75b1a6821ff26a56e6d06839556de4))
+
 ## [0.7.76](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.75...v0.7.76) (2020-11-29)
 
 
