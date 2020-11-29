@@ -11,7 +11,6 @@
 <p align=center>
     <img src="https://img.shields.io/github/v/release/bamdadsabbagh/bamdadsabbagh-www">
     <img src="https://api.codeclimate.com/v1/badges/f2ef1bd59624b6ccf983/maintainability">
-    <img src="">
 </p>
 
 <p align=center>
