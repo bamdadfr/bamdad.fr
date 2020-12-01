@@ -1,4 +1,4 @@
-## <img width=25 src="https://i.imgur.com/E5dDM2H.jpg"> Bamdad Sabbagh
+# <img width=25 src="https://i.imgur.com/E5dDM2H.jpg"> Bamdad Sabbagh
 
 <p align=center>
   <a href="https://bamdadsabbagh.com"><img width=150 src="https://i.imgur.com/E5dDM2H.jpg"></a>
