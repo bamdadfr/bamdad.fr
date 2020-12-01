@@ -1,11 +1,15 @@
-#
+## <img width=25 src="https://i.imgur.com/E5dDM2H.jpg"> Bamdad Sabbagh
 
 <p align=center>
-  <img width=150 src="https://en.gravatar.com/userimage/176351978/1a8aa7f42500100f0cc84113dd1acecb.jpg?size=500">
+  <a href="https://bamdadsabbagh.com"><img width=150 src="https://i.imgur.com/E5dDM2H.jpg"></a>
 </p>
 
 <p align=center>
   my personal website
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/badge/role-lead-blueviolet">
 </p>
 
 <p align=center>
@@ -15,7 +19,7 @@
 
 <p align=center>
   <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/bamdadsabbagh-www">
-  <img  src="https://img.shields.io/github/languages/top/bamdadsabbagh/bamdadsabbagh-www">
+  <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/bamdadsabbagh-www">
 </p>
 
 <p align=center>
@@ -29,9 +33,14 @@
   <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/bamdadsabbagh-www">
 </p>
 
-## 📸 Screenshots
+<p align=center>
+  <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen">
+  <img src="https://img.shields.io/badge/cd-docker-yellowgreen">
+</p>
 
-<img src="https://i.imgur.com/RimXqO7.gif" />
+<p align=center>
+  <img src="https://i.imgur.com/RimXqO7.gif">
+</p>
 
 ## 🐳 Docker
 
