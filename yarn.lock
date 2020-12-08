@@ -1257,9 +1257,9 @@
   integrity sha512-CoyK/SLM3vpESPdxUvXFWWXE21lM5cc5f/e/FKI0dkTiUwb4AMqxKYcxFx5xIJ+TRmEmoK7eVfilzwxIls/NNQ==
 
 "@iconify/icons-simple-icons@^1.0.56":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.1.tgz#afe60d322be72cfb46f844862340533a100eb202"
-  integrity sha512-IofO3qt6LcK1RPey7STKb1xcRjo58GPNwWn4Zk2kfNMJTKF6N3wJkz1KI+LCDg9Evmb+/L7CPfV2M8QRZAoZjQ==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.2.tgz#891f60928c0b259ea2a81d8b347343f9d76594db"
+  integrity sha512-p8J6T8irt3m/V5ErbxTAakCP9tjKrJyoG9AGGVu5FClF+yzMf6Brhb8fCvOYHUB46RLPFSHyJgfbUbvPNgMDtQ==
 
 "@iconify/react@^1.1.3":
   version "1.1.3"
@@ -4434,9 +4434,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.564, electron-to-chromium@^1.3.612:
-  version "1.3.618"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.618.tgz#33b65cc7cc8d7ce2b438a36afb50efb9bfa99d3a"
-  integrity sha512-D1U1Ij3stBQIIJObhg4zdE0X9znJsztNYzvoEehzuEKSgwP2xeOau+TLOP1Gp0wTf/2ffAYn0ntZwNAGsLCIOA==
+  version "1.3.619"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.619.tgz#4dc529ae802f5c9c31e7eea830144340539b62b4"
+  integrity sha512-WFGatwtk7Fw0QcKCZzfGD72hvbcXV8kLY8aFuj0Ip0QRnOtyLYMsc+wXbSjb2w4lk1gcAeNU1/lQ20A+tvuypQ==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -9249,9 +9249,9 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, po
     supports-color "^6.1.0"
 
 postcss@^8.1.0:
-  version "8.1.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.14.tgz#77d6a5db2fdc0afa918e24af5323a53fb8727f2e"
-  integrity sha512-KatkyVPBKfENS+c3dpXJoDXnDD5UZs5exAnDksLqaRJPKwYphEPZt4N0m0i049v2/BtWVQibAhxW4ilXXcolpA==
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.0.tgz#214be4eda36db762eb8a89d7c7362b9341156eb5"
+  integrity sha512-vZ8cb6AlN53hHlnPvR+oj7fA46LU05Ysv7O7sNh1ixQrCbtx+d8/h+5tDER9XAccVhkf3aYskAiWmh0DdjNLbw==
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
