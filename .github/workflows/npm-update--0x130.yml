@@ -1,11 +1,11 @@
-name: npm-upgrade--0x130
+name: npm-update--0x130
 
 on:
   schedule:
     - cron: '30 * * * *'
 
 jobs:
-  npm-upgrade:
+  npm-update--0x130:
     runs-on: ubuntu-latest
     steps:
 
@@ -23,7 +23,7 @@ jobs:
 
       - run: |
           git add .
-          git diff-index --quiet HEAD || git commit -m "fix: asfalte: ⚙️ npm-upgrade--0x100"
+          git diff-index --quiet HEAD || git commit -m "fix: asfalte: ⚙️ npm-update--0x130"
 
       - run: git push
 

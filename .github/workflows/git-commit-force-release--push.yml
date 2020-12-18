@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  commit:
+  git-commit-force-release--push:
     runs-on: ubuntu-latest
     steps:
 

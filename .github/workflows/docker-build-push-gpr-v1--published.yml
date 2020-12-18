@@ -6,7 +6,7 @@ on:
       - published
 
 jobs:
-  docker-build-push-gpr:
+  docker-build-push-gpr-v1--published:
     runs-on: ubuntu-latest 
     steps:
 
