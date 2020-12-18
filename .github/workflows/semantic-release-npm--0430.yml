@@ -2,7 +2,7 @@ name: semantic-release-npm--0430
 
 on:
   schedule:
-    - cron: '30 4 * * *'
+    - cron: '30 4 * * *' # at 04H30
   repository_dispatch:
     types:
       - docker-base-image-check

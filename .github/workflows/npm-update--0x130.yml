@@ -2,7 +2,7 @@ name: npm-update--0x130
 
 on:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '30 * * * *' # every hour and a half
 
 jobs:
   npm-update--0x130:
