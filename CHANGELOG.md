@@ -1,3 +1,19 @@
+## [0.7.95](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.94...v0.7.95) (2020-12-18)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade__0x100 ([17fb64a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/17fb64ae90e23cda1a5e4b56db6b4bca16fe7336))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([93f3a0d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/93f3a0dd7758e5ec65d041719fd46558969ab466))
+* asfalte: ⚙️ yarn-upgrade__0x100 ([29b22b0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/29b22b09236f9110ea43d69a002d53515d3a6ba1))
+* asfalte: 🔨 git-commit-force-release__push ([1b8cad2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/1b8cad27b2a80d12d10b8480abacb01be9d9ef2f))
+* better npm update workflow ([5bc268e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/5bc268e41e6cedd3388a2df0bae3c98607383236))
+
+
+### Performance Improvements
+
+* moved from `yarn` to `npm` ([f723e21](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/f723e21f90a55e80dc9b1f90a0fe4fc98bf2663f))
+
 ## [0.7.94](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.93...v0.7.94) (2020-12-17)
 
 
