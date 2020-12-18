@@ -1,11 +1,11 @@
-name: yarn-upgrade__0x130
+name: npm-upgrade__0x130
 
 on:
   schedule:
     - cron: '30 * * * *'
 
 jobs:
-  yarn-upgrade:
+  npm-upgrade:
     runs-on: ubuntu-latest
     steps:
 
@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '12'
 
-      - run: yarn upgrade
+      - run: npm update
 
       - run: |
           git config --global user.email "asfalte@bamdadsabbagh.com"
@@ -23,7 +23,7 @@ jobs:
 
       - run: |
           git add .
-          git diff-index --quiet HEAD || git commit -m "fix: asfalte: ⚙️ yarn-upgrade__0x100"
+          git diff-index --quiet HEAD || git commit -m "fix: asfalte: ⚙️ npm-upgrade__0x100"
 
       - run: git push
 

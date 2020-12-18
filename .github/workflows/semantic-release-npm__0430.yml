@@ -19,10 +19,10 @@ jobs:
         with:
           node-version: '12'
 
-      - run: yarn
+      - run: npm i --legacy-peer-deps
 
       - run: |
-          npm install -g \
+          npm i -g \
             semantic-release \
             @semantic-release/github \
             @semantic-release/git \
