@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '12'
 
-      - run: npm update
+      - run: npm update --legacy-peer-deps
 
       - run: |
           git config --global user.email "asfalte@bamdadsabbagh.com"
