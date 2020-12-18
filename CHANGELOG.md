@@ -1,3 +1,12 @@
+## [0.7.97](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.96...v0.7.97) (2020-12-18)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ npm-upgrade--0x100 ([64525e1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/64525e1ab5ee8114778cb99f1dd9abb4915c2260))
+* asfalte: 🔨 git-commit-force-release--push ([8798c69](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8798c6915b0667e5872ac4f5bf913d0117a8c2d8))
+* update ([6143c86](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/6143c86c448d9ffe1ded9ecaa0fb96e94c4535b5))
+
 ## [0.7.96](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.95...v0.7.96) (2020-12-18)
 
 
