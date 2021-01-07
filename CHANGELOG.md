@@ -1,3 +1,11 @@
+## [0.7.117](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.116...v0.7.117) (2021-01-07)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ npm-update--0x130 ([b2a1d96](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b2a1d9674cba37c2942e2aaaacaa06cb74395388))
+* asfalte: ⚙️ npm-update--0x130 ([b2e909e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/b2e909ec8f0306458d4b3c19abe36181e6f7b013))
+
 ## [0.7.116](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.115...v0.7.116) (2021-01-06)
 
 
