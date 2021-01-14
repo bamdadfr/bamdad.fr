@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
+import amazonawsIcon from '@iconify/icons-simple-icons/amazonaws'
 import archlinuxIcon from '@iconify/icons-simple-icons/archlinux'
 import centosIcon from '@iconify/icons-simple-icons/centos'
 import debianIcon from '@iconify/icons-simple-icons/debian'
@@ -23,6 +24,11 @@ import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
 export const LanguagesData: Array<any> = [
+    {
+        'name': 'Amazon Web Services',
+        'icon': <Icon icon={amazonawsIcon} />,
+        'color': '#070605',
+    },
     {
         'name': 'Arch Linux',
         'icon': <Icon icon={archlinuxIcon} />,
