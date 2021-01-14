@@ -1,3 +1,16 @@
+# [0.8.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.124...v0.8.0) (2021-01-14)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ npm-update--0x130 ([116d884](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/116d884cd9df8dfcc6f9b6d3c63abe234bac66ec))
+* asfalte: 🔨 git-commit-force-release--onPush ([8a31bcd](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8a31bcd2bbc0aac358420b0570fbe3ccce70c128))
+
+
+### Features
+
+* added aws [force-release] ([a9ffd2c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/a9ffd2c4c39d3d0b49c042b9ccefe4113b76942e))
+
 ## [0.7.124](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.123...v0.7.124) (2021-01-14)
 
 
