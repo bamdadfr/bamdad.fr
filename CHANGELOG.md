@@ -1,3 +1,13 @@
+## [0.8.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.8.0...v0.8.1) (2021-01-15)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ npm-update--0x130 ([2d74780](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/2d74780c2582e02c4b057d61f61bd1f721ef0cd7))
+* asfalte: ⚙️ npm-update--0x130 ([0d491d9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0d491d963b6409e2c05ad36f9e9098c1f14a8c8a))
+* asfalte: ⚙️ npm-update--0x130 ([f0a0fc1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/f0a0fc188a4abb4e6a87de0b3fa8bf379ba9214d))
+* npm udpate workflow ([abc644d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/abc644dbfd80285a9081881c2aca264467ff1068))
+
 # [0.8.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.7.124...v0.8.0) (2021-01-14)
 
 
