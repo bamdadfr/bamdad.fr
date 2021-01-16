@@ -1,3 +1,11 @@
+## [0.9.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.9.0...v0.9.1) (2021-01-16)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([578694e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/578694eb2ab7c92a94416eb06dafbaf517513d0c))
+* updated dockerfile to yarn [force-release] ([1495443](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/1495443dcd4c2fecda08fc865c687d1cd9e2c563))
+
 # [0.9.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.8.2...v0.9.0) (2021-01-16)
 
 
