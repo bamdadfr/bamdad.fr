@@ -11,16 +11,12 @@ const Body = styled.div`
     /* border: 1px solid black; */
 `
 
-export const Columns = (): ReactElement => {
+export const Columns = (): ReactElement => (
+    <Body role="main" className="columns is-centered is-mobile is-multiline">
 
-    return (
-        <Body role="main" className="columns is-centered is-mobile is-multiline">
+        <ColumnsOne />
 
-            <ColumnsOne />
-
-            <ColumnsTwo />
+        <ColumnsTwo />
         
-        </Body>
-    )
-
-}
+    </Body>
+)

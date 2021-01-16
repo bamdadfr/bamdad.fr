@@ -13,21 +13,17 @@ const template = (
     link: string,
     aria: string,
     color: string,
-): ReactElement => {
-
-    return (
-        <AnimationText
-            key={k}
-            payload={icon}
-            link={link}
-            ariaLabel={aria}
-            delay={0}
-            show
-            hover={color}
-        />
-    )
-
-}
+): ReactElement => (
+    <AnimationText
+        key={k}
+        payload={icon}
+        link={link}
+        ariaLabel={aria}
+        delay={0}
+        show
+        hover={color}
+    />
+)
 
 export const FooterData = [
     (k: number): ReactElement => template (

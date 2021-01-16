@@ -10,17 +10,14 @@ const Div = styled.div`
     margin-left: 0.6em;
 `
 
-export const Footer = (): React.ReactElement => {
+export const Footer = (): React.ReactElement => (
 
-    return (
-        <Div role="complementary" className="hero-foot has-text-left">
-            <TextDiv className="is-size-4-tablet is-size-5-mobile">
+    <Div role="complementary" className="hero-foot has-text-left">
+        <TextDiv className="is-size-4-tablet is-size-5-mobile">
 
-                {FooterData.map ((e, k) => e (k))}
+            {FooterData.map ((e, k) => e (k))}
 
-            </TextDiv>
-        </Div>
+        </TextDiv>
+    </Div>
 
-    )
-
-}
+)

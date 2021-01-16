@@ -8,11 +8,11 @@ const TextDiv = styled.div`
     /* border: 1px dashed red; */
 `
 
-const template = (key: number, payload: string, delay: number): ReactElement => {
+const template = (key: number, payload: string, delay: number): ReactElement => (
 
-    return <AnimationText key={key} payload={payload} delay={delay} show />
+    <AnimationText key={key} payload={payload} delay={delay} show />
 
-}
+)
 
 export const ColumnsData = [
     [

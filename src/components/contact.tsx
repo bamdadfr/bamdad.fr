@@ -19,20 +19,16 @@ const Div = styled.div`
     /* border: 1px solid black; */
 `
 
-export const Contact = (): React.ReactElement => {
+export const Contact = (): React.ReactElement => (
+    <Div className="columns is-centered is-mobile has-text-centered">
+        <Column className="column is-full is-paddingless">
 
-    return (
-        <Div className="columns is-centered is-mobile has-text-centered">
-            <Column className="column is-full is-paddingless">
-
-                <ContactDiv className="is-size-5-desktop is-size-6-tablet is-size-6-mobile">
+            <ContactDiv className="is-size-5-desktop is-size-6-tablet is-size-6-mobile">
             
-                    {ContactData.map ((e, k) => e (k))}
+                {ContactData.map ((e, k) => e (k))}
 
-                </ContactDiv>
+            </ContactDiv>
 
-            </Column>
-        </Div>
-    )
-
-}
+        </Column>
+    </Div>
+)

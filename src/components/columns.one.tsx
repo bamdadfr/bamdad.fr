@@ -15,25 +15,21 @@ const FirstColumns = styled.div`
     /* border: 1px dashed blue; */
 `
 
-export const ColumnsOne = (): ReactElement => {
+export const ColumnsOne = (): ReactElement => (
 
-    return (
-        <Column
-            className="column is-one-fifth-fullhd is-4-desktop is-4-tablet is-full-mobile is-paddingless"
-        >
-            <FirstColumns className="columns is-marginless is-mobile">
-                <Column className="column is-full is-paddingless">
+    <Column
+        className="column is-one-fifth-fullhd is-4-desktop is-4-tablet is-full-mobile is-paddingless"
+    >
+        <FirstColumns className="columns is-marginless is-mobile">
+            <Column className="column is-full is-paddingless">
 
-                    <div className="is-size-4-desktop is-size-5-tablet is-size-5-mobile">
+                <div className="is-size-4-desktop is-size-5-tablet is-size-5-mobile">
 
-                        {ColumnsData[0].map ((e, k) => e (k))}
+                    {ColumnsData[0].map ((e, k) => e (k))}
 
-                    </div>
+                </div>
 
-                </Column>
-            </FirstColumns>
-        </Column>
-    )
-
-}
-
+            </Column>
+        </FirstColumns>
+    </Column>
+)

@@ -22,9 +22,8 @@ const Button = styled.div`
     }
 `
 
-const Render = (k: number, payload: ReactElement, delay: number): ReactElement => {
-
-    return <AnimationText
+const Render = (k: number, payload: ReactElement, delay: number): ReactElement => (
+    <AnimationText
         key={k}
         payload={payload}
         delay={delay}
@@ -32,28 +31,24 @@ const Render = (k: number, payload: ReactElement, delay: number): ReactElement =
         centered
     />
 
-}
+)
 
 const ButtonBlueprint = (
     style: string,
     link: any,
     icon: string,
     text: string,
-): ReactElement => {
-
-    return (
-        <Button
-            className={style}
-            onClick={link}
-        >
-            <span role="img" aria-label={text}>
-                {icon}
-            </span>
-            &nbsp; {text}
-        </Button>
-    )
-
-}
+): ReactElement => (
+    <Button
+        className={style}
+        onClick={link}
+    >
+        <span role="img" aria-label={text}>
+            {icon}
+        </span>
+        &nbsp; {text}
+    </Button>
+)
 
 const ButtonCV = (): ReactElement => ButtonBlueprint (
     'button is-outlined',
