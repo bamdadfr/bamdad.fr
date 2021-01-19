@@ -1,3 +1,11 @@
+## [0.9.10](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.9.9...v0.9.10) (2021-01-19)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--0x130 ([6432d66](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/6432d669a82979552b70dba63cb78d9e81e004bd))
+* asfalte: 🐳 docker-gpr-base-image-check--0x100 ([726fa3f](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/726fa3fc94b4fdced9229be5bd67151ef3d3964b))
+
 ## [0.9.9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.9.8...v0.9.9) (2021-01-19)
 
 
