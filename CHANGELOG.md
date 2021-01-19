@@ -1,3 +1,18 @@
+# [0.10.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.9.13...v0.10.0) (2021-01-19)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--0x130 ([bbc4363](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/bbc436317b2224396a34181514a2393f7e6626ed))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([0ba46e6](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0ba46e6ce7b551f8486fb83206dbbd220dc793ac))
+* asfalte: 🔨 git-commit-force-release--onPush ([fc3a30e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/fc3a30e9fe407affa54d72bd84f289c093e795e5))
+* docker base image check condition ([ebdd58a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ebdd58a606a5b3f396f352a54a00cfcca66ccd96))
+
+
+### Features
+
+* updated languages && stack link ([eb27e4c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/eb27e4c0e79e49e7c4b5eae74a296a2a534467cc))
+
 ## [0.9.13](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.9.12...v0.9.13) (2021-01-19)
 
 
