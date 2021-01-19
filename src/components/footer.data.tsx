@@ -50,7 +50,7 @@ export const FooterData = [
     (k: number): ReactElement => template (
         k,
         <Icon icon={stackshareIcon} />,
-        'https://stackshare.io/bamdadsabbagh/my-stack',
+        'https://stack.bamdadsabbagh.com',
         'Link to Stackshare',
         '#0690FA',
     ),

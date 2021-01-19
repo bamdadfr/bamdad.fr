@@ -1,43 +1,39 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
-import amazonawsIcon from '@iconify/icons-simple-icons/amazonaws'
+import ansibleIcon from '@iconify/icons-simple-icons/ansible'
 import archlinuxIcon from '@iconify/icons-simple-icons/archlinux'
 import centosIcon from '@iconify/icons-simple-icons/centos'
 import debianIcon from '@iconify/icons-simple-icons/debian'
 import dockerIcon from '@iconify/icons-simple-icons/docker'
-import gnubashIcon from '@iconify/icons-simple-icons/gnubash'
+import gatsbyIcon from '@iconify/icons-simple-icons/gatsby'
 import githubactionsIcon from '@iconify/icons-simple-icons/githubactions'
-import googleCloud from '@iconify/icons-logos/google-cloud'
+import gnubashIcon from '@iconify/icons-simple-icons/gnubash'
+import grafanaIcon from '@iconify/icons-simple-icons/grafana'
 import laravelIcon from '@iconify/icons-simple-icons/laravel'
 import magentoIcon from '@iconify/icons-simple-icons/magento'
 import mongodbIcon from '@iconify/icons-simple-icons/mongodb'
 import mysqlIcon from '@iconify/icons-simple-icons/mysql'
 import nodeDotJs from '@iconify/icons-simple-icons/node-dot-js'
+import ovhIcon from '@iconify/icons-simple-icons/ovh'
 import phpIcon from '@iconify/icons-simple-icons/php'
 import prometheusIcon from '@iconify/icons-simple-icons/prometheus'
 import pythonIcon from '@iconify/icons-simple-icons/python'
 import reactIcon from '@iconify/icons-simple-icons/react'
 import redisIcon from '@iconify/icons-simple-icons/redis'
-import reduxIcon from '@iconify/icons-simple-icons/redux'
 import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
 export const LanguagesData: Array<any> = [
     {
-        'name': 'Amazon Web Services',
-        'icon': <Icon icon={amazonawsIcon} />,
-        'color': '#070605',
+        'name': 'ansible',
+        'icon': <Icon icon={ansibleIcon} />,
+        'color': '#1A1918',
     },
     {
-        'name': 'Arch Linux',
+        'name': 'arch linux',
         'icon': <Icon icon={archlinuxIcon} />,
         'color': '#1793D1',
-    },
-    {
-        'name': 'Bash',
-        'icon': <Icon icon={gnubashIcon} />,
-        'color': '#2B3539',
     },
     {
         'name': 'centos',
@@ -45,14 +41,19 @@ export const LanguagesData: Array<any> = [
         'color': '#932178',
     },
     {
-        'name': 'Debian',
+        'name': 'debian',
         'icon': <Icon icon={debianIcon} />,
         'color': '#D70751',
     },
     {
-        'name': 'Docker',
+        'name': 'docker',
         'icon': <Icon icon={dockerIcon} />,
         'color': '#2496ED',
+    },
+    {
+        'name': 'gatsby',
+        'icon': <Icon icon={gatsbyIcon} />,
+        'color': '#663399',
     },
     {
         'name': 'github actions',
@@ -60,38 +61,49 @@ export const LanguagesData: Array<any> = [
         'color': '#2088FF',
     },
     {
-        'name': 'Google Cloud',
-        'icon': <Icon icon={googleCloud} />,
+        'name': 'gnu bash',
+        'icon': <Icon icon={gnubashIcon} />,
+        'color': '#2B3539',
     },
     {
-        'name': 'Laravel',
+        'name': 'grafana',
+        'icon': <Icon icon={grafanaIcon} />,
+        'color': '#F05A28',
+    },
+    {
+        'name': 'laravel',
         'icon': <Icon icon={laravelIcon} />,
         'color': '#FF291A',
     },
     {
-        'name': 'PHP',
+        'name': 'php',
         'icon': <Icon icon={phpIcon} />,
         'color': '#777BB3',
     },
     {
-        'name': 'Magento',
+        'name': 'magento',
         'icon': <Icon icon={magentoIcon} />,
         'color': '#F2631C',
     },
     {
-        'name': 'MongoDB',
+        'name': 'mongodb',
         'icon': <Icon icon={mongodbIcon} />,
         'color': '#3FA037',
     },
     {
-        'name': 'MySQL',
+        'name': 'mysql',
         'icon': <Icon icon={mysqlIcon} />,
         'color': '#00618A',
     },
     {
-        'name': 'NodeJS',
+        'name': 'nodejs',
         'icon': <Icon icon={nodeDotJs} />,
         'color': '#68A063',
+    },
+    {
+        'name': 'ovh',
+        'icon': <Icon icon={ovhIcon} />,
+        'color': '#03429A',
     },
     {
         'name': 'prometheus',
@@ -99,12 +111,12 @@ export const LanguagesData: Array<any> = [
         'color': '#ff4646',
     },
     {
-        'name': 'Python',
+        'name': 'python',
         'icon': <Icon icon={pythonIcon} />,
         'color': '#FFD03D',
     },
     {
-        'name': 'React',
+        'name': 'react',
         'icon': <Icon icon={reactIcon} />,
         'color': '#60DBFB',
     },
@@ -114,22 +126,17 @@ export const LanguagesData: Array<any> = [
         'color': '#D82C20',
     },
     {
-        'name': 'Redux',
-        'icon': <Icon icon={reduxIcon} />,
-        'color': '#7648BE',
-    },
-    {
-        'name': 'Scaleway',
+        'name': 'scaleway',
         'icon': <Icon icon={scalewayIcon} />,
         'color': '#510098',
     },
     {
-        'name': 'TypeScript',
+        'name': 'typescript',
         'icon': <Icon icon={typescriptIcon} />,
         'color': '#007acc',
     },
     {
-        'name': 'Webpack',
+        'name': 'webpack',
         'icon': <Icon icon={webpackIcon} />,
         'color': '#1C78C0',
     },
