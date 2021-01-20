@@ -1,3 +1,11 @@
+## [0.10.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.1...v0.10.2) (2021-01-20)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([9e314f9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/9e314f9b44ea435e1d5c2633a3f199b086efe9be))
+* removed useless service worker ([7f006ba](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/7f006baa2d179d17398168deba0f49334ef1e95c))
+
 ## [0.10.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.0...v0.10.1) (2021-01-20)
 
 
