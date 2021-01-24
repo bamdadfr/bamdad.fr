@@ -1,3 +1,11 @@
+## [0.10.5](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.4...v0.10.5) (2021-01-24)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--0x130 ([8290e6d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8290e6dae714d14ab86fb5aad8e7691ee6d3c7d9))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([9bd1cfd](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/9bd1cfd6939b08d1872e0ed674a26abce226dd35))
+
 ## [0.10.4](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.3...v0.10.4) (2021-01-23)
 
 
