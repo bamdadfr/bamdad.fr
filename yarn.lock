@@ -1243,9 +1243,9 @@
   integrity sha512-bwo45GpZcALs1/ZcLpmpGNcG6u6jeQJxmHWrY9CeHGQKloNOaTDLmCMjG55s1nkgCPa1UT4RIrLZD6NNJjLavg==
 
 "@iconify/icons-simple-icons@^1.0.56":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.8.tgz#651aa7d9de70132f42d424576dde3f227e8a4fca"
-  integrity sha512-+vICFsGhCSDRiNvTde3SV9Fpdub/wl9lZByjR07n8DP0ERutn1bHqwfkMpsstprolBGCQduZsph+l1n57JYx2Q==
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.9.tgz#7184eaec3a38ab54bcc2bc55c0fb257b10975480"
+  integrity sha512-GBGEmVggPvGEF/ZQ41EocxBFmclesrx9O5HJKVYE6ipMm5JCD+/C4zyu5wanGs5Nm3nkY+16LICtFUl41TpMXg==
 
 "@iconify/react@^1.1.3":
   version "1.1.3"
