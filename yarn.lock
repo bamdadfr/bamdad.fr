@@ -1238,9 +1238,9 @@
     "@hapi/hoek" "^8.3.0"
 
 "@iconify/icons-logos@^1.0.12":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.1.4.tgz#74e85364717e8a6a6e33d08b67dc442058df2dd7"
-  integrity sha512-bwo45GpZcALs1/ZcLpmpGNcG6u6jeQJxmHWrY9CeHGQKloNOaTDLmCMjG55s1nkgCPa1UT4RIrLZD6NNJjLavg==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.1.5.tgz#e2aa66480b89906f1ded9b87a2ec1ee1f4908378"
+  integrity sha512-KEoVRi9aaj9f7ZJXBVV6RLKDO0jWBa3qZqjNmt33ouILpZ3JSk7iRkjXv0hfRdiyddZIhk1VgN443GJNuUUuGg==
 
 "@iconify/icons-simple-icons@^1.0.56":
   version "1.1.9"
