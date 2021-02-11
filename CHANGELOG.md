@@ -1,3 +1,19 @@
+# [0.11.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.23...v0.11.0) (2021-02-11)
+
+
+### Bug Fixes
+
+* asfalte: ⚙️ yarn-upgrade--0x130 ([be16e54](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/be16e54200055f7860ce1ff200b02895ced82025))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([22d5e60](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/22d5e601a56a254328314d2dd852563738f86280))
+* asfalte: ⚙️ yarn-upgrade--0x130 ([ed2bc80](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ed2bc80f7c3f77450425880a4ef158eb0595e791))
+* asfalte: 🔨 git-commit-force-release--onPush ([bbe7772](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/bbe77727075f6829b09594d0b02c47dc3c123abe))
+* asfalte: 🔨 git-commit-force-release--onPush ([943c344](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/943c3448410dee4199b6abcba71307c21e78f78b))
+
+
+### Features
+
+* switch to matomo analytics ([d87b95e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/d87b95e6a42a26a4a6f795463f249eab8eeb216b))
+
 ## [0.10.23](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.22...v0.10.23) (2021-02-11)
 
 
