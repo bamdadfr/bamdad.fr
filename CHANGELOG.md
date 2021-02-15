@@ -1,3 +1,12 @@
+## [0.11.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.0...v0.11.1) (2021-02-15)
+
+
+### Bug Fixes
+
+* adding image for non javascript users (analytics) ([a3b8c47](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/a3b8c47266de52643ad68246ed04af91096e39be))
+* asfalte: 🔨 git-commit-force-release--onPush ([ccec6ee](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/ccec6eef040ec64074312925c9fdd93778ff0d81))
+* rolled back to GA ([dd1035c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/dd1035ca7bf31147c93ce315623937362b72b4a6))
+
 # [0.11.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.10.23...v0.11.0) (2021-02-11)
 
 
