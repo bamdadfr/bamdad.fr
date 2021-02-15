@@ -1,3 +1,15 @@
+## [0.11.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.1...v0.11.2) (2021-02-15)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([bbffcf9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/bbffcf925c0bf7f0ac51849e557e77c96f2f7ba8))
+
+
+### Performance Improvements
+
+* refacto ([2743999](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/274399908e8bc205f4d93c40c0458e35ecaccd12))
+
 ## [0.11.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.0...v0.11.1) (2021-02-15)
 
 
