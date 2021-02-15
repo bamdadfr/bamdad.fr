@@ -1,18 +1,14 @@
-import React from 'react'
-import { LanguagesRenderer } from './languages.renderer'
-import { LanguagesData } from './languages.data'
-import { IControllerProps, IArrayElement, IArrayData } from './languages.types'
+import React, { useEffect, useState } from 'react'
+import { LanguagesRenderer } from '../components/languages-renderer'
+import { LanguagesData } from '../components/languages-data'
 
-export const Languages = (props: IControllerProps): React.ReactElement => {
+export const LayoutLanguages = (props) => {
 
-    const {
-        delay,
-    } = props
+    const { delay } = props
+    const [isLoaded, setIsLoaded] = useState (false)
+    const [data, setData] = useState ([])
 
-    const [isLoaded, setIsLoaded] = React.useState (false)
-    const [data, setData] = React.useState<Array<any>> ([])
-
-    const shuffle = (array: IArrayData): IArrayData => {
+    const shuffle = (array) => {
 
         let currentIndex = array.length
         let temporaryValue = null
@@ -32,21 +28,21 @@ export const Languages = (props: IControllerProps): React.ReactElement => {
             array[currentIndex] = array[randomIndex]
 
             array[randomIndex] = temporaryValue
-        
+
         }
 
         return array
-    
+
     }
 
-    React.useEffect (() => {
+    useEffect (() => {
 
-        const buildData = (array: IArrayData): true => {
+        const buildData = (array) => {
 
             array.forEach (
-                (e: IArrayElement): void => {
+                (e) => {
 
-                    const r: object = {
+                    const r = {
                         'name': e.name,
                         'color': e.color,
                         'icon': e.icon,
@@ -61,12 +57,12 @@ export const Languages = (props: IControllerProps): React.ReactElement => {
             )
 
             return true
-        
+
         }
 
         buildData (shuffle (LanguagesData))
 
-        new Promise<void> ((resolve) => {
+        new Promise ((resolve) => {
 
             setTimeout (() => {
 
@@ -74,11 +70,11 @@ export const Languages = (props: IControllerProps): React.ReactElement => {
                 setIsLoaded (true)
 
                 resolve ()
-            
+
             }, delay)
-        
+
         }).then (null)
-    
+
     }, [delay])
 
     if (!isLoaded) {
@@ -86,12 +82,12 @@ export const Languages = (props: IControllerProps): React.ReactElement => {
         return (
             <></>
         )
-    
+
     }
 
     return (
         <>
-            <LanguagesRenderer items={data} />  
+            <LanguagesRenderer items={data}/>
         </>
     )
 

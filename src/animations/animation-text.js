@@ -1,9 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Transition, animated } from 'react-spring/renderprops'
-import { IAnimationTextProps, IAnimationTextRenderProps } from './animation.text.types'
 
-export const AnimationText = (props: IAnimationTextProps): React.ReactElement => {
+const MyLink = styled.span`
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: ${(props) => props.hoverColor || 'black'};
+  }
+`
+
+export const AnimationText = (props) => {
 
     const {
         payload,
@@ -16,14 +24,14 @@ export const AnimationText = (props: IAnimationTextProps): React.ReactElement =>
         hover,
     } = props
 
-    const hoverColor = (): string => typeof hover !== 'undefined' ? hover : 'inherit'
-    const linkPreventFocus = (e: React.FocusEvent<HTMLAnchorElement>): void => e.currentTarget.blur ()
+    const hoverColor = () => typeof hover !== 'undefined' ? hover : 'inherit'
+    const linkPreventFocus = (e) => e.currentTarget.blur ()
 
-    const jsx = (renderProps: IAnimationTextRenderProps): React.ReactElement => {
+    const jsx = (renderProps) => {
 
         if (link) {
 
-            const isMailTo = (): boolean => link.substring (0, 7) === 'mailto:'
+            const isMailTo = () => link.substring (0, 7) === 'mailto:'
 
             const style = {
                 'color': 'inherit',
@@ -36,7 +44,7 @@ export const AnimationText = (props: IAnimationTextProps): React.ReactElement =>
                             href={link}
                             target={isMailTo () ? '' : '_blank'}
                             rel="noopener noreferrer"
-                            onFocus={(e): void => linkPreventFocus (e)}
+                            onFocus={(e) => linkPreventFocus (e)}
                             style={style}
                             aria-label={ariaLabel}
                         >
@@ -45,7 +53,7 @@ export const AnimationText = (props: IAnimationTextProps): React.ReactElement =>
                     </MyLink>
                 </animated.div>
             )
-        
+
         }
 
         return (
@@ -53,28 +61,28 @@ export const AnimationText = (props: IAnimationTextProps): React.ReactElement =>
                 {payload}
             </animated.div>
         )
-    
+
     }
 
-    const paddingLeft = (): number|string => {
+    const paddingLeft = () => {
 
         if (link) {
 
             return 10
-        
+
         }
 
         if (centered) {
 
             return 'inherit'
-        
+
         }
 
         return 30
-    
+
     }
 
-    const display = (): string => link ? 'inline-block' : 'inherit'
+    const display = () => link ? 'inline-block' : 'inherit'
 
     return (
         <Transition
@@ -98,18 +106,9 @@ export const AnimationText = (props: IAnimationTextProps): React.ReactElement =>
             delay={show ? delay : 400}
         >
             {
-                (s): any => s && ((props: any): any => jsx (props))
+                (s) => s && ((props) => jsx (props))
             }
         </Transition>
     )
 
 }
-
-const MyLink = styled.span<any>`
-    color: inherit;
-    transition: color 0.2s ease-in-out;
-
-    &:hover {
-        color: ${(props: any): any => props.hoverColor || 'black'};
-    }
-`

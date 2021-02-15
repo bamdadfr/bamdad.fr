@@ -1,33 +1,40 @@
 import React from 'react'
 import styled from 'styled-components'
-import { AnimationFade } from './animation.fade'
-import { AnimationText } from './animation.text'
-import { IRendererProps } from './languages.types'
+import { AnimationFade } from '../animations/animation-fade'
+import { AnimationText } from '../animations/animation-text'
 
-export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => {
+const Icon = styled.div`
+  padding-left: 30px;
+  margin-bottom: -0.3em;
+`
 
-    const {
-        items,
-    } = props
+const Text = styled.div`
+  min-height: 1px;
+  margin-bottom: -0.3em;
+  font-weight: 800;
+`
 
+export const LanguagesRenderer = (props) => {
+
+    const { items } = props
     const [index, setIndex] = React.useState (0)
     const [show, setShow] = React.useState (true)
 
     React.useEffect (() => {
 
-        const getIndex = (): number => {
+        const getIndex = () => {
 
             if (index + 1 < items.length) {
 
                 return index + 1
-            
+
             }
 
             return 0
-        
+
         }
 
-        new Promise<void> ((resolve) => {
+        new Promise ((resolve) => {
 
             setTimeout (() => {
 
@@ -35,11 +42,11 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
                 setShow (false)
 
                 resolve ()
-            
+
             }, 2400) // 3800
-        
+
         })
-            .then (() => new Promise<void> ((resolve) => {
+            .then (() => new Promise ((resolve) => {
 
                 // wait the shown icon to disappear to change index
                 setTimeout (() => {
@@ -47,11 +54,11 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
                     setIndex (getIndex)
 
                     resolve ()
-                
+
                 }, 1200) // 1900
-            
+
             }))
-            .then (() => new Promise<void> ((resolve) => {
+            .then (() => new Promise ((resolve) => {
 
                 // wait between two icons
                 setTimeout (() => {
@@ -59,11 +66,11 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
                     setShow (true)
 
                     resolve ()
-                
+
                 }, 0) // 500
-            
+
             }))
-    
+
     }, [index, items.length])
 
     return (
@@ -92,18 +99,3 @@ export const LanguagesRenderer = (props: IRendererProps): React.ReactElement => 
     )
 
 }
-
-const Icon = styled.div`
-    padding-left: 30px;
-    margin-bottom: -0.3em;
-
-    /* border: 1px dashed red; */
-`
-
-const Text = styled.div`
-    min-height: 1px;
-    margin-bottom: -0.3em;
-    font-weight: 800;
-
-    /* border: 1px dashed red; */
-`
