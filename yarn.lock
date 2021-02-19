@@ -1258,10 +1258,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-logos@^1.0.12":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.1.6.tgz#1f27c45f282bcdd7dfb550ff4ccbc6a1e50795ea"
-  integrity sha512-T+zz4N/HI5J4aToz/uabEW1ZHb9amEI7CEHPnxw7WT6kgkTSJoOgVBFCpU8UIaUllJqVowoEXV1KGYTIWkDtIA==
+"@iconify/icons-logos@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-logos/-/icons-logos-1.1.7.tgz#3d11c5ffd09f8c4231beceb33038f9b974af91ec"
+  integrity sha512-01ESnEk4wsFWezPf+CsEg8SRJUaNERws+8xzSKgecqIQGuRw8ebZq7Nwj95M0fnPxfQbqFsk62n3pl3O2Db4cA==
 
 "@iconify/icons-simple-icons@^1.1.12":
   version "1.1.12"
