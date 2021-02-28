@@ -31,15 +31,8 @@
 
 <p align=center>
   <img src="https://img.shields.io/badge/ci-github--actions-yellowgreen">
-  <img src="https://img.shields.io/badge/cd-docker-yellowgreen">
 </p>
 
 <p align=center>
   <img src="https://i.imgur.com/RimXqO7.gif">
 </p>
-
-## 🐳 Docker
-
-```bash
-docker run -d --name bamdadsabbagh-www --restart=always -p 8080:80 docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest
-```
