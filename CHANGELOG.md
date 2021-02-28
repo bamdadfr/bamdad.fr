@@ -1,3 +1,18 @@
+# [0.12.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.5...v0.12.0) (2021-02-28)
+
+
+### Bug Fixes
+
+* asfalte: 🔨 git-commit-force-release--onPush ([a86bc4e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/a86bc4e269cd26c78f065d745de57ab7c220c768))
+* asfalte: 🔨 git-commit-force-release--onPush ([2329178](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/23291780d83ac1eb73949f31c1195d6a56aee985))
+* removed typescript ([68af552](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/68af552bce07389bf441bc252575b655e5496acc))
+* upgraded to latest eslint-config ([8d72ac6](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/8d72ac66491f0e267fdd4787ac4426d7e5fd6b8f))
+
+
+### Features
+
+* ftp deploy instead of docker ([79774e9](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/79774e90efe0f420b500ce045fd6a65af869bacf))
+
 ## [0.11.5](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.4...v0.11.5) (2021-02-22)
 
 
