@@ -1,3 +1,10 @@
+# [0.13.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.12.0...v0.13.0) (2021-03-02)
+
+
+### Features
+
+* **htaccess:** added rewrite rules ([253390d](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/253390d10fcfe7db81c82ca23039dab130ce5900))
+
 # [0.12.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.11.5...v0.12.0) (2021-02-28)
 
 
