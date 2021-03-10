@@ -1,7 +1,11 @@
+Options -Indexes
+
 RewriteEngine On
+
 # if not our domain
 RewriteCond %{HTTP_HOST} !^bamdadsabbagh\.com$
 RewriteRule ^(.*)$ https://bamdadsabbagh.com/$1 [L,R=301]
+
 # redirect all to root index.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
