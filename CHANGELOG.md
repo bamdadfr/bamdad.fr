@@ -1,3 +1,10 @@
+## [0.13.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.13.1...v0.13.2) (2021-03-10)
+
+
+### Bug Fixes
+
+* **htaccess:** removed indexing ([637c289](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/637c289c96635933606c267c7a23a894aea78b1c))
+
 ## [0.13.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.13.0...v0.13.1) (2021-03-08)
 
 
