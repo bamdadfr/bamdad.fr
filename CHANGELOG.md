@@ -1,3 +1,10 @@
+# [0.14.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.13.3...v0.14.0) (2021-03-15)
+
+
+### Features
+
+* **contact:** removed cv and portfolio links while rewriting is in production ([98c154c](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/98c154ceac6fbb9457c5d2762e742dc2e3ed63ac))
+
 ## [0.13.3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.13.2...v0.13.3) (2021-03-15)
 
 
