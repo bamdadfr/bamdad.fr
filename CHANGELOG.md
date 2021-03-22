@@ -1,3 +1,15 @@
+# [0.15.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.14.2...v0.15.0) (2021-03-22)
+
+
+### Bug Fixes
+
+* **footer:** import animation after assets ([a93bd8e](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/a93bd8e898ed49172052857c96845ea01ffab533))
+
+
+### Features
+
+* **contact:** added resume and portfolio stories ([badf48a](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/badf48a672ef95addf4f2cf266bd64925d30c479))
+
 ## [0.14.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.14.1...v0.14.2) (2021-03-22)
 
 
