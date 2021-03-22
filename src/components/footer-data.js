@@ -1,9 +1,9 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
-import { AnimationText } from '../animations/animation-text'
 import githubIcon from '@iconify/icons-simple-icons/github'
 import linkedinIcon from '@iconify/icons-simple-icons/linkedin'
 import npmIcon from '@iconify/icons-simple-icons/npm'
+import { AnimationText } from '../animations/animation-text'
 
 const template = (k, icon, link, aria, color) => (
     <span key={k}>
