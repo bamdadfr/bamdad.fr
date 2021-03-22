@@ -43,15 +43,15 @@ const ButtonBlueprint = (style, link, icon, text) => (
     </Button>
 )
 
-const ButtonResume = () => ButtonBlueprint (
+const ButtonCV = () => ButtonBlueprint (
     'button is-outlined',
     () => {
 
-        window.open ('https://resume.bamdadsabbagh.com', '_blank')
+        window.open ('https://cv.bamdadsabbagh.com', '_blank')
 
     },
     '📚',
-    'resume',
+    'curriculum vitæ',
 )
 
 const ButtonPortfolio = () => ButtonBlueprint (
@@ -77,7 +77,7 @@ const ButtonEmail = () => ButtonBlueprint (
 )
 
 export const ContactData = [
-    (k) => Render (k, <ButtonResume/>, 4000),
+    (k) => Render (k, <ButtonCV/>, 4000),
     (k) => Render (k, <ButtonPortfolio/>, 5000),
     (k) => Render (k, <ButtonEmail/>, 6000),
 ]
