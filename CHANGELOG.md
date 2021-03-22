@@ -1,3 +1,10 @@
+## [0.15.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.0...v0.15.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* **contact:** resume back to CV ([0801c86](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0801c860a71033247bf1eac4fb11edf068633ce5))
+
 # [0.15.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.14.2...v0.15.0) (2021-03-22)
 
 
