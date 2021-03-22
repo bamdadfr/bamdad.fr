@@ -1,3 +1,10 @@
+## [0.14.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.14.1...v0.14.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* **footer:** removed stackshare ([2c2afb5](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/2c2afb57979de74d5ca8b6f785a2e31a3c1312f1))
+
 ## [0.14.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.14.0...v0.14.1) (2021-03-22)
 
 
