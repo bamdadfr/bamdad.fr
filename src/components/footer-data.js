@@ -1,10 +1,9 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
-import stackshareIcon from '@iconify/icons-simple-icons/stackshare'
+import { AnimationText } from '../animations/animation-text'
 import githubIcon from '@iconify/icons-simple-icons/github'
 import linkedinIcon from '@iconify/icons-simple-icons/linkedin'
 import npmIcon from '@iconify/icons-simple-icons/npm'
-import { AnimationText } from '../animations/animation-text'
 
 const template = (k, icon, link, aria, color) => (
     <span key={k}>
@@ -41,13 +40,6 @@ export const FooterData = [
         'https://www.npmjs.com/~bamdadsabbagh',
         'Link to npm',
         '#cb3837',
-    ),
-    (k) => template (
-        k,
-        <Icon icon={stackshareIcon}/>,
-        'https://stack.bamdadsabbagh.com',
-        'Link to Stackshare',
-        '#0690FA',
     ),
 ]
 
