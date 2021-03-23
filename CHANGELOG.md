@@ -1,3 +1,10 @@
+## [0.15.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.1...v0.15.2) (2021-03-23)
+
+
+### Bug Fixes
+
+* **contact:** better icons and URL ([61c2775](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/61c27756a8272e4d8a3ba5f51796a5de60c72878))
+
 ## [0.15.1](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.0...v0.15.1) (2021-03-22)
 
 
