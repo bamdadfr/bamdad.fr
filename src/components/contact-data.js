@@ -69,7 +69,7 @@ const ButtonEmail = () => ButtonBlueprint (
     'button is-warning is-outlined',
     () => {
 
-        window.location.href = 'mailto:hello@bamdadsabbagh.com'
+        window.location.href = 'mailto:hi@bamdad.fr'
 
     },
     '✉️',
