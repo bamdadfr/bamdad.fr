@@ -1,3 +1,11 @@
+## [0.15.3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.2...v0.15.3) (2021-03-23)
+
+
+### Bug Fixes
+
+* **contact:** changed email ([0b06acd](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/0b06acd071ecd85d6553a37c9d3e28a5db683cd4))
+* **htaccess:** moved indexing rule at bottom ([9188d37](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/9188d377e72e5665196937d0cd84d0964abf2266))
+
 ## [0.15.2](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.1...v0.15.2) (2021-03-23)
 
 
