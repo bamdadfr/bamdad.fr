@@ -50,19 +50,19 @@ const ButtonCV = () => ButtonBlueprint (
         window.open ('https://cv.bamdadsabbagh.com', '_blank')
 
     },
-    '📚',
+    '🚀',
     'curriculum vitæ',
 )
 
-const ButtonPortfolio = () => ButtonBlueprint (
+const ButtonStories = () => ButtonBlueprint (
     'button is-danger is-outlined',
     () => {
 
-        window.open ('https://portfolio.bamdadsabbagh.com', '_blank')
+        window.open ('https://stories.bamdadsabbagh.com', '_blank')
 
     },
-    '👨🏻‍💻',
-    'portfolio',
+    '🧩',
+    'problem stories',
 )
 
 const ButtonEmail = () => ButtonBlueprint (
@@ -72,12 +72,12 @@ const ButtonEmail = () => ButtonBlueprint (
         window.location.href = 'mailto:hello@bamdadsabbagh.com'
 
     },
-    '✍️',
+    '✉️',
     'email me',
 )
 
 export const ContactData = [
     (k) => Render (k, <ButtonCV/>, 4000),
-    (k) => Render (k, <ButtonPortfolio/>, 5000),
+    (k) => Render (k, <ButtonStories/>, 5000),
     (k) => Render (k, <ButtonEmail/>, 6000),
 ]
