@@ -1,3 +1,11 @@
+## [0.15.4](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.3...v0.15.4) (2021-03-24)
+
+
+### Bug Fixes
+
+* **contact-data:** indent + `stories` ([549a3e7](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/549a3e7c019d516231edc5e6c3472c4ade3b4c1d))
+* **styles:** indent ([4c10716](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/4c107167ff30b7f44f8f3b302aef7d87a487858c))
+
 ## [0.15.3](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.2...v0.15.3) (2021-03-23)
 
 
