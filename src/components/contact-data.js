@@ -5,20 +5,20 @@ import { AnimationText } from '../animations/animation-text'
 const buttonColor = '#3372F5'
 
 const Button = styled.div`
-  margin-top: 2px;
-  margin-bottom: 0.3em;
-  box-shadow: 0 1px 2px 1px rgba(50, 50, 50, 0.1);
-  transition: all 0.2s ease-in-out;
-  color: ${buttonColor};
-  border-color: ${buttonColor};
-  background-color: transparent;
-
-  &:hover {
-    transform: translateY(-2px);
-    color: white;
+    margin-top: 2px;
+    margin-bottom: 0.3em;
+    box-shadow: 0 1px 2px 1px rgba(50, 50, 50, 0.1);
+    transition: all 0.2s ease-in-out;
+    color: ${buttonColor};
     border-color: ${buttonColor};
-    background-color: ${buttonColor};
-  }
+    background-color: transparent;
+
+    &:hover {
+        transform: translateY(-2px);
+        color: white;
+        border-color: ${buttonColor};
+        background-color: ${buttonColor};
+    }
 `
 
 const Render = (key, payload, delay) => (
@@ -62,7 +62,7 @@ const ButtonStories = () => ButtonBlueprint (
 
     },
     '🧩',
-    'problem stories',
+    'stories',
 )
 
 const ButtonEmail = () => ButtonBlueprint (
