@@ -3,12 +3,12 @@ import styled from 'styled-components'
 import { Transition, animated } from 'react-spring/renderprops'
 
 const MyLink = styled.span`
-  color: inherit;
-  transition: color 0.2s ease-in-out;
+    color: inherit;
+    transition: color 0.2s ease-in-out;
 
-  &:hover {
-    color: ${(props) => props.hoverColor || 'black'};
-  }
+    &:hover {
+        color: ${(props) => props.hoverColor || 'black'};
+    }
 `
 
 export const AnimationText = (props) => {

@@ -3,9 +3,7 @@ import { AnimationText } from '../animations/animation-text'
 import { LayoutLanguages } from '../layout/layout-languages'
 
 const template = (key, payload, delay) => (
-
     <AnimationText key={key} payload={payload} delay={delay} show/>
-
 )
 
 export const ColumnsData = [

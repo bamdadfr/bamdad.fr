@@ -3,21 +3,21 @@ import styled from 'styled-components'
 import { ColumnsData } from '../components/columns-data'
 
 const StyledContainer = styled.div`
-  margin: 1em;
-  height: 15em;
+    margin: 1em;
+    height: 15em;
 `
 
 const StyledWrapper = styled.div`
-  align-self: flex-end;
+    align-self: flex-end;
 `
 
 const StyledDivLeft = styled.div`
-  height: 10em;
+    height: 10em;
 `
 
 const StyledDivRight = styled.div`
-  white-space: nowrap;
-  height: 8em;
+    white-space: nowrap;
+    height: 8em;
 `
 
 export const LayoutColumns = () => (

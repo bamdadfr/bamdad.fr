@@ -4,14 +4,14 @@ import { AnimationFade } from '../animations/animation-fade'
 import { AnimationText } from '../animations/animation-text'
 
 const Icon = styled.div`
-  padding-left: 30px;
-  margin-bottom: -0.3em;
+    padding-left: 30px;
+    margin-bottom: -0.3em;
 `
 
 const Text = styled.div`
-  min-height: 1px;
-  margin-bottom: -0.3em;
-  font-weight: 800;
+    min-height: 1px;
+    margin-bottom: -0.3em;
+    font-weight: 800;
 `
 
 export const LanguagesRenderer = (props) => {
