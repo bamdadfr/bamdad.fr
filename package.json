@@ -43,7 +43,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.0.0",
     "react-spring": "^8.0.19",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "@bamdadsabbagh/eslint-config": "^1.8.2",
