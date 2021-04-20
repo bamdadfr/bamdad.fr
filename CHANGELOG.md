@@ -1,3 +1,10 @@
+# [0.16.0](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.7...v0.16.0) (2021-04-20)
+
+
+### Features
+
+* **app:** added `sentry` + updated deps + some cleaning ([be560b7](https://github.com/bamdadsabbagh/bamdadsabbagh-www/commit/be560b777215bfd311d0e3d1e0724f1904120bb0))
+
 ## [0.15.7](https://github.com/bamdadsabbagh/bamdadsabbagh-www/compare/v0.15.6...v0.15.7) (2021-04-19)
 
 
