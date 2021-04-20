@@ -1,11 +1,9 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 
-export const AnimationFade = (props) => {
+export function AnimationFade ({ payload, show, delay }) {
 
-    const { payload, show, delay } = props
-
-    const renderProps = useSpring ({
+    const props = useSpring ({
         'from': {
             'opacity': show ? 0 : 1,
         },
@@ -17,7 +15,7 @@ export const AnimationFade = (props) => {
 
     return (
         <>
-            <animated.div style={renderProps}>
+            <animated.div style={props}>
                 {payload}
             </animated.div>
         </>
