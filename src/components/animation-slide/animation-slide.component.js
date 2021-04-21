@@ -1,9 +1,12 @@
 import React from 'react'
 import { animated, useSpring } from 'react-spring'
+import useMeasure from 'react-use-measure'
 
-export default function AnimationSlideComponent ({ children, height = 16, delay = 0 }) {
+export default function AnimationSlideComponent ({ children, delay = 0 }) {
 
-    const props = useSpring ({
+    const [ref, { height }] = useMeasure ()
+
+    const style = useSpring ({
         'from': {
             'display': 'none',
             'opacity': 0,
@@ -19,8 +22,10 @@ export default function AnimationSlideComponent ({ children, height = 16, delay 
 
     return (
         <>
-            <animated.div style={props}>
-                {children}
+            <animated.div style={style}>
+                <div ref={ref}>
+                    {children}
+                </div>
             </animated.div>
         </>
     )

@@ -13,7 +13,6 @@ export default function LayoutFooterComponent () {
                         (element) => (
                             <AnimationSlideComponent
                                 key={element.text}
-                                height={24}
                             >
                                 <StyledA
                                     href={element.href}

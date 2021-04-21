@@ -6,5 +6,5 @@ export const StyledContainer = styled.div`
     height: 100vh;
 
     display: grid;
-    grid-template-rows: 1fr 1fr 3em;
+    grid-template-rows: 1fr 1fr;
 `

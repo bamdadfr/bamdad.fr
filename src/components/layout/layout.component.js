@@ -14,8 +14,8 @@ import LayoutTopComponent from '@/components/layout-top/layout-top.component'
  *   - Top (screen's first half)
  *     - Greetings (left side)
  *     - Languages (right side)
- *   - Contact (screen's second half, full width)
- *   - Footer
+ *   - Contact (screen's second half)
+ * - Footer
  */
 export default function LayoutComponent () {
 
@@ -28,8 +28,8 @@ export default function LayoutComponent () {
                     <LayoutLanguagesComponent/>
                 </LayoutTopComponent>
                 <LayoutContactComponent/>
-                <LayoutFooterComponent/>
             </LayoutMainComponent>
+            <LayoutFooterComponent/>
         </>
     )
 
