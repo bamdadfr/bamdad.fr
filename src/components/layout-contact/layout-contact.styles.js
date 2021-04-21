@@ -6,14 +6,16 @@ export const StyledSection = styled.section`
     align-items: center;
     flex-direction: column;
 
-    //font-size: 1.333em;
-    font-size: 1em;
+    margin-bottom: 3.5em;
+
+    font-size: 1.2em;
 
     @media (max-width: 768px) {
-        font-size: 0.667em;
+        font-size: 1em;
     }
 
     > div {
+
         > div {
             display: flex;
             justify-content: center;

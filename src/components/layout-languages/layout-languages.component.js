@@ -5,6 +5,8 @@ import { StyledIcon, StyledText } from './layout-languages.styles'
 
 export default function LayoutLanguagesComponent () {
 
+    return <></>
+
     return (
         <>
             <div>

@@ -5,7 +5,8 @@ export const StyledSection = styled.section`
     bottom: 0;
     left: 0;
 
-    margin: 0 0 0.333em 0.333em;
+    //margin: 0 0 0.333em 0.333em;
+    margin: 0 0 0.667em 0.667em;
 
     display: flex;
     justify-content: flex-start;
@@ -18,7 +19,8 @@ export const StyledSection = styled.section`
     }
 
     > div {
-        margin-right: 0.333em;
+        //margin-right: 0.333em;
+        margin-right: 0.5em;
 
         &:last-child {
             margin-right: 0;
