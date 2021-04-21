@@ -6,10 +6,11 @@ export const StyledSection = styled.section`
     align-items: center;
     flex-direction: column;
 
-    font-size: 1.333em;
+    //font-size: 1.333em;
+    font-size: 1em;
 
     @media (max-width: 768px) {
-        font-size: 1em;
+        font-size: 0.667em;
     }
 
     > div {
