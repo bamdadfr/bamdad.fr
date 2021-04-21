@@ -1,61 +1,30 @@
 {
-  "name": "bamdadsabbagh-www",
-  "version": "0.16.0",
-  "license": "MIT",
-  "author": {
-    "name": "Bamdad Sabbagh",
-    "email": "hello@bamdadsabbagh.com",
-    "url": "https://bamdadsabbagh.com/"
-  },
-  "scripts": {
-    "build": "yarn build:run",
-    "build:clean": "rm -rf build",
-    "build:dev": "yarn build:clean && yarn build:run",
-    "build:run": "GENERATE_SOURCEMAP=false SKIP_PREFLIGHT_CHECK=true react-scripts build",
-    "dev": "yarn start",
-    "eject": "react-scripts eject",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
-    "package:clean": "rm -rf node_modules",
-    "package:reinstall": "yarn package:clean && yarn",
-    "package:sort": "npx sort-package-json",
-    "start": "BROWSER=none SKIP_PREFLIGHT_CHECK=true react-scripts start",
-    "style": "stylelint 'src/**/*.{js,jsx,ts,tsx}' --fix",
-    "test": "react-scripts test"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "dependencies": {
-    "@iconify/icons-logos": "^1.1.8",
-    "@iconify/icons-simple-icons": "^1.1.12",
-    "@iconify/react": "^1.1.3",
-    "@sentry/react": "^6.2.5",
-    "@sentry/tracing": "^6.2.5",
-    "bulma": "^0.9.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.0.0",
-    "react-spring": "^8.0.19",
-    "styled-components": "^5.2.1"
-  },
-  "devDependencies": {
-    "@bamdadsabbagh/eslint-config": "^1.8.2",
-    "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.28",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
-    "@types/styled-components": "^5.1.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "react-scripts": "4.0.3"
-  }
+    "name": "bamdadsabbagh-www",
+    "version": "0.16.0",
+    "license": "MIT",
+    "author": {
+        "name": "Bamdad Sabbagh",
+        "email": "hello@bamdadsabbagh.com",
+        "url": "https://bamdadsabbagh.com/"
+    },
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "export": "next export",
+        "start": "next start",
+        "package:clean": "rm -rf node_modules",
+        "package:reinstall": "yarn package:clean && yarn",
+        "package:sort": "npx sort-package-json"
+    },
+    "dependencies": {
+        "next": "^10.1.3",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-spring": "^9.1.1",
+        "styled-components": "^5.2.1"
+    },
+    "devDependencies": {
+        "@bamdadsabbagh/eslint-config": "^1.8.2"
+    }
 }
