@@ -20,7 +20,9 @@ export const StyledSection = styled.section`
         }
 
         height: 2.667em;
+        margin: 0.25em 0;
     }
+
 `
 
 export const StyledButton = styled.button`
@@ -29,7 +31,7 @@ export const StyledButton = styled.button`
 
     box-shadow: rgb(50 50 50 / 10%) 0 1px 2px 1px;
     transition: all 0.2s ease-in-out 0s;
-    padding: calc(.5em - 1px) 1em;
+    padding: calc(.5em + 1px) 1em;
     border-radius: 4px;
 
     &:hover {
@@ -37,12 +39,4 @@ export const StyledButton = styled.button`
         color: ${props => props.hover};
         background: ${props => props.color};
     }
-
-    //height: 3rem;
-    //font-size: 1.5em;
-    //
-    //@media (max-width: 768px) {
-    //    height: 2rem;
-    //    font-size: 1em;
-    //}
 `

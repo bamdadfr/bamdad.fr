@@ -1,23 +1,23 @@
 import React from 'react'
 import { animated, useSpring } from 'react-spring'
 import useMeasure from 'react-use-measure'
+import { useFirstRender } from '@/hooks/use-first-render'
 
 export default function AnimationSlideComponent ({ children, delay = 0 }) {
 
     const [ref, { height }] = useMeasure ()
+    const firstRender = useFirstRender (delay)
 
     const style = useSpring ({
         'from': {
-            'display': 'none',
             'opacity': 0,
             'height': 0,
         },
         'to': {
-            'display': 'inline',
             'opacity': 1,
             'height': height,
         },
-        'delay': delay,
+        'delay': firstRender ? delay : 0,
     })
 
     return (
