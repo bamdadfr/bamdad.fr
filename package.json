@@ -12,7 +12,7 @@
         "dev": "next dev",
         "export": "next export",
         "start": "next start",
-        "package:clean": "rm -rf node_modules",
+        "package:clean": "rimraf node_modules",
         "package:reinstall": "yarn package:clean && yarn",
         "package:sort": "npx sort-package-json"
     },
@@ -29,7 +29,9 @@
     },
     "devDependencies": {
         "@bamdadsabbagh/eslint-config": "^1.8.2",
+        "@bamdadsabbagh/stylelint-config": "^1.3.4",
         "babel-plugin-styled-components": "^1.12.0",
+        "rimraf": "^3.0.2",
         "sass": "^1.32.11",
         "sass-reset": "^1.0.2"
     }
