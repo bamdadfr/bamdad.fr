@@ -28,7 +28,7 @@ export const StyledSection = styled.section`
 
 `
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.a`
     color: ${props => props.color};
     border: 1px solid ${props => props.color};
 

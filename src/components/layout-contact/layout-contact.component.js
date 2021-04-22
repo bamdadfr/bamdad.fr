@@ -18,7 +18,9 @@ export default function LayoutContactComponent () {
                                 <StyledButton
                                     color={element.color}
                                     hover={element.hover}
-                                    onClick={() => element.onClick ()}
+                                    // onClick={useCallback (() => element.onClick (), [])}
+                                    href={element.href}
+                                    target={element.target}
                                 >
                                     <span>
                                         {element.icon}

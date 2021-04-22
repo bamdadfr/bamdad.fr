@@ -7,7 +7,8 @@ export const ContactData = [
         'color': ThemeStyles.colors.button.blue,
         'hover': ThemeStyles.colors.white,
         'delay': 4000,
-        'onClick': () => window.open ('https://cv.bamdad.fr/', '_blank'),
+        'href': 'https://cv.bamdad.fr/',
+        'target': '_blank',
     },
     {
         'text': 'stories',
@@ -15,7 +16,8 @@ export const ContactData = [
         'color': ThemeStyles.colors.button.red,
         'hover': ThemeStyles.colors.white,
         'delay': 5000,
-        'onClick': () => window.open ('https://stories.bamdad.fr/', '_blank'),
+        'href': 'https://stories.bamdad.fr/',
+        'target': '_blank',
     },
     {
         'text': 'email me',
@@ -23,6 +25,7 @@ export const ContactData = [
         'color': ThemeStyles.colors.button.yellow,
         'hover': ThemeStyles.colors.primary,
         'delay': 6000,
-        'onClick': () => window.open ('mailto:hi@bamdad.fr', '_self'),
+        'href': 'mailto:hi@bamdad.fr',
+        'target': '_self',
     },
 ]
