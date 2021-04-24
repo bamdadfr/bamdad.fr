@@ -8,3 +8,7 @@ export const StyledIcon = styled.div`
 export const StyledText = styled.div`
     font-size: 0.667em;
 `
+
+export const StyledTextContainer = styled.div`
+    overflow: hidden;
+`

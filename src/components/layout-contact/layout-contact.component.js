@@ -11,10 +11,7 @@ export default function LayoutContactComponent () {
                 {
                     ContactData.map (
                         (element) => (
-                            <AnimationSlideComponent
-                                key={element.text}
-                                delay={element.delay}
-                            >
+                            <AnimationSlideComponent key={element.text} delay={element.delay}>
                                 <StyledButton
                                     color={element.color}
                                     hover={element.hover}

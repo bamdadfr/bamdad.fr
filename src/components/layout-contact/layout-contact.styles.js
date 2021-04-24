@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const StyledSection = styled.section`
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 
     margin-bottom: 3.5em;
+    height: 14em;
 
     font-size: 1.2em;
 

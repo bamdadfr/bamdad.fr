@@ -11,9 +11,7 @@ export default function LayoutFooterComponent () {
                 {
                     FooterData.map (
                         (element) => (
-                            <AnimationSlideComponent
-                                key={element.text}
-                            >
+                            <AnimationSlideComponent key={element.text}>
                                 <StyledA
                                     href={element.href}
                                     target="_blank"

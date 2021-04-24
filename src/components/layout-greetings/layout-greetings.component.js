@@ -9,10 +9,7 @@ export default function LayoutGreetingsComponent () {
             {
                 GreetingsData.map (
                     (element) => (
-                        <AnimationSlideComponent
-                            key={element.delay}
-                            delay={element.delay}
-                        >
+                        <AnimationSlideComponent key={element.delay} delay={element.delay}>
                             <div>
                                 {element.text}
                             </div>
