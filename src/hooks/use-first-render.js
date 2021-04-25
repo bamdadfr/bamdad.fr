@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
 
 /**
  * @function useFirstRender
@@ -22,6 +23,10 @@ export function useFirstRender (delay = 0) {
 
     }, [])
 
-    return firstRender
+    return [firstRender]
 
+}
+
+useFirstRender.propTypes = {
+    'delay': PropTypes.number.isRequired,
 }
