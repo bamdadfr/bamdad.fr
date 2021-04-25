@@ -1,4 +1,5 @@
 import React from 'react'
+import { ShuffleUtils } from '@/utils/shuffle.utils'
 import { Icon } from '@iconify/react'
 import ansibleIcon from '@iconify/icons-simple-icons/ansible'
 import archlinuxIcon from '@iconify/icons-simple-icons/archlinux'
@@ -24,7 +25,7 @@ import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
-export const LanguagesData = [
+export const LanguagesData = ShuffleUtils ([
     {
         'text': 'ansible',
         'icon': <Icon icon={ansibleIcon}/>,
@@ -140,4 +141,4 @@ export const LanguagesData = [
         'icon': <Icon icon={webpackIcon}/>,
         'color': '#1C78C0',
     },
-]
+])
