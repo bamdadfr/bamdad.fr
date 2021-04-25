@@ -7,23 +7,33 @@ import { useFirstRender } from '@/hooks/use-first-render'
 export default function AnimationSlideComponent ({ children, delay = 0, isVisible = true }) {
 
     const [ref, { height }] = useMeasure ()
-    const firstRender = useFirstRender (delay)
+    const [firstRender] = useFirstRender (delay)
 
     const style = useSpring ({
         'from': {
+            'display': 'none',
             'opacity': isVisible ? 0 : 1,
             'height': 0,
         },
         'to': {
+            'display': 'block',
             'opacity': isVisible ? 1 : 0,
             'height': isVisible ? height : 0,
         },
-        'delay': firstRender && isVisible ? delay : 0,
+        'delay': () => {
+
+            if (firstRender) return delay
+
+            if (!isVisible) return 400
+
+            return 0
+        
+        },
     })
 
     return (
         <>
-            <animated.div style={{ ...style }}>
+            <animated.div style={style}>
                 <div ref={ref}>
                     {children}
                 </div>
