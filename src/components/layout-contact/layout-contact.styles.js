@@ -6,8 +6,8 @@ export const StyledSection = styled.section`
     align-items: center;
     flex-direction: column;
 
-    margin-bottom: 3.5em;
-    height: 14em;
+    //margin-bottom: 3.5em;
+    height: 13em;
 
     font-size: 1.2em;
 
