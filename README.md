@@ -22,7 +22,7 @@
 
 <p align=center>
     <img src="https://img.shields.io/github/v/release/bamdadsabbagh/bamdadsabbagh-www">
-    <img src="https://api.codeclimate.com/v1/badges/f2ef1bd59624b6ccf983/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/44a57c4c2f4b45296159/maintainability">
 </p>
 
 <p align=center>
