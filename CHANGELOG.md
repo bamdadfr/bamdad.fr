@@ -1,3 +1,13 @@
+## [0.17.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.1...v0.17.2) (2021-04-26)
+
+
+### Bug Fixes
+
+* **custom hooks:** better names ([22e49e9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/22e49e95e5bce1ffc6fb7dbf4da31e6bf5a28a25))
+* **iterate:** move constants to state ([5fc1299](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5fc1299c7862c6ed688660e1a6950da9575c434e))
+* **languages-data:** better jsdoc ([9a7d1a8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/9a7d1a84d869585f208db3e647a0f6cf928aca84))
+* **meta.data:** added jsdoc ([053a89c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/053a89cede024e3912fa830abb93446a6f82495a))
+
 ## [0.17.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.0...v0.17.1) (2021-04-26)
 
 
