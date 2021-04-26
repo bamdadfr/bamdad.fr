@@ -1,3 +1,41 @@
+# [0.17.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.16.1...v0.17.0) (2021-04-26)
+
+
+### Bug Fixes
+
+* **_document:** missing `Head` ([0084d88](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0084d88ffee68d4e0c9caadde663e0298382812a))
+* **animation-slide:** added custom hook to detect first render ([cf34f32](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/cf34f32ce912e894a369aca57815bd78bab99e0a))
+* **animation-slide:** better leave ([3c270a2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3c270a25b4f15e65dbb6dd00e99ffd0ca700ac4b))
+* **app:** added nextjs `out` to .gitignore ([1c87d0a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/1c87d0a503ef838ae6f5e5eef507dbdb0b05f68e))
+* **babel:** better config for `styled-components` ([a720eef](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a720eeff8c339d65aee62c22b55cfcc302ddf10e))
+* **git:** ignoring `sentry.properties` ([2d459f5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2d459f510fbdc90762441d656f0477a76c33b53d))
+* **languages:** better sizes ([b55ba06](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b55ba06e8d580b4b9a177a337f9932e945901c91))
+* **languages.data:** shuffling before export ([c471636](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/c471636d349b92e16e97da9a8a003ee9c4615182))
+* **layout-contact:** better styling (height) ([6773840](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/6773840a6b521c6b8ae80a246ec2126ea6df71ba))
+* **layout-languages:** moved business logic to their respective hooks ([fe5c4ef](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/fe5c4efe45c99acd3166d992b98006a44f10fe07))
+* **meta:** added `og:image` ([66365d2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/66365d2e1d464f5c0e621ba0ab0596f4ab9cae9c))
+* **readme:** better README.md ([605babe](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/605babe18bd257c838bbd90fa8ab2f1174fb4a0e))
+* **styled-components:** minimized classes ([023783f](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/023783fbbd45996eb8b4e2afab4704e0ce874dbe))
+* **stylelint:** added config ([1738bb8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/1738bb8f3f990bdf43296987b9ac34d463ae3578))
+* **styles:** better responsiveness / fluidity ([507376d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/507376d4d2537462d7b11b9e9251210a2dc54b57))
+
+
+### Features
+
+* **app:** added `gtag` + `sentry` configurations ([f4f1250](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/f4f12504d04801bea17732a61cefcfe89e937f7f))
+* **app:** jsdoc for all files & styling improvements ([9807838](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/980783838c4a7668464fd4f37f14a300243bb1df))
+* **app:** Merge pull request [#110](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/issues/110) from bamdadsabbagh/next ([9eb47cd](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/9eb47cdf5907b1ae95fd30f04802ad4519fb98e2))
+* **app:** some work on fluid sizes ([c60e920](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/c60e920c1cef85caf7f78403d1231c5155245740))
+* **app:** wip on languages & small improvements ([2b93ff5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2b93ff5f606f0809d997723f7a36232a350dc69e))
+* **app:** work in progress, adding top content ([3271738](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3271738cc67826eb1b63fffe832eedb6f2d77f91))
+* **app:** written `footer` and `contact` ([bafe4a6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bafe4a60fa4b97f4e377cd48a82683cb6f40d2d9))
+* **contact:** exposing links via `<a>` instead of `window.open` ([5aaaa79](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5aaaa79e4dccac68487341888513f1b671bbc3d9))
+* **deps:** added `stylelint` and `rimraf` ([dcefc51](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/dcefc51a095cb36ef46d37b2b0884d66f4f498d6))
+* **head:** added SEO/meta tags in <head> ([0691ae5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0691ae5a2c42f64ce02df50613e4f91997855972))
+* **hooks:** business logic exported to custom hooks ([77230db](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/77230db69c1e01266e0fdc194c8ab015d7b7665f))
+* **SEO:** added `react-helmet` ([8bafaef](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/8bafaef902b62b1c9641f5090289b6e17995ab78))
+* **shuffle.utils:** implemented fisher yates / knuth shuffle function ([5c233f7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5c233f75e03cb58d4c2db632f5d3fc69f2621817))
+
 ## [0.16.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.16.0...v0.16.1) (2021-04-26)
 
 
