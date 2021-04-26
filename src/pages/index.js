@@ -1,15 +1,21 @@
 import React from 'react'
-import Head from 'next/head'
+import { Helmet } from 'react-helmet'
+import { MetaData } from '@/data/meta.data'
 
 export default function Index () {
 
     return (
         <>
-            <Head>
-                <title>
-                    Bamdad Sabbagh
-                </title>
-            </Head>
+            <Helmet
+                title="Bamdad Sabbagh"
+                meta={[
+                    ...MetaData,
+                    {
+                        'property': 'og:description',
+                        'content': 'Web Developer',
+                    },
+                ]}
+            />
         </>
     )
 
