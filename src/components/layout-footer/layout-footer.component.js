@@ -3,6 +3,12 @@ import { FooterData } from '@/data/footer.data'
 import AnimationSlideComponent from '@/components/animation-slide/animation-slide.component'
 import { StyledSection, StyledA } from './layout-footer.styles'
 
+/**
+ * @function
+ * @name LayoutFooterComponent
+ * @description layout sub component for rendering `footer`
+ * @return {JSX.Element}
+ */
 export default function LayoutFooterComponent () {
 
     return (

@@ -9,11 +9,7 @@ export const StyledSection = styled.section`
     //margin-bottom: 3.5em;
     height: 13em;
 
-    font-size: 1.2em;
-
-    @media (max-width: 768px) {
-        font-size: 1em;
-    }
+    font-size: 1.4em;
 
     > div {
 

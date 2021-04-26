@@ -1,3 +1,8 @@
+/**
+ * @name GreetingsData
+ * @description data feeding the `greetings` component
+ * @type {Array.<Object.<String, (String, Number)>>}
+ */
 export const GreetingsData = [
     {
         'text': 'Hi 😊',

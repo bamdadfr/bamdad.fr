@@ -1,7 +1,21 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { animated, useSpring } from 'react-spring'
 
-export default function AnimationFadeComponent ({ children, delay = 0, isVisible = true }) {
+/**
+ * @function
+ * @name AnimationFadeComponent
+ * @description fade in component using `react-spring`
+ * @param {JSX.Element} children - react functional component to render
+ * @param {Number} delay - delay before triggering the animation
+ * @param {Boolean} isVisible - will fade out the component if set to `false`
+ * @return {JSX.Element}
+ */
+export default function AnimationFadeComponent ({
+    children,
+    delay = AnimationFadeComponent.defaultProps.delay,
+    isVisible = AnimationFadeComponent.defaultProps.isVisible,
+}) {
 
     const style = useSpring ({
         'from': {
@@ -21,4 +35,15 @@ export default function AnimationFadeComponent ({ children, delay = 0, isVisible
         </>
     )
 
+}
+
+AnimationFadeComponent.defaultProps = {
+    'delay': 0,
+    'isVisible': true,
+}
+
+AnimationFadeComponent.propTypes = {
+    'children': PropTypes.node.isRequired,
+    'delay': PropTypes.number,
+    'isVisible': PropTypes.bool,
 }

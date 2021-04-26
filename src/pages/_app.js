@@ -1,9 +1,9 @@
 import React from 'react'
+import { ThemeProvider } from 'styled-components'
 import 'sass-reset'
 import LayoutComponent from '@/components/layout/layout.component'
-import { GlobalStyles } from '@/styles/global.styles'
-import { ThemeStyles } from '@/styles/theme.styles'
-import { ThemeProvider } from 'styled-components'
+import { GlobalStyles } from '@/config/global.styles'
+import { ThemeStyles } from '@/config/theme.styles'
 
 export default function MyApp ({ Component, pageProps }) {
 

@@ -4,7 +4,20 @@ import { animated, useSpring } from 'react-spring'
 import useMeasure from 'react-use-measure'
 import { useFirstRender } from '@/hooks/use-first-render'
 
-export default function AnimationSlideComponent ({ children, delay = 0, isVisible = true }) {
+/**
+ * @function
+ * @name AnimationSlideComponent
+ * @description slide in component using `react-spring`
+ * @param {JSX.Element} children - react functional component to render
+ * @param {Number} delay - delay before triggering the animation
+ * @param {Boolean} isVisible - will slide out the component if set to `false`
+ * @return {JSX.Element}
+ */
+export default function AnimationSlideComponent ({
+    children,
+    delay = AnimationSlideComponent.defaultProps.delay,
+    isVisible = AnimationSlideComponent.defaultProps.isVisible,
+}) {
 
     const [ref, { height }] = useMeasure ()
     const [firstRender] = useFirstRender (delay)
@@ -27,7 +40,7 @@ export default function AnimationSlideComponent ({ children, delay = 0, isVisibl
             if (!isVisible) return 400
 
             return 0
-        
+
         },
     })
 
@@ -43,11 +56,13 @@ export default function AnimationSlideComponent ({ children, delay = 0, isVisibl
 
 }
 
+AnimationSlideComponent.defaultProps = {
+    'delay': 0,
+    'isVisible': true,
+}
+
 AnimationSlideComponent.propTypes = {
     'children': PropTypes.node.isRequired,
     'delay': PropTypes.number,
-}
-
-AnimationSlideComponent.defaultProps = {
-    'delay': 0,
+    'isVisible': PropTypes.bool,
 }

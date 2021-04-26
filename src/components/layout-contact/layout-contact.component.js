@@ -3,6 +3,12 @@ import { ContactData } from '@/data/contact.data'
 import AnimationSlideComponent from '@/components/animation-slide/animation-slide.component'
 import { StyledSection, StyledButton } from './layout-contact.styles'
 
+/**
+ * @function
+ * @name LayoutContactComponent
+ * @description layout sub component for rendering `contact` part
+ * @return {JSX.Element}
+ */
 export default function LayoutContactComponent () {
 
     return (

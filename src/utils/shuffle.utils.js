@@ -1,7 +1,9 @@
 /**
- * Fisher-Yates / Knuth Shuffle
- * @param {[]} array
- * @return {[]} shuffled array
+ * @function
+ * @name ShuffleUtils
+ * @description Fisher-Yates / Knuth Shuffle
+ * @param {Array} array
+ * @return {Array} shuffled array
  */
 export function ShuffleUtils (array) {
 

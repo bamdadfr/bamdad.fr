@@ -1,5 +1,10 @@
-import { ThemeStyles } from '@/styles/theme.styles'
+import { ThemeStyles } from '@/config/theme.styles'
 
+/**
+ * @name ContactData
+ * @description data feeding the `contact` component
+ * @type {Array.<Object.<String, (String, Number)>>}
+ */
 export const ContactData = [
     {
         'text': 'curriculum vitæ',

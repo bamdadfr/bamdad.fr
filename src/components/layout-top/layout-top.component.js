@@ -2,6 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StyledSection } from './layout-top.styles'
 
+/**
+ * @function
+ * @name LayoutTopComponent
+ * @description layout sub component for rendering `top`
+ * @param {JSX.Element} children - component to render
+ * @return {JSX.Element}
+ */
 export default function LayoutTopComponent ({ children }) {
 
     return (

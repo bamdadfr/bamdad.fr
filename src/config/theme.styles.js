@@ -1,3 +1,8 @@
+/**
+ * @name ThemeStyles
+ * @description theme for `styled-components`
+ * @type {Object.<String, (Object|String)>}
+ */
 export const ThemeStyles = {
     'colors': {
         'primary': '#4a4a4a',

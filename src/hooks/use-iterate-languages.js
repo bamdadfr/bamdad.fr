@@ -1,7 +1,16 @@
 import { useState, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { LanguagesData } from '@/data/languages.data'
+import { useIterateLanguagesConstants } from '@/hooks/use-iterate-languages.constants'
 
+/**
+ * @function
+ * @name useIterateLanguages
+ * @description wait for the delay before first rendering then iterate array indexes one by one
+ * @param {Number} languagesLength
+ * @param {Boolean} initialDisplay
+ * @return {Array.<Object.<Number, Boolean>>}
+ */
 export function useIterateLanguages (languagesLength, initialDisplay) {
 
     const [index, setIndex] = useState (0)
@@ -31,7 +40,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                     resolve ()
 
-                }, 2400)
+                }, useIterateLanguagesConstants.hide)
 
             })
                 .then (() => new Promise ((resolve) => {
@@ -42,7 +51,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                         resolve ()
 
-                    }, 1200)
+                    }, useIterateLanguagesConstants.iterate)
 
                 }))
                 .then (() => new Promise (
@@ -54,7 +63,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                             resolve ()
 
-                        }, 0)
+                        }, useIterateLanguagesConstants.show)
 
                     }))
 

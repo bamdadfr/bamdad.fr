@@ -2,6 +2,12 @@ import React from 'react'
 import AnimationSlideComponent from '@/components/animation-slide/animation-slide.component'
 import { GreetingsData } from '@/data/greetings.data'
 
+/**
+ * @function
+ * @name LayoutGreetingsComponent
+ * @description layout sub component for rendering `greetings`
+ * @return {JSX.Element}
+ */
 export default function LayoutGreetingsComponent () {
 
     return (

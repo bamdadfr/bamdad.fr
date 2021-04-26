@@ -6,7 +6,6 @@ import archlinuxIcon from '@iconify/icons-simple-icons/archlinux'
 import centosIcon from '@iconify/icons-simple-icons/centos'
 import debianIcon from '@iconify/icons-simple-icons/debian'
 import dockerIcon from '@iconify/icons-simple-icons/docker'
-import gatsbyIcon from '@iconify/icons-simple-icons/gatsby'
 import githubActionsIcon from '@iconify/icons-simple-icons/githubactions'
 import gnuBashIcon from '@iconify/icons-simple-icons/gnubash'
 import grafanaIcon from '@iconify/icons-simple-icons/grafana'
@@ -25,6 +24,11 @@ import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
+/**
+ * @name LanguagesData
+ * @description data feeding the `languages` component
+ * @type {Array.<Object.<String, (String, JSX.Element)>>}
+ */
 export const LanguagesData = ShuffleUtils ([
     {
         'text': 'ansible',
@@ -50,11 +54,6 @@ export const LanguagesData = ShuffleUtils ([
         'text': 'docker',
         'icon': <Icon icon={dockerIcon}/>,
         'color': '#2496ED',
-    },
-    {
-        'text': 'gatsby',
-        'icon': <Icon icon={gatsbyIcon}/>,
-        'color': '#663399',
     },
     {
         'text': 'github actions',
