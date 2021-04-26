@@ -1,3 +1,11 @@
+## [0.17.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.0...v0.17.1) (2021-04-26)
+
+
+### Bug Fixes
+
+* **codeclimate:** new ID ([941d402](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/941d40205664b640effee6b4026468d35989877d))
+* **deps:** updated deps ([bc873aa](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bc873aa891730bdcc55b6c8c2e11f4d969aa047e))
+
 # [0.17.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.16.1...v0.17.0) (2021-04-26)
 
 
