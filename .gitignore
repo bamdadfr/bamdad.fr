@@ -27,3 +27,6 @@ yarn-error.log*
 # nextjs
 .next
 out
+
+# sentry.io
+sentry.properties
