@@ -9,6 +9,6 @@ export const MetaData = [
     },
     {
         'property': 'og:image',
-        'content': '', // TODO
+        'content': 'https://next.bamdadsabbagh.com/favicon/apple-touch-icon.png',
     },
 ]
