@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { LanguagesData } from '@/data/languages.data'
-import { useIterateLanguagesConstants } from '@/hooks/use-iterate-languages.constants'
 
 /**
  * @function
@@ -15,6 +14,12 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
     const [index, setIndex] = useState (0)
     const [isVisible, setIsVisible] = useState (true)
+
+    const [keyframes] = useState ({
+        'show': 0,
+        'iterate': 1200,
+        'hide': 2400,
+    })
 
     const nextIndex = useCallback (() => {
 
@@ -40,7 +45,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                     resolve ()
 
-                }, useIterateLanguagesConstants.hide)
+                }, keyframes.hide)
 
             })
                 .then (() => new Promise ((resolve) => {
@@ -51,7 +56,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                         resolve ()
 
-                    }, useIterateLanguagesConstants.iterate)
+                    }, keyframes.iterate)
 
                 }))
                 .then (() => new Promise (
@@ -63,7 +68,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
                             resolve ()
 
-                        }, useIterateLanguagesConstants.show)
+                        }, keyframes.show)
 
                     }))
 
