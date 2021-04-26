@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import AnimationSlideComponent from '@/components/animation-slide/animation-slide.component'
 import { LanguagesData } from '@/data/languages.data'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
-import { useInitialDisplay } from '@/hooks/use-initial-display'
-import { useIterateLanguages } from '@/hooks/use-iterate-languages'
+import { useWaited } from '@/hooks/use-waited'
+import { useAnimateArray } from '@/hooks/use-animate-array'
 import { StyledContainer, StyledIcon, StyledText, StyledTextContainer } from './layout-languages.styles'
 
 /**
@@ -14,15 +14,17 @@ import { StyledContainer, StyledIcon, StyledText, StyledTextContainer } from './
  */
 export default function LayoutLanguagesComponent () {
 
-    const [initialDelay] = useState (8600)
-    const [initialDisplay] = useInitialDisplay (initialDelay)
-    const [{ index, isVisible }] = useIterateLanguages (LanguagesData.length, initialDisplay)
+    const [waited] = useWaited (8600)
+
+    const [{ index, isVisible }] = useAnimateArray (LanguagesData, {
+        'start': waited,
+    })
 
     return (
         <>
             <StyledContainer>
                 {
-                    initialDisplay
+                    waited
                         ?
                         (
                             <>

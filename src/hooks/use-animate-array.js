@@ -1,16 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
-import PropTypes from 'prop-types'
-import { LanguagesData } from '@/data/languages.data'
 
 /**
  * @function
- * @name useIterateLanguages
- * @description wait for the delay before first rendering then iterate array indexes one by one
- * @param {Number} languagesLength
- * @param {Boolean} initialDisplay
- * @return {Array.<Object.<Number, Boolean>>}
+ * @name useAnimateArray
+ * @description animate array
+ * @param {Array} array
+ * @param {Boolean} start - use when rendering with delay
+ * @return {[{index: number, isVisible: boolean}]}
  */
-export function useIterateLanguages (languagesLength, initialDisplay) {
+export function useAnimateArray (array, { start }) {
 
     const [index, setIndex] = useState (0)
     const [isVisible, setIsVisible] = useState (true)
@@ -23,7 +21,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
     const nextIndex = useCallback (() => {
 
-        if (typeof LanguagesData[index + 1] === 'undefined') {
+        if (typeof array[index + 1] === 'undefined') {
 
             return setIndex (0)
 
@@ -35,7 +33,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
     useEffect (() => {
 
-        if (initialDisplay) {
+        if (start) {
 
             new Promise ((resolve) => {
 
@@ -74,7 +72,7 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
         }
 
-    }, [index, languagesLength, initialDisplay])
+    }, [index, start])
 
     return [{
         index,
@@ -83,7 +81,3 @@ export function useIterateLanguages (languagesLength, initialDisplay) {
 
 }
 
-useIterateLanguages.propTypes = {
-    'languagesLength': PropTypes.number.isRequired,
-    'initialDisplay': PropTypes.bool.isRequired,
-}
