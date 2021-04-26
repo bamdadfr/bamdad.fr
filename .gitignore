@@ -23,3 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
+
+# nextjs
+.next
+out
+
+# sentry.io
+sentry.properties
