@@ -1,28 +1,52 @@
 import styled from 'styled-components'
+import { BreakpointsStyles } from '@/config/breakpoints.styles'
 
 export const StyledSection = styled.section`
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    //margin-bottom: 3.5em;
-    height: 13em;
+    height: calc(100vh - 60vh);
 
-    font-size: 1.4em;
+    @media screen and ${BreakpointsStyles.mobile} {
+        font-size: 1em;
+    }
+
+    @media screen and ${BreakpointsStyles.tablet} {
+        font-size: 1.1em;
+    }
+
+    @media screen and ${BreakpointsStyles.desktop} {
+        font-size: 1.2em;
+    }
+
+    @media screen and ${BreakpointsStyles.widescreen} {
+        font-size: 1.3em;
+    }
+
+    @media screen and ${BreakpointsStyles.fullhd} {
+        font-size: 1.4em;
+    }
+`
+
+export const StyledContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10em;
+    max-height: 20vh;
 
     > div {
+        height: 2.667em;
+        margin: 0.25em 0;
 
         > div {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
-        height: 2.667em;
-        margin: 0.25em 0;
     }
-
 `
 
 export const StyledButton = styled.a`

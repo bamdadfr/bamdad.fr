@@ -4,7 +4,7 @@ import { LanguagesData } from '@/data/languages.data'
 import AnimationFadeComponent from '@/components/animation-fade/animation-fade.component'
 import { useInitialDisplay } from '@/hooks/use-initial-display'
 import { useIterateLanguages } from '@/hooks/use-iterate-languages'
-import { StyledIcon, StyledText, StyledTextContainer } from './layout-languages.styles'
+import { StyledContainer, StyledIcon, StyledText, StyledTextContainer } from './layout-languages.styles'
 
 /**
  * @function
@@ -20,31 +20,33 @@ export default function LayoutLanguagesComponent () {
 
     return (
         <>
-            {
-                initialDisplay
-                    ?
-                    (
-                        <>
-                            <AnimationFadeComponent delay={350} isVisible={isVisible}>
-                                <StyledIcon color={LanguagesData[index].color}>
-                                    {LanguagesData[index].icon}
-                                </StyledIcon>
-                            </AnimationFadeComponent>
-                            <StyledTextContainer>
-                                <AnimationSlideComponent isVisible={isVisible}>
-                                    <StyledText>
-                                        {LanguagesData[index].text}
-                                    </StyledText>
-                                </AnimationSlideComponent>
-                            </StyledTextContainer>
-                        </>
-                    )
-                    :
-                    null
-            }
-            <AnimationSlideComponent delay={7600}>
-                I spend my time with
-            </AnimationSlideComponent>
+            <StyledContainer>
+                {
+                    initialDisplay
+                        ?
+                        (
+                            <>
+                                <AnimationFadeComponent delay={350} isVisible={isVisible}>
+                                    <StyledIcon color={LanguagesData[index].color}>
+                                        {LanguagesData[index].icon}
+                                    </StyledIcon>
+                                </AnimationFadeComponent>
+                                <StyledTextContainer>
+                                    <AnimationSlideComponent isVisible={isVisible}>
+                                        <StyledText>
+                                            {LanguagesData[index].text}
+                                        </StyledText>
+                                    </AnimationSlideComponent>
+                                </StyledTextContainer>
+                            </>
+                        )
+                        :
+                        null
+                }
+                <AnimationSlideComponent delay={7600}>
+                    I spend my time with
+                </AnimationSlideComponent>
+            </StyledContainer>
         </>
     )
 

@@ -13,29 +13,31 @@ export const StyledSection = styled.section`
     }
 
     > div {
-        //border: 1px solid black;
         overflow: hidden;
-        font-size: 1.5em;
 
         @media screen and ${BreakpointsStyles.mobile} {
-            width: calc(100vw - 2em);
-            font-size: 1.4em;
+            width: calc(100vw - 6vw);
+            font-size: 1em;
         }
 
         @media screen and ${BreakpointsStyles.tablet} {
-            width: 35vw;
+            width: calc(100vw - 70vw);
+            font-size: 1.1em;
         }
 
         @media screen and ${BreakpointsStyles.desktop} {
-            width: 25vw;
+            width: calc(100vw - 75vw);
+            font-size: 1.2em;
         }
 
         @media screen and ${BreakpointsStyles.widescreen} {
-            width: 20vw;
+            width: calc(100vw - 80vw);
+            font-size: 1.3em;
         }
 
         @media screen and ${BreakpointsStyles.fullhd} {
-            width: 20vw;
+            width: calc(100vw - 80vw);
+            font-size: 1.4em;
         }
     }
 `

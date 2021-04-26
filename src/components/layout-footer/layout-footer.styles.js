@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { BreakpointsStyles } from '@/config/breakpoints.styles'
 
 export const StyledSection = styled.section`
     position: fixed;
@@ -12,10 +13,24 @@ export const StyledSection = styled.section`
     justify-content: flex-start;
     align-items: center;
 
-    font-size: 2em;
+    @media screen and ${BreakpointsStyles.mobile} {
+        font-size: 1.6em;
+    }
 
-    @media (max-width: 768px) {
-        font-size: 1.5em;
+    @media screen and ${BreakpointsStyles.tablet} {
+        font-size: 1.7em;
+    }
+
+    @media screen and ${BreakpointsStyles.desktop} {
+        font-size: 1.8em;
+    }
+
+    @media screen and ${BreakpointsStyles.widescreen} {
+        font-size: 1.9em;
+    }
+
+    @media screen and ${BreakpointsStyles.fullhd} {
+        font-size: 2em;
     }
 
     > div {
