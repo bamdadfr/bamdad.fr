@@ -10,12 +10,12 @@ export const StyledContainer = styled.div`
 `
 
 export const StyledIcon = styled.div`
-    font-size: 2em;
+    font-size: 3em;
     color: ${props => props.color};
 `
 
 export const StyledText = styled.div`
-    font-size: 0.667em;
+    font-size: 0.8em;
 `
 
 export const StyledTextContainer = styled.div`
