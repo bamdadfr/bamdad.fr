@@ -6,6 +6,7 @@ import LayoutGreetingsComponent from '@/components/layout-greetings/layout-greet
 import LayoutLanguagesComponent from '@/components/layout-languages/layout-languages.component'
 import LayoutContactComponent from '@/components/layout-contact/layout-contact.component'
 import LayoutTopComponent from '@/components/layout-top/layout-top.component'
+import LayoutHeadComponent from '@/components/layout-head/layout-head.component'
 
 /**
  * Layout includes nested sub-areas:
@@ -28,6 +29,7 @@ export default function LayoutComponent () {
 
     return (
         <>
+            <LayoutHeadComponent/>
             <LayoutBackgroundComponent/>
             <LayoutMainComponent>
                 <LayoutTopComponent>
