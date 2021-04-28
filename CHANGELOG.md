@@ -1,3 +1,10 @@
+## [0.18.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.2...v0.18.3) (2021-04-28)
+
+
+### Bug Fixes
+
+* **layout-contact.styles:** animation with cubic-bezier ([a4c0ac2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a4c0ac20b5fcefb36ceec739d25c0b63e0c5b9c4))
+
 ## [0.18.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.1...v0.18.2) (2021-04-28)
 
 
