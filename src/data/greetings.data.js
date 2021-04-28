@@ -1,3 +1,6 @@
+import React from 'react'
+import { StyledBold } from '@/data/greetings.styles'
+
 /**
  * @name GreetingsData
  * @description data feeding the `greetings` component
@@ -5,27 +8,43 @@
  */
 export const GreetingsData = [
     {
-        'text': 'Hi 😊',
+        'text': 'Hi 👋🏽,',
         'delay': 0,
     },
     {
-        'text': 'my name is',
-        'delay': 1800,
+        'text': (
+            <>
+                my name is <StyledBold>Bamdad</StyledBold>.
+            </>
+        ),
+        'delay': 1000,
     },
     {
-        'text': 'Bamdad',
+        'text': 'I am',
         'delay': 2400,
-    },
+    }
+    ,
     {
-        'text': 'I do',
-        'delay': 4000,
-    },
+        'text': (
+            <>
+                a <StyledBold>Full Stack</StyledBold> developer
+            </>
+        ),
+        'delay': 2800,
+    }
+    ,
     {
-        'text': 'Sys Admin, DevOps',
+        'text': 'shifting towards',
         'delay': 4500,
-    },
+    }
+    ,
     {
-        'text': '& Web Dev',
+        'text': (
+            <>
+                <StyledBold>Front End</StyledBold>.
+            </>
+        ),
         'delay': 5500,
-    },
+    }
+    ,
 ]
