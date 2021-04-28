@@ -1,4 +1,4 @@
-import { ThemeStyles } from '@/config/theme.styles'
+import { ThemeStyles } from '@/styles/theme.styles'
 
 /**
  * @name ContactData
