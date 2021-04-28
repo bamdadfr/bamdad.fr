@@ -1,3 +1,10 @@
+## [0.18.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.1...v0.18.2) (2021-04-28)
+
+
+### Bug Fixes
+
+* **layout-languages.styles:** slightly lower translation ([0af4ea4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0af4ea40a8371bcd38967fb1ddff5b34f5175b56))
+
 ## [0.18.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.0...v0.18.1) (2021-04-28)
 
 
