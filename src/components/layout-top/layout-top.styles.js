@@ -15,8 +15,10 @@ export const StyledSection = styled.section`
     > div {
         overflow: hidden;
 
-        margin-right: 2em;
-        margin-left: 2em;
+        margin-right: 1em;
+        margin-left: 1em;
+
+        min-width: 11em;
 
         @media screen and ${BreakpointsStyles.mobile} {
             margin: 0;
