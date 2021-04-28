@@ -1,3 +1,11 @@
+## [0.18.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.0...v0.18.1) (2021-04-28)
+
+
+### Bug Fixes
+
+* **greetings.data:** slightly better rhythm with delaying from "I am" ([94ae7bd](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/94ae7bd239a02d4d20a874187a6670154cec01ae))
+* **layout-top-styles:** divs need to have a min width ([b884fba](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b884fba42733673692e6d726e7dee89c919b8173))
+
 # [0.18.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.2...v0.18.0) (2021-04-28)
 
 
