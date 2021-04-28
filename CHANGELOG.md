@@ -1,3 +1,21 @@
+# [0.18.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.2...v0.18.0) (2021-04-28)
+
+
+### Bug Fixes
+
+* **dev environment:** better intellij stylelint config ([1bc3f65](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/1bc3f65bce117db516de1df93e0e9045b6660002))
+* **font:** added `lora` ([88eae5f](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/88eae5fbb72b15be75a740d4c6bbade7fc09bc10))
+* **layout-greetings:** removed unused `div` ([b59037c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b59037ce63b75e88dc5d44b1c7f2a05f361b138c))
+* **styles:** better responsiveness ([22f60a9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/22f60a9f2a1949a932b8ec8ad142f7e164fcb415))
+* **styles:** moved from `config` to `styles` ([bafb72b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bafb72bc7f19e5d43a22ee85820e6a331ccbbcaa))
+
+
+### Features
+
+* **greetings:** new greetings with bold ([57b0c20](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/57b0c20ae48c23512bb6fa7c871f55321845ac65))
+* **languages:** cleaned languages, added capitalization + new languages ([bccc854](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bccc8540654c06976781165e4518f7e840f2c77e))
+* **styles:** added `lora` font + moved files from `config` to `styles` folder ([21da05d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/21da05dd1ecba3352ff9b32d7a610048dd91b076))
+
 ## [0.17.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.17.1...v0.17.2) (2021-04-26)
 
 
