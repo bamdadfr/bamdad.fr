@@ -21,7 +21,7 @@ export const GreetingsData = [
     },
     {
         'text': 'I am',
-        'delay': 2400,
+        'delay': 2600,
     }
     ,
     {
@@ -30,7 +30,7 @@ export const GreetingsData = [
                 a <StyledBold>Full Stack</StyledBold> developer
             </>
         ),
-        'delay': 2800,
+        'delay': 3000,
     }
     ,
     {
