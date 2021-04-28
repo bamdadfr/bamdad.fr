@@ -33,7 +33,7 @@ export const StyledButton = styled.a`
     border: 1px solid ${props => props.color};
 
     box-shadow: rgb(50 50 50 / 10%) 0 1px 2px 1px;
-    transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0s;
     padding: calc(.5em + 1px) 1em;
     border-radius: 4px;
 
