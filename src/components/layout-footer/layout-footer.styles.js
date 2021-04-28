@@ -1,41 +1,19 @@
 import styled from 'styled-components'
-import { BreakpointsStyles } from '@/config/breakpoints.styles'
 
 export const StyledSection = styled.section`
     position: fixed;
     bottom: 0;
     left: 0;
 
-    //margin: 0 0 0.333em 0.333em;
-    margin: 0 0 0.667em 0.667em;
+    margin: 0 0 0.6em 0.667em;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
-    @media screen and ${BreakpointsStyles.mobile} {
-        font-size: 1.6em;
-    }
-
-    @media screen and ${BreakpointsStyles.tablet} {
-        font-size: 1.7em;
-    }
-
-    @media screen and ${BreakpointsStyles.desktop} {
-        font-size: 1.8em;
-    }
-
-    @media screen and ${BreakpointsStyles.widescreen} {
-        font-size: 1.9em;
-    }
-
-    @media screen and ${BreakpointsStyles.fullhd} {
-        font-size: 2em;
-    }
+    font-size: 1.4em;
 
     > div {
-        //margin-right: 0.333em;
-        margin-right: 0.5em;
+        margin-right: 0.46em;
 
         &:last-child {
             margin-right: 0;

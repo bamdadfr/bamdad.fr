@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { BreakpointsStyles } from '@/config/breakpoints.styles'
+import { BreakpointsStyles } from '@/styles/breakpoints.styles'
 
 export const StyledSection = styled.section`
     display: flex;
@@ -15,29 +15,12 @@ export const StyledSection = styled.section`
     > div {
         overflow: hidden;
 
+        margin-right: 2em;
+        margin-left: 2em;
+
         @media screen and ${BreakpointsStyles.mobile} {
-            width: calc(100vw - 6vw);
-            font-size: 1em;
-        }
-
-        @media screen and ${BreakpointsStyles.tablet} {
-            width: calc(100vw - 70vw);
-            font-size: 1.1em;
-        }
-
-        @media screen and ${BreakpointsStyles.desktop} {
-            width: calc(100vw - 75vw);
-            font-size: 1.2em;
-        }
-
-        @media screen and ${BreakpointsStyles.widescreen} {
-            width: calc(100vw - 80vw);
-            font-size: 1.3em;
-        }
-
-        @media screen and ${BreakpointsStyles.fullhd} {
-            width: calc(100vw - 80vw);
-            font-size: 1.4em;
+            margin: 0;
+            width: calc(100% - 1.7em);
         }
     }
 `
