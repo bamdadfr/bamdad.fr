@@ -12,7 +12,7 @@ export const StyledContainer = styled.div`
 export const StyledIcon = styled.div`
     font-size: 3em;
     color: ${props => props.color};
-    transform: translate3d(0, 0.2em, 0);
+    transform: translate3d(0, 0.15em, 0);
 `
 
 export const StyledText = styled.div`
