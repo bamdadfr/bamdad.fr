@@ -1,3 +1,12 @@
+## [0.18.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.4...v0.18.5) (2021-05-04)
+
+
+### Bug Fixes
+
+* **greetings.data:** fixed formatting ([86ec4ee](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/86ec4ee5078f966e37e2871cd34815ffeaff820d))
+* **use-animate-array:** added proptypes ([b4d6a05](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b4d6a0505ffee541f9deb999951849dd1ad3f76a))
+* **use-first-render:** default props ([cd8e444](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/cd8e444517f98b26cb195d30ea7fafb7830bf516))
+
 ## [0.18.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.3...v0.18.4) (2021-05-03)
 
 
