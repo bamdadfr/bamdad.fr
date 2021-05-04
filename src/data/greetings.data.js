@@ -22,8 +22,7 @@ export const GreetingsData = [
     {
         'text': 'I am',
         'delay': 2600,
-    }
-    ,
+    },
     {
         'text': (
             <>
@@ -31,13 +30,11 @@ export const GreetingsData = [
             </>
         ),
         'delay': 3000,
-    }
-    ,
+    },
     {
         'text': 'shifting towards',
         'delay': 4500,
-    }
-    ,
+    },
     {
         'text': (
             <>
@@ -45,6 +42,5 @@ export const GreetingsData = [
             </>
         ),
         'delay': 5500,
-    }
-    ,
+    },
 ]
