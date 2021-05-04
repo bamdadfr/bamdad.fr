@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import PropTypes from 'prop-types'
 
 /**
  * @function
@@ -8,7 +9,11 @@ import { useState, useEffect, useCallback } from 'react'
  * @param {Boolean} start - use when rendering with delay
  * @return {[{index: number, isVisible: boolean}]}
  */
-export function useAnimateArray (array, { start }) {
+export function useAnimateArray (
+    array,
+    {
+        start = useAnimateArray.defaultProps.start,
+    }) {
 
     const [index, setIndex] = useState (0)
     const [isVisible, setIsVisible] = useState (true)
@@ -81,3 +86,11 @@ export function useAnimateArray (array, { start }) {
 
 }
 
+useAnimateArray.defaultProps = {
+    'start': true,
+}
+
+useAnimateArray.propTypes = {
+    'array': PropTypes.arrayOf (PropTypes.any).isRequired,
+    'start': PropTypes.bool.isRequired,
+}
