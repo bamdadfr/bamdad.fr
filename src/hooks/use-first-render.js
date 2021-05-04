@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
  * @param {Number} delay - parent component's rendering delay
  * @return {Array.<Boolean>}
  */
-export function useFirstRender (delay = 0) {
+export function useFirstRender (delay = useFirstRender.defaultProps.delay) {
 
     const [firstRender, setFirstRender] = useState (true)
 
