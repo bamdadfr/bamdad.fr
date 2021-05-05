@@ -329,10 +329,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@iconify/icons-simple-icons@^1.1.22":
-  version "1.1.22"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.22.tgz#2350025be3b85287d1f1aa24f4dc3d84574c7840"
-  integrity sha512-mTQtP5baxpqHibzV++kYUMPP8mwk/M2LqjJvvV/VmOs8V4iXSgdJI8rM8hv7P3Jjm1LumKEzmdhI9yAsHLEUig==
+"@iconify/icons-simple-icons@^1.1.23":
+  version "1.1.23"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.23.tgz#ac63398ba198856991b461714a5b4cb19e96881f"
+  integrity sha512-+CE221fMVk0e3P87yWkmabsF+tZ05dLy+Y1571UO+ZCGw2vW+8IJKopY8yRmd+4MjXE2EzRLSzFsNgkF/rbfuA==
 
 "@iconify/react@^1.1.4":
   version "1.1.4"
