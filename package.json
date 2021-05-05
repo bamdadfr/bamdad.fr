@@ -28,7 +28,7 @@
         "react-helmet": "^6.1.0",
         "react-spring": "^9.1.2",
         "react-use-measure": "^2.0.4",
-        "styled-components": "^5.2.1"
+        "styled-components": "^5.3.0"
     },
     "devDependencies": {
         "@bamdadsabbagh/eslint-config": "^1.9.6",
