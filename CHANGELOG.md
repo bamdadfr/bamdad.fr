@@ -1,3 +1,11 @@
+## [0.18.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.5...v0.18.6) (2021-05-06)
+
+
+### Bug Fixes
+
+* **deps:** upgraded `next` ([4d1913c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/4d1913c3d22558be9df1e557acf79820796a2da4))
+* **deps:** upgraded `styled-components` and `icons` ([3f79333](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3f79333522825b10d90ff1c582d42994913f49c3))
+
 ## [0.18.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.4...v0.18.5) (2021-05-04)
 
 
