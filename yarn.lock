@@ -304,10 +304,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lora@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.2.2.tgz#39f6d867fb016b042b148b5ce40cd88444b74dff"
-  integrity sha512-FswpuT8Qq44Zp8X3FRiQt81ZAMpsIULVmnAJaNNBZzE0GB5RSTHVtrs0sopDbamkmEoHYHwFBHSVjyQGw14r5g==
+"@fontsource/lora@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.3.0.tgz#899a20d55fa0769ed612803dfaf9a1783e70d4a5"
+  integrity sha512-LTjsnuxO3gLw0GmevbXO3ZqB7sof42DH93EZfaBVaIXx4MGpUsJyXgaSK+YQiWZIZfoP2dn6r1HB/1NGApoSKQ==
 
 "@hapi/accept@5.0.1":
   version "5.0.1"
