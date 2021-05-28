@@ -17,7 +17,7 @@
         "package:sort": "npx sort-package-json"
     },
     "dependencies": {
-        "@fontsource/lora": "^4.2.2",
+        "@fontsource/lora": "^4.4.0",
         "@iconify/icons-simple-icons": "^1.1.23",
         "@iconify/react": "^1.1.4",
         "@sentry/nextjs": "^6.3.1",
