@@ -35,7 +35,7 @@
         "@bamdadsabbagh/stylelint-config": "^1.3.5",
         "babel-plugin-styled-components": "^1.12.0",
         "rimraf": "^3.0.2",
-        "sass": "^1.32.11",
+        "sass": "^1.34.1",
         "sass-reset": "^1.0.2"
     }
 }
