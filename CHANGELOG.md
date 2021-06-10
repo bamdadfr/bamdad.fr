@@ -1,3 +1,10 @@
+## [0.18.12](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.11...v0.18.12) (2021-06-10)
+
+
+### Bug Fixes
+
+* **deps:** updated to latest ([9383f95](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/9383f957ffaa108b08449566685e01a6a23abb51))
+
 ## [0.18.11](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.10...v0.18.11) (2021-06-07)
 
 
