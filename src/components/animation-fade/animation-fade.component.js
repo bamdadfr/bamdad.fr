@@ -7,8 +7,8 @@ import { animated, useSpring } from 'react-spring'
  * @name AnimationFadeComponent
  * @description fade in component using `react-spring`
  * @param {JSX.Element} children - react functional component to render
- * @param {Number} delay - delay before triggering the animation
- * @param {Boolean} isVisible - will fade out the component if set to `false`
+ * @param {Number} [delay=0] - delay before triggering the animation
+ * @param {Boolean} [isVisible=true] - will fade out the component if set to `false`
  * @return {JSX.Element}
  */
 export default function AnimationFadeComponent ({

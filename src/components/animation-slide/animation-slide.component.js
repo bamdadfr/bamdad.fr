@@ -9,8 +9,8 @@ import { useFirstRender } from '@/hooks/use-first-render'
  * @name AnimationSlideComponent
  * @description slide in component using `react-spring`
  * @param {JSX.Element} children - react functional component to render
- * @param {Number} delay - delay before triggering the animation
- * @param {Boolean} isVisible - will slide out the component if set to `false`
+ * @param {Number} [delay=0] - delay before triggering the animation
+ * @param {Boolean} [isVisible=true] - will slide out the component if set to `false`
  * @return {JSX.Element}
  */
 export default function AnimationSlideComponent ({

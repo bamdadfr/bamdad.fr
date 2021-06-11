@@ -6,14 +6,15 @@ import PropTypes from 'prop-types'
  * @name useAnimateArray
  * @description animate array
  * @param {Array} array
- * @param {Boolean} start - use when rendering with delay
+ * @param {Boolean} [start=true] - use when rendering with delay
  * @return {[{index: number, isVisible: boolean}]}
  */
 export function useAnimateArray (
     array,
     {
         start = useAnimateArray.defaultProps.start,
-    }) {
+    },
+) {
 
     const [index, setIndex] = useState (0)
     const [isVisible, setIsVisible] = useState (true)

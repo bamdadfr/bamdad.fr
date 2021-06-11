@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
  * @function
  * @name useWaited
  * @description wait before rendering component
- * @param {Number} delay - fixed delay using setTimeout()
+ * @param {Number} [delay=0] - fixed delay using setTimeout()
  * @return {Array.<Boolean>} return [true] when delay is over
  */
 export function useWaited (delay = useWaited.defaultProps.delay) {
