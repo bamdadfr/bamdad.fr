@@ -1,3 +1,11 @@
+## [0.18.13](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.12...v0.18.13) (2021-06-11)
+
+
+### Bug Fixes
+
+* **doc:** better jsdoc ([e1960de](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/e1960de35ce820c7a128e42d7c39812a20caae78))
+* **quality:** added unit tests and better proptypes ([f6264da](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/f6264da3af77c4c094c3d66db4c59b0b3d9f63ac))
+
 ## [0.18.12](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.11...v0.18.12) (2021-06-10)
 
 
