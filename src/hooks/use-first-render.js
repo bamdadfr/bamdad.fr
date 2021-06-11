@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
+const propTypes = {
+    'delay': PropTypes.number,
+}
+
+const defaultProps = {
+    'delay': 0,
+}
+
 /**
  * @function
  * @name useFirstRender
@@ -28,10 +36,6 @@ export function useFirstRender (delay = useFirstRender.defaultProps.delay) {
 
 }
 
-useFirstRender.defaultProps = {
-    'delay': 0,
-}
+useFirstRender.propTypes = propTypes
 
-useFirstRender.propTypes = {
-    'delay': PropTypes.number,
-}
+useFirstRender.defaultProps = defaultProps

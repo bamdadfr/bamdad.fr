@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StyledSection } from './layout-top.styles'
 
+const propTypes = {
+    'children': PropTypes.arrayOf (PropTypes.node.isRequired).isRequired,
+}
+
 /**
  * @function
  * @name LayoutTopComponent
@@ -26,6 +30,4 @@ export default function LayoutTopComponent ({ children }) {
 
 }
 
-LayoutTopComponent.propTypes = {
-    'children': PropTypes.arrayOf (PropTypes.node.isRequired).isRequired,
-}
+LayoutTopComponent.propTypes = propTypes

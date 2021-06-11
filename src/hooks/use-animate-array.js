@@ -1,6 +1,15 @@
 import { useState, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 
+const propTypes = {
+    'array': PropTypes.arrayOf (PropTypes.any).isRequired,
+    'start': PropTypes.bool.isRequired,
+}
+
+const defaultProps = {
+    'start': true,
+}
+
 /**
  * @function
  * @name useAnimateArray
@@ -87,11 +96,6 @@ export function useAnimateArray (
 
 }
 
-useAnimateArray.defaultProps = {
-    'start': true,
-}
+useAnimateArray.propTypes = propTypes
 
-useAnimateArray.propTypes = {
-    'array': PropTypes.arrayOf (PropTypes.any).isRequired,
-    'start': PropTypes.bool.isRequired,
-}
+useAnimateArray.defaultProps = defaultProps

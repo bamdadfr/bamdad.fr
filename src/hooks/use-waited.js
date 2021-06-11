@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
+const propTypes = {
+    'delay': PropTypes.number.isRequired,
+}
+
+const defaultProps = {
+    'delay': 0,
+}
+
 /**
  * @function
  * @name useWaited
@@ -26,10 +34,6 @@ export function useWaited (delay = useWaited.defaultProps.delay) {
 
 }
 
-useWaited.defaultProps = {
-    'delay': 0,
-}
+useWaited.propTypes = propTypes
 
-useWaited.propTypes = {
-    'delay': PropTypes.number.isRequired,
-}
+useWaited.defaultProps = defaultProps

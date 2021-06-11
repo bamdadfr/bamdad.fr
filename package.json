@@ -14,12 +14,14 @@
         "start": "next start",
         "package:clean": "rimraf node_modules",
         "package:reinstall": "yarn package:clean && yarn",
-        "package:sort": "npx sort-package-json"
+        "package:sort": "npx sort-package-json",
+        "test": "jest"
     },
     "dependencies": {
         "@fontsource/lora": "^4.2.2",
         "@iconify/icons-simple-icons": "^1.1.23",
         "@iconify/react": "^1.1.4",
+        "@juggle/resize-observer": "^3.3.1",
         "@sentry/nextjs": "^6.6.0",
         "next": "^10.2.0",
         "prop-types": "^15.7.2",
@@ -33,7 +35,11 @@
     "devDependencies": {
         "@bamdadsabbagh/eslint-config": "^1.9.6",
         "@bamdadsabbagh/stylelint-config": "^1.3.5",
+        "babel-jest": "^27.0.2",
         "babel-plugin-styled-components": "^1.12.0",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.6",
+        "jest": "^27.0.4",
         "rimraf": "^3.0.2",
         "sass": "^1.32.11",
         "sass-reset": "^1.0.2"

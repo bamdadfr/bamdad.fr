@@ -2,6 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { animated, useSpring } from 'react-spring'
 
+const propTypes = {
+    'children': PropTypes.node.isRequired,
+    'delay': PropTypes.number,
+    'isVisible': PropTypes.bool,
+}
+
+const defaultProps = {
+    'delay': 0,
+    'isVisible': true,
+}
+
 /**
  * @function
  * @name AnimationFadeComponent
@@ -37,13 +48,6 @@ export default function AnimationFadeComponent ({
 
 }
 
-AnimationFadeComponent.defaultProps = {
-    'delay': 0,
-    'isVisible': true,
-}
+AnimationFadeComponent.propTypes = propTypes
 
-AnimationFadeComponent.propTypes = {
-    'children': PropTypes.node.isRequired,
-    'delay': PropTypes.number,
-    'isVisible': PropTypes.bool,
-}
+AnimationFadeComponent.defaultProps = defaultProps

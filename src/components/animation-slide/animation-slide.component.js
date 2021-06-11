@@ -3,6 +3,18 @@ import PropTypes from 'prop-types'
 import { animated, useSpring } from 'react-spring'
 import useMeasure from 'react-use-measure'
 import { useFirstRender } from '@/hooks/use-first-render'
+import { ResizeObserver } from '@juggle/resize-observer'
+
+const propTypes = {
+    'children': PropTypes.node.isRequired,
+    'delay': PropTypes.number,
+    'isVisible': PropTypes.bool,
+}
+
+const defaultProps = {
+    'delay': 0,
+    'isVisible': true,
+}
 
 /**
  * @function
@@ -19,7 +31,7 @@ export default function AnimationSlideComponent ({
     isVisible = AnimationSlideComponent.defaultProps.isVisible,
 }) {
 
-    const [ref, { height }] = useMeasure ()
+    const [ref, { height }] = useMeasure ({ 'polyfill': ResizeObserver })
     const [firstRender] = useFirstRender (delay)
 
     const style = useSpring ({
@@ -56,13 +68,6 @@ export default function AnimationSlideComponent ({
 
 }
 
-AnimationSlideComponent.defaultProps = {
-    'delay': 0,
-    'isVisible': true,
-}
+AnimationSlideComponent.propTypes = propTypes
 
-AnimationSlideComponent.propTypes = {
-    'children': PropTypes.node.isRequired,
-    'delay': PropTypes.number,
-    'isVisible': PropTypes.bool,
-}
+AnimationSlideComponent.defaultProps = defaultProps
