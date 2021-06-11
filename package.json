@@ -15,7 +15,9 @@
         "package:clean": "rimraf node_modules",
         "package:reinstall": "yarn package:clean && yarn",
         "package:sort": "npx sort-package-json",
-        "test": "jest"
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "test:watch": "jest --watch"
     },
     "dependencies": {
         "@fontsource/lora": "^4.2.2",
