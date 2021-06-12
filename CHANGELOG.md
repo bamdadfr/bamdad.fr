@@ -1,3 +1,11 @@
+## [0.18.14](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.13...v0.18.14) (2021-06-12)
+
+
+### Bug Fixes
+
+* **deps:** updated to latest ([80a23eb](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/80a23eb4e65d25ad4a837be9f8efbc1fa1c131cd))
+* **meta:** `og:image` updated to production URL ([4410c56](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/4410c565cef525678704219e2c5c18ab871d6bc4))
+
 ## [0.18.13](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.12...v0.18.13) (2021-06-11)
 
 
