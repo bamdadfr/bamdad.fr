@@ -1,3 +1,12 @@
+## [0.18.15](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.14...v0.18.15) (2021-06-12)
+
+
+### Bug Fixes
+
+* **babel:** new config filename ([14fa161](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/14fa1614868b2e06de54c535e1343887b228cba8))
+* **semantic-release:** `nextRelease` fix in config ([f49e3f3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/f49e3f38b9486965b1e1c5b8ca2750d5d00d3f2b))
+* **semantic-release:** new config filename ([5c3331c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5c3331c55891031ae8225978c0819c3ebe3ccc4c))
+
 ## [0.18.14](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.13...v0.18.14) (2021-06-12)
 
 
