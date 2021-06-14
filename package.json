@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "@fontsource/lora": "^4.2.2",
-        "@iconify/icons-simple-icons": "^1.1.23",
+        "@iconify/icons-simple-icons": "^1.1.29",
         "@iconify/react": "^1.1.4",
         "@juggle/resize-observer": "^3.3.1",
         "@sentry/nextjs": "^6.6.0",
