@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading,react/no-danger */
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { GA_TRACKING_ID } from '@/lib/gtag'
