@@ -7,7 +7,7 @@ import { StyledContainer } from './layout-greetings.styles'
  * @function
  * @name LayoutGreetingsComponent
  * @description layout sub component for rendering `greetings`
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutGreetingsComponent () {
 

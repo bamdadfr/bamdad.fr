@@ -4,7 +4,7 @@ import { StyledBold } from '@/data/greetings.styles'
 /**
  * @name GreetingsData
  * @description data feeding the `greetings` component
- * @type {Array.<Object.<String, (String, Number)>>}
+ * @type {Array.<object.<string, (string | number)>>}
  */
 export const GreetingsData = [
     {

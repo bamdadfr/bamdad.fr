@@ -27,7 +27,7 @@ import webpackIcon from '@iconify/icons-simple-icons/webpack'
 /**
  * @name LanguagesData
  * @description data feeding the `languages` component
- * @type {Array.<Object.<String, (String, JSX.Element)>>} - shuffled with `ShuffleUtils`
+ * @type {Array.<object.<string, (string | React.ReactNode)>>}
  */
 export const LanguagesData = ShuffleUtils ([
     {

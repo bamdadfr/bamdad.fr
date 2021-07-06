@@ -7,7 +7,7 @@ import { StyledSection, StyledContainer, StyledButton } from './layout-contact.s
  * @function
  * @name LayoutContactComponent
  * @description layout sub component for rendering `contact` part
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutContactComponent () {
 

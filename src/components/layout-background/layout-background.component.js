@@ -5,7 +5,7 @@ import { StyledContainer } from './layout-background.styles'
  * @function
  * @name LayoutBackgroundComponent
  * @description layout sub component for rendering `background`
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutBackgroundComponent () {
 

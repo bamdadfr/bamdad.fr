@@ -1,7 +1,7 @@
 /**
  * @name BreakpointsConstants
  * @description constants feeding `BreakpointsStyles`
- * @type {Object.<String, Number>}
+ * @type {object.<string, number>}
  */
 export const BreakpointsConstants = {
     'mobile': 768 - 1,

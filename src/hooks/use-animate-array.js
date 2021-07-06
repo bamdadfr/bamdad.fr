@@ -14,9 +14,10 @@ const defaultProps = {
  * @function
  * @name useAnimateArray
  * @description animate array
- * @param {Array} array
- * @param {Boolean} [start=true] - use when rendering with delay
- * @return {[{index: number, isVisible: boolean}]}
+ * @param {Array.<*>} array - input array
+ * @param {*} props - react hook props
+ * @param {boolean} [props.start=true] - used to manually trigger the start (useful for delayed render)
+ * @returns {Array.<{index: number, isVisible: boolean}>} - state
  */
 export function useAnimateArray (
     array,

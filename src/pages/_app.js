@@ -1,3 +1,4 @@
+/* eslint-disable jsdoc/require-jsdoc */
 import React, { useEffect } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { useRouter } from 'next/router'

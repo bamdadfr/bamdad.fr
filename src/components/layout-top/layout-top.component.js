@@ -10,8 +10,9 @@ const propTypes = {
  * @function
  * @name LayoutTopComponent
  * @description layout sub component for rendering `top`
- * @param {JSX.Element} children - component to render
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {React.ReactNode} props.children - component to render
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutTopComponent ({ children }) {
 

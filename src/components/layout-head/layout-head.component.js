@@ -5,7 +5,7 @@ import Head from 'next/head'
  * @function
  * @name LayoutHeadComponent
  * @description react component rendering meta and SEO tags in <head>
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutHeadComponent () {
 

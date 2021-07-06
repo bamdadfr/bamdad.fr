@@ -23,7 +23,7 @@ import LayoutHeadComponent from '@/components/layout-head/layout-head.component'
  * @function
  * @name LayoutComponent
  * @description Entry point for page layout
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutComponent () {
 

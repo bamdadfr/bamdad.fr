@@ -13,8 +13,8 @@ const defaultProps = {
  * @function
  * @name useFirstRender
  * @description use this hook when rendering a component with delay to know if component has already been rendered or not
- * @param {Number} [delay=0] - parent component's rendering delay
- * @return {Array.<Boolean>}
+ * @param {number} [delay=0] - parent component's rendering delay
+ * @returns {{Boolean}} - state
  */
 export function useFirstRender (delay = useFirstRender.defaultProps.delay) {
 

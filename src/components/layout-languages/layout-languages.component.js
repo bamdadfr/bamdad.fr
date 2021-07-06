@@ -10,7 +10,7 @@ import { StyledContainer, StyledIcon, StyledText, StyledTextContainer } from './
  * @function
  * @name LayoutLanguagesComponent
  * @description layout sub component for rendering `languages`
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutLanguagesComponent () {
 

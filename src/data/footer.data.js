@@ -7,7 +7,7 @@ import npmIcon from '@iconify/icons-simple-icons/npm'
 /**
  * @name FooterData
  * @description data feeding the `footer` component
- * @type {Array.<Object.<String, (String, JSX.Element)>>}
+ * @type {Array.<object.<string, (string | React.ReactNode)>>}
  */
 export const FooterData = [
     {

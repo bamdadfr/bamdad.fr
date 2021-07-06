@@ -3,7 +3,7 @@ import { ThemeStyles } from '@/styles/theme.styles'
 /**
  * @name ContactData
  * @description data feeding the `contact` component
- * @type {Array.<Object.<String, (String, Number)>>}
+ * @type {Array.<object.<string, (string | number)>>}
  */
 export const ContactData = [
     {

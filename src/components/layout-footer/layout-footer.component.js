@@ -7,7 +7,7 @@ import { StyledSection, StyledA } from './layout-footer.styles'
  * @function
  * @name LayoutFooterComponent
  * @description layout sub component for rendering `footer`
- * @return {JSX.Element}
+ * @returns {React.ReactNode} - react component
  */
 export default function LayoutFooterComponent () {
 

@@ -20,10 +20,11 @@ const defaultProps = {
  * @function
  * @name AnimationSlideComponent
  * @description slide in component using `react-spring`
- * @param {JSX.Element} children - react functional component to render
- * @param {Number} [delay=0] - delay before triggering the animation
- * @param {Boolean} [isVisible=true] - will slide out the component if set to `false`
- * @return {JSX.Element}
+ * @param {*} props - react component props
+ * @param {React.ReactNode} props.children - react functional component to render
+ * @param {number} [props.delay=0] - delay before triggering the animation
+ * @param {boolean} [props.isVisible=true] - will slide out the component if set to `false`
+ * @returns {React.ReactNode} - react component
  */
 export default function AnimationSlideComponent ({
     children,
