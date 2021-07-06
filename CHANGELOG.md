@@ -1,3 +1,17 @@
+# [0.19.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.19...v0.19.0) (2021-07-06)
+
+
+### Bug Fixes
+
+* **_document:** ignoring some eslint rules ([087c638](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/087c6382cca1b138d47870962a96d0524fc60b06))
+* **eslint:** updated to latest package with jsdoc plugin ([c33b861](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/c33b861da4ffef176ca71286e22a891bb9b054f0))
+* **jsdoc:** compliant jsdoc ([8196df6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/8196df6e5e4c42dd0b29c700aba6b9184f5be5ba))
+
+
+### Features
+
+* **app:** using next 11 ([7d70852](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/7d708522b149f9c82a50a6db185657e16180f533))
+
 ## [0.18.19](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.18...v0.18.19) (2021-07-05)
 
 
