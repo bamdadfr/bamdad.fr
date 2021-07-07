@@ -423,10 +423,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lora@^4.2.2":
-  version "4.4.5"
-  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.4.5.tgz#ef67ae97de3835a2f0ffabaef60ded37aaaa0b33"
-  integrity sha512-2N0mNJelDHDAoBhvLtLG4Y4LPB+qTGXxpemrRxN1ChvaG960OnftRKFWA/ML8OWHIpiprd66d0Vy2qoX1qjMlw==
+"@fontsource/lora@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.0.tgz#1b230175236c35d13b3a69a346ca5b0e2df0dbcf"
+  integrity sha512-4ThGnMFbktlQqsTW7kCdzT888esMFfnbHE9PJMQCtcP2JUIJXDQpxvmtlsio1AJBnvUxPxegAAp76Q8lm7t1VQ==
 
 "@hapi/accept@5.0.2":
   version "5.0.2"
