@@ -1,3 +1,19 @@
+## [0.19.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.0...v0.19.1) (2021-07-09)
+
+
+### Bug Fixes
+
+* **_app:** removed unused helmet and meta + added head counterpart + added jsdoc ([0d1a1a0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0d1a1a05167a35bb071e0e178fe5d9516eae3e13))
+* **_document:** removed unused helmet ([4cf62e6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/4cf62e6d9f918e96c51654377cde2e2a6e4c3ef3))
+* **breakpoints:** removed overkill declaration ([7a2c3b9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/7a2c3b9e8cb6edaf3545c945eb5f538121b9d84c))
+* **deps:** removed `react-helmet` ([2699113](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2699113a28e5b2c4664038fadb8ef87b3afe6e27))
+* **dev-deps:** update to latest dependencies ([42bb30a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/42bb30ac07fd98fd6c1bfa5bd9f3af39d7ce4ea4))
+* **index:** removed unused helmet ([b213a79](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b213a79832ec3c02322123f9859f99bbfc4eacdc))
+* **languages.data:** added `styled-components` ([d600228](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/d600228f2714cf4f0c0d3d38cb94a1d2da557553))
+* **layout-head:** added `noinspection` for intellij ([a6409a3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a6409a33dcbd82cb938238a45549d53618d541fa))
+* **layout-top:** jsdoc doc was wrong ([89c66b7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/89c66b7e5030ebfdc120496bc24085ec728443e4))
+* **meta:** unused file ([3f226c5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3f226c5e2328dbacb022a970859030b8a53e79ad))
+
 # [0.19.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.18.19...v0.19.0) (2021-07-06)
 
 
