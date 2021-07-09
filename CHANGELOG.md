@@ -1,3 +1,10 @@
+## [0.19.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.1...v0.19.2) (2021-07-09)
+
+
+### Bug Fixes
+
+* **layout-head:** remove `react-helmet` left overs ([8dc0e9d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/8dc0e9de94cec30661d12a47588dc0689cdbf09a))
+
 ## [0.19.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.0...v0.19.1) (2021-07-09)
 
 
