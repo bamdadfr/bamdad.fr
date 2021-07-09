@@ -21,6 +21,7 @@ import pythonIcon from '@iconify/icons-simple-icons/python'
 import reactIcon from '@iconify/icons-simple-icons/react'
 import sassIcon from '@iconify/icons-simple-icons/sass'
 import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
+import styledcomponentsIcon from '@iconify/icons-simple-icons/styledcomponents'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 
@@ -129,6 +130,11 @@ export const LanguagesData = ShuffleUtils ([
         'text': 'Scaleway',
         'icon': <Icon icon={scalewayIcon}/>,
         'color': '#510098',
+    },
+    {
+        'text': 'Styled Components',
+        'icon': <Icon icon={styledcomponentsIcon}/>,
+        'color': '#DD6F93',
     },
     {
         'text': 'TypeScript',

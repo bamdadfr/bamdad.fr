@@ -9,6 +9,7 @@ import Head from 'next/head'
  */
 export default function LayoutHeadComponent () {
 
+    // noinspection HtmlRequiredTitleElement,HtmlUnknownTarget
     return (
         <Head>
             <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
