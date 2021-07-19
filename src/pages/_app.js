@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components'
 import 'sass-reset'
 import { Theme, Global } from '../app/styles'
 import { useApp } from '../app/hooks'
-import { DefaultLayout } from '../layouts'
 
 /**
  * @function
@@ -23,10 +22,8 @@ export default function MyApp ({ Component, pageProps, err }) {
         <>
             <Global/>
             <ThemeProvider theme={Theme}>
-                <DefaultLayout>
-                    {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-                    <Component {...pageProps} err={err}/>
-                </DefaultLayout>
+                {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+                <Component {...pageProps} err={err}/>
             </ThemeProvider>
         </>
     )

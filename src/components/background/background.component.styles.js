@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledContainer = styled.div`
+export const Container = styled.div`
     position: fixed;
     height: 100vh;
     width: 100vw;

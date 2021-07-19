@@ -3,10 +3,6 @@ import { Theme } from './theme'
 import { Breakpoints } from './breakpoints'
 import '@fontsource/lora'
 
-/**
- * @name Global
- * @description global styles for `styled-components`
- */
 export const Global = createGlobalStyle`
     body {
         font-family: 'Lora', sans-serif;

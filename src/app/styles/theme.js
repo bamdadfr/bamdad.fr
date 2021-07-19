@@ -1,7 +1,3 @@
-/**
- * @name Theme
- * @description theme for `styled-components`
- */
 export const Theme = {
     'colors': {
         'primary': '#4a4a4a',

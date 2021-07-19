@@ -1,8 +1,3 @@
-/**
- * @name Breakpoints
- * @description breakpoints styles as string to use in media queries
- * @type {object.<string, string>}
- */
 export const Breakpoints = {
     'mobile': `(max-width: ${768 - 1}px)`,
     'tablet': `(min-width: ${768}px)`,

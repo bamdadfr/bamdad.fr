@@ -1,11 +1,18 @@
 import React from 'react'
-import { BackgroundComponent, FooterComponent, GreetingsComponent, LanguagesComponent, ContactComponent, MetaComponent } from '../../components'
+import PropTypes from 'prop-types'
+import { BackgroundComponent, FooterComponent, ContactComponent, MetaComponent } from '../../components'
 import { Container, TopSection } from './default.layout.styles'
 
+const propTypes = {
+    'children': PropTypes.element.isRequired,
+}
+
 /**
+ * @param {object} props react props
+ * @param {React.ReactElement} props.children children
  * @returns {React.ReactElement} react component
  */
-export function DefaultLayout () {
+export function DefaultLayout ({ children }) {
 
     return (
         <>
@@ -15,12 +22,7 @@ export function DefaultLayout () {
             <Container>
 
                 <TopSection>
-                    <div>
-                        <GreetingsComponent/>
-                    </div>
-                    <div>
-                        <LanguagesComponent/>
-                    </div>
+                    {children}
                 </TopSection>
 
                 <ContactComponent/>
@@ -32,3 +34,5 @@ export function DefaultLayout () {
     )
 
 }
+
+DefaultLayout.propTypes = propTypes
