@@ -1,3 +1,15 @@
+## [0.19.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.4...v0.19.5) (2021-07-19)
+
+
+### Performance Improvements
+
+* add coverage deps, commands and workflow ([68d2148](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/68d21484aa04e63f3661e0d6309a56f629fdafb8))
+* add coverage deps, commands and workflow ([9c90af3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/9c90af38173c49e01444e8054c2c8cb1f3cb9417))
+* add new file structure + remove component wrappers + put constants (data) close to their respective components + clean package.json ([bcddea0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bcddea0ba9f9963ed07340a1652d9a6ad75a1928))
+* add styled components SSR rendering ([c5c8617](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/c5c86177ae09c86ee430de4482a09ff775b06cf8))
+* move children component out of default.layout.js + move custom hooks and utils to directories + add barrel exports + remove unnecessary jsdoc ([987384b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/987384b29033dd03aa1d9dc51b4f879033124fd6))
+* write test ([681d2bd](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/681d2bd7dc498bd06b71a490a9491be255863b98))
+
 ## [0.19.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.3...v0.19.4) (2021-07-19)
 
 
