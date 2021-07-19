@@ -1,22 +1,12 @@
 import { useState, useEffect } from 'react'
-import PropTypes from 'prop-types'
-
-const propTypes = {
-    'delay': PropTypes.number,
-}
-
-const defaultProps = {
-    'delay': 0,
-}
 
 /**
- * @function
- * @name useFirstRender
- * @description use this hook when rendering a component with delay to know if component has already been rendered or not
- * @param {number} [delay=0] - parent component's rendering delay
- * @returns {{Boolean}} - state
+ * @description render a component only once
+ * @param {number} [delay=0] rendering delay
+ * @typedef {boolean} FirstRender will return `false` after first render
+ * @returns {FirstRender[]} state
  */
-export function useFirstRender (delay = useFirstRender.defaultProps.delay) {
+export function useFirstRender (delay = 0) {
 
     const [firstRender, setFirstRender] = useState (true)
 
@@ -35,7 +25,3 @@ export function useFirstRender (delay = useFirstRender.defaultProps.delay) {
     return [firstRender]
 
 }
-
-useFirstRender.propTypes = propTypes
-
-useFirstRender.defaultProps = defaultProps

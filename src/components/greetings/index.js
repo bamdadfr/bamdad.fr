@@ -1,0 +1,1 @@
+export { GreetingsComponent } from './greetings.component'

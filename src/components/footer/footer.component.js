@@ -1,0 +1,30 @@
+import React from 'react'
+import { SlideAnimation } from '../../animations'
+import { FooterConstants } from './footer.constants'
+import { Section, Link } from './footer.component.styles'
+
+/**
+ * @returns {React.ReactElement} react component
+ */
+export function FooterComponent () {
+
+    return (
+        <>
+            <Section>
+                {FooterConstants.map ((element) => (
+                    <SlideAnimation key={element.text}>
+                        <Link
+                            href={element.href}
+                            target="_blank"
+                            title={`link to ${element.text}`}
+                            color={element.color}
+                        >
+                            {element.icon}
+                        </Link>
+                    </SlideAnimation>
+                ))}
+            </Section>
+        </>
+    )
+
+}

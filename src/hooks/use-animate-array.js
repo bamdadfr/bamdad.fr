@@ -1,28 +1,17 @@
 import { useState, useEffect, useCallback } from 'react'
-import PropTypes from 'prop-types'
-
-const propTypes = {
-    'array': PropTypes.arrayOf (PropTypes.any).isRequired,
-    'start': PropTypes.bool.isRequired,
-}
-
-const defaultProps = {
-    'start': true,
-}
 
 /**
- * @function
- * @name useAnimateArray
- * @description animate array
- * @param {Array.<*>} array - input array
- * @param {*} props - react hook props
- * @param {boolean} [props.start=true] - used to manually trigger the start (useful for delayed render)
- * @returns {Array.<{index: number, isVisible: boolean}>} - state
+ * @description iterate an array item by item
+ * @param {Array.<*>} array array to iterate through
+ * @param {object} options hook options
+ * @param {boolean} [options.start=true] trigger render manually / externally
+ *      (useful for delayed render)
+ * @returns {Array.<{index: number, isVisible: boolean}>} state
  */
 export function useAnimateArray (
     array,
     {
-        start = useAnimateArray.defaultProps.start,
+        start = true,
     },
 ) {
 
@@ -96,7 +85,3 @@ export function useAnimateArray (
     }]
 
 }
-
-useAnimateArray.propTypes = propTypes
-
-useAnimateArray.defaultProps = defaultProps
