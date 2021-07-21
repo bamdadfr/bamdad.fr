@@ -1,3 +1,10 @@
+## [0.19.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.5...v0.19.6) (2021-07-21)
+
+
+### Bug Fixes
+
+* remove sourcemaps from final build ([b8b61da](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/b8b61dab3d10fc05671d346dadadae27e457e251))
+
 ## [0.19.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.4...v0.19.5) (2021-07-19)
 
 
