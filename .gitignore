@@ -33,3 +33,6 @@ sentry.properties
 
 # personal
 TODO.md
+
+# env
+.env
