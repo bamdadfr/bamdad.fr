@@ -12,13 +12,16 @@ export const Section = styled.section`
     @media screen and ${Breakpoints.mobile} {
         padding-bottom: 2.2em;
     }
-
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    
+    @media screen and ${Breakpoints.mobile} {
+        height: 9em;
+    }
 
     > div {
         height: 2.667em;

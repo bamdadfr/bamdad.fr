@@ -7,6 +7,7 @@ export const Container = styled.div`
     justify-content: flex-end;
 
     @media screen and ${Breakpoints.mobile} {
+        height: 8em;
         padding-top: 1em;
     }
 `
