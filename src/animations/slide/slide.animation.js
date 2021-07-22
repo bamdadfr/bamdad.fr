@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { animated, useSpring } from 'react-spring'
+import { animated, useSpring } from '@react-spring/web'
 import useMeasure from 'react-use-measure'
 import { ResizeObserver } from '@juggle/resize-observer'
 import { useFirstRender } from '../../hooks'

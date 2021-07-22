@@ -1,12 +1,15 @@
 import styled from 'styled-components'
+import { Breakpoints } from '../../app/styles'
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    height: 13em;
-    max-height: 30vh;
+    @media screen and ${Breakpoints.mobile} {
+        height: 8em;
+        padding-top: 1em;
+    }
 `
 
 export const Bold = styled.span`
