@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Breakpoints } from '../../app/styles'
 
 export const Section = styled.section`
     display: flex;
@@ -6,14 +7,19 @@ export const Section = styled.section`
     align-items: center;
     flex-direction: column;
 
-    padding-bottom: 10vh;
+    padding-bottom: 1em;
+
+    @media screen and ${Breakpoints.mobile} {
+        padding-bottom: 2.2em;
+    }
+
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
- 
+
     > div {
         height: 2.667em;
         margin: 0.25em 0;

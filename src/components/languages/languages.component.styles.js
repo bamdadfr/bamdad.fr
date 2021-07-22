@@ -1,12 +1,14 @@
 import styled from 'styled-components'
+import { Breakpoints } from '../../app/styles'
 
-// TODO wrap in media queries to set height only on portrait
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    height: 7em;
+    @media screen and ${Breakpoints.mobile} {
+        height: 7em;
+    }
 `
 
 export const Icon = styled.div`
