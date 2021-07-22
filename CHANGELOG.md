@@ -1,3 +1,21 @@
+## [0.19.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.6...v0.19.7) (2021-07-22)
+
+
+### Bug Fixes
+
+* **contact.component.styles:** replace margin with padding and remove static height ([d3e6679](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/d3e6679ad6fbfc4b4f9aff9448a0368446442f26))
+* **default.layout:** replace Element for Node in jsdoc and proptypes ([0ff821a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0ff821a7156d487b112c289f599012994fd25717))
+* **global.styles:** make all fonts bigger ([4758422](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/47584222fb708d71ed9bc82943f493e161eb706e))
+* **languages.component.styles:** remove `max-height` (fix overflow problem) + keep height for mobile ([d4eccd5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/d4eccd5b57687534477c668a7fd7d808facd9f03))
+* **styles:** add `height` property in portrait mode to keep nice animations ([6e80880](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/6e80880159586fb992c6d5f8bf971024bb294555))
+* **styles:** use relative `em` values for paddings/heights + avoid using `max-height` + wrap attributes for portrait mode in media queries ([5a3dbca](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5a3dbcad308339cefd97441298903fe2507b6f35))
+
+
+### Performance Improvements
+
+* **animations:** replace `react-spring` with `@react-spring/web` ([6190e84](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/6190e84a751ca8177b9ff3611f907b958e9c6868))
+* **deps:** update deps to latest ([09b03b3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/09b03b346caa0b16caa8fe4bd911c3c4e5285746))
+
 ## [0.19.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.5...v0.19.6) (2021-07-21)
 
 
