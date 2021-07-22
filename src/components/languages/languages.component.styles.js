@@ -5,8 +5,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
 
-    height: 8em;
-    max-height: 20vh;
+    // todo: wrap in media queries to set height only on portrait
+    height: 7em;
 `
 
 export const Icon = styled.div`
