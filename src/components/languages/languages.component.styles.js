@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
+// TODO wrap in media queries to set height only on portrait
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    // todo: wrap in media queries to set height only on portrait
     height: 7em;
 `
 
