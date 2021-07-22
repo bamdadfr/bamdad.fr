@@ -4,12 +4,12 @@ import { BackgroundComponent, FooterComponent, ContactComponent, MetaComponent }
 import { Container, TopSection } from './default.layout.styles'
 
 const propTypes = {
-    'children': PropTypes.element.isRequired,
+    'children': PropTypes.node.isRequired,
 }
 
 /**
  * @param {object} props react props
- * @param {React.ReactElement} props.children children
+ * @param {React.ReactNode} props.children children
  * @returns {React.ReactElement} react component
  */
 export function DefaultLayout ({ children }) {
