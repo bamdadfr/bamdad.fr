@@ -6,16 +6,14 @@ export const Section = styled.section`
     align-items: center;
     flex-direction: column;
 
-    margin-bottom: 10vh;
+    padding-bottom: 10vh;
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 10em;
-    //max-height: 20vh;
-
+ 
     > div {
         height: 2.667em;
         margin: 0.25em 0;
