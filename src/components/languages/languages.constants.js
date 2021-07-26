@@ -1,41 +1,24 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
-import ansibleIcon from '@iconify/icons-simple-icons/ansible'
-import centosIcon from '@iconify/icons-simple-icons/centos'
 import debianIcon from '@iconify/icons-simple-icons/debian'
 import dockerIcon from '@iconify/icons-simple-icons/docker'
 import githubActionsIcon from '@iconify/icons-simple-icons/githubactions'
 import gnuBashIcon from '@iconify/icons-simple-icons/gnubash'
 import grafanaIcon from '@iconify/icons-simple-icons/grafana'
 import javascriptIcon from '@iconify/icons-simple-icons/javascript'
-import laravelIcon from '@iconify/icons-simple-icons/laravel'
+import jestIcon from '@iconify/icons-simple-icons/jest'
 import mongodbIcon from '@iconify/icons-simple-icons/mongodb'
 import mysqlIcon from '@iconify/icons-simple-icons/mysql'
+import nestjsIcon from '@iconify/icons-simple-icons/nestjs'
 import nextdotjsIcon from '@iconify/icons-simple-icons/next-dot-js'
 import nodeDotJs from '@iconify/icons-simple-icons/node-dot-js'
-import ovhIcon from '@iconify/icons-simple-icons/ovh'
-import phpIcon from '@iconify/icons-simple-icons/php'
-import prometheusIcon from '@iconify/icons-simple-icons/prometheus'
-import pythonIcon from '@iconify/icons-simple-icons/python'
 import reactIcon from '@iconify/icons-simple-icons/react'
 import sassIcon from '@iconify/icons-simple-icons/sass'
-import scalewayIcon from '@iconify/icons-simple-icons/scaleway'
-import styledcomponentsIcon from '@iconify/icons-simple-icons/styledcomponents'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
 import { shuffleArray } from '../../utils'
 
 export const LanguagesConstants = shuffleArray ([
-    {
-        'text': 'Ansible',
-        'icon': <Icon icon={ansibleIcon}/>,
-        'color': '#1A1918',
-    },
-    {
-        'text': 'CentOS',
-        'icon': <Icon icon={centosIcon}/>,
-        'color': '#932178',
-    },
     {
         'text': 'Debian',
         'icon': <Icon icon={debianIcon}/>,
@@ -67,14 +50,9 @@ export const LanguagesConstants = shuffleArray ([
         'color': '#f0db4f',
     },
     {
-        'text': 'Laravel',
-        'icon': <Icon icon={laravelIcon}/>,
-        'color': '#FF291A',
-    },
-    {
-        'text': 'PHP',
-        'icon': <Icon icon={phpIcon}/>,
-        'color': '#777BB3',
+        'text': 'Jest',
+        'icon': <Icon icon={jestIcon}/>,
+        'color': '#99425B',
     },
     {
         'text': 'MongoDB',
@@ -87,6 +65,11 @@ export const LanguagesConstants = shuffleArray ([
         'color': '#00618A',
     },
     {
+        'text': 'NestJS',
+        'icon': <Icon icon={nestjsIcon}/>,
+        'color': '#E0234E',
+    },
+    {
         'text': 'Next.js',
         'icon': <Icon icon={nextdotjsIcon}/>,
         'color': '#000000',
@@ -97,21 +80,6 @@ export const LanguagesConstants = shuffleArray ([
         'color': '#68A063',
     },
     {
-        'text': 'OVH',
-        'icon': <Icon icon={ovhIcon}/>,
-        'color': '#03429A',
-    },
-    {
-        'text': 'Prometheus',
-        'icon': <Icon icon={prometheusIcon}/>,
-        'color': '#ff4646',
-    },
-    {
-        'text': 'Python',
-        'icon': <Icon icon={pythonIcon}/>,
-        'color': '#FFD03D',
-    },
-    {
         'text': 'React',
         'icon': <Icon icon={reactIcon}/>,
         'color': '#60DBFB',
@@ -120,16 +88,6 @@ export const LanguagesConstants = shuffleArray ([
         'text': 'Sass',
         'icon': <Icon icon={sassIcon}/>,
         'color': '#cc6699',
-    },
-    {
-        'text': 'Scaleway',
-        'icon': <Icon icon={scalewayIcon}/>,
-        'color': '#510098',
-    },
-    {
-        'text': 'Styled Components',
-        'icon': <Icon icon={styledcomponentsIcon}/>,
-        'color': '#DD6F93',
     },
     {
         'text': 'TypeScript',
