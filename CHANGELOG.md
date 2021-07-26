@@ -1,3 +1,17 @@
+# [0.20.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.7...v0.20.0) (2021-07-26)
+
+
+### Features
+
+* **languages:** update languages.constants.js (remove hosting and devops related tech) ([78ed56b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/78ed56b03347ca3308171fb3d44b5564cc52a58d))
+* **pages:** add 404 page ([77c342d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/77c342d7df67b7c9f4cf7cad00b540f45b3593fa))
+* **styles:** add new `ultramobile` breakpoints.js + tweak sizes and alignments ([2c86a98](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2c86a98d35a873eb3959155635ad27e1bec2e81b))
+
+
+### Performance Improvements
+
+* **styles:** better vertical alignment on `ultramobile` ([a506245](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a5062450326980f7d0180292d7c082c09266893d))
+
 ## [0.19.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.6...v0.19.7) (2021-07-22)
 
 
