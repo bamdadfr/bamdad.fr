@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
 
-    @media screen and ${Breakpoints.mobile} {
+    @media screen and ${Breakpoints.ultramobile} {
         height: 7em;
     }
 `
