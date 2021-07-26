@@ -18,9 +18,9 @@ export const TopSection = styled.section`
     grid-gap: 2em;
 
     @media screen and ${Breakpoints.ultramobile} {
-        grid-gap: 0;
+        grid-gap: 1em;
         padding-bottom: 0;
-        transform: translate3d(0, 5%, 0);
+        transform: translate3d(0, 7.5%, 0);
         flex-direction: column;
         align-items: center;
     }
