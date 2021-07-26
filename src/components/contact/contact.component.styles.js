@@ -13,9 +13,16 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
 
-    @media screen and ${Breakpoints.ultramobile} {
+    @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
         height: 9em;
-        transform: translate3d(0, -25%, 0);
+    }
+
+    @media screen and (max-width: ${Breakpoints.phablet - 1}px) {
+        transform: translate3d(0, -4vh, 0);
+    }
+
+    @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
+        transform: translate3d(0, -2vh, 0);
     }
 
     > div {

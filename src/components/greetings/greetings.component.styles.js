@@ -6,9 +6,8 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: flex-end;
 
-    @media screen and ${Breakpoints.ultramobile} {
+    @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
         height: 8em;
-        padding-top: 1em;
     }
 `
 

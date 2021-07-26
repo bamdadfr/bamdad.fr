@@ -10,27 +10,31 @@ export const Global = createGlobalStyle`
         font-weight: 400;
         color: ${Theme.colors.primary};
 
-        @media screen and ${Breakpoints.ultramobile} {
+        @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
+            font-size: 1em;
+        }
+
+        @media screen and (min-width: ${Breakpoints.mobile}px) {
             font-size: 1.2em;
         }
 
-        @media screen and ${Breakpoints.mobile} {
+        @media screen and (min-width: ${Breakpoints.phablet}px) {
             font-size: 1.4em;
         }
 
-        @media screen and ${Breakpoints.tablet} {
+        @media screen and (min-width: ${Breakpoints.tablet}px) {
             font-size: 1.6em;
         }
 
-        @media screen and ${Breakpoints.desktop} {
+        @media screen and (min-width: ${Breakpoints.desktop}px) {
             font-size: 1.8em;
         }
 
-        @media screen and ${Breakpoints.widescreen} {
+        @media screen and (min-width: ${Breakpoints.widescreen}px) {
             font-size: 2em;
         }
 
-        @media screen and ${Breakpoints.fullhd} {
+        @media screen and (min-width: ${Breakpoints.fullhd}px) {
             font-size: 2.2em;
         }
     }

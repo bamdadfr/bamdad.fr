@@ -17,7 +17,7 @@ export const TopSection = styled.section`
     padding-bottom: 1em;
     grid-gap: 2em;
 
-    @media screen and ${Breakpoints.ultramobile} {
+    @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
         grid-gap: 1em;
         padding-bottom: 0;
         transform: translate3d(0, 7.5%, 0);
@@ -30,7 +30,7 @@ export const TopSection = styled.section`
         min-width: 11em;
         transform: translate3d(5%, 0, 0);
 
-        @media screen and ${Breakpoints.ultramobile} {
+        @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
             transform: none;
             width: calc(100% - 1.7em);
         }
