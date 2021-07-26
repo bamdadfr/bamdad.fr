@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 import 'sass-reset'
