@@ -6,21 +6,16 @@ export const Section = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    padding-bottom: 1em;
-
-    @media screen and ${Breakpoints.mobile} {
-        padding-bottom: 2.2em;
-    }
 `
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
-    @media screen and ${Breakpoints.mobile} {
+
+    @media screen and ${Breakpoints.ultramobile} {
         height: 9em;
+        transform: translate3d(0, -25%, 0);
     }
 
     > div {
