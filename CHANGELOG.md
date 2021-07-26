@@ -1,3 +1,10 @@
+## [0.20.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.0...v0.20.1) (2021-07-26)
+
+
+### Bug Fixes
+
+* **languages.component.styles:** set fixed height to prevent element wobble on height update ([0e66a62](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0e66a62244272b44a6759a3a55449ff87c8692d9))
+
 # [0.20.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.19.7...v0.20.0) (2021-07-26)
 
 
