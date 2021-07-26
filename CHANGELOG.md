@@ -1,3 +1,10 @@
+## [0.20.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.1...v0.20.2) (2021-07-26)
+
+
+### Bug Fixes
+
+* **styles:** remove media queries from breakpoints.js + add media queries to css statements (better control over max/min-width) ([6cb5230](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/6cb5230c1a2be49abd77d767f4268975ac1c21d9))
+
 ## [0.20.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.0...v0.20.1) (2021-07-26)
 
 
