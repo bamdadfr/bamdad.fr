@@ -17,7 +17,7 @@ export function useWaited (delay = 0) {
 
         }, delay)
 
-    }, [])
+    }, [delay])
 
     return [waited]
 

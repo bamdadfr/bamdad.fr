@@ -34,7 +34,7 @@ export function useAnimateArray (
 
         return setIndex (index + 1)
 
-    }, [index])
+    }, [array, index])
 
     useEffect (() => {
 
@@ -77,7 +77,7 @@ export function useAnimateArray (
 
         }
 
-    }, [index, start])
+    }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, start])
 
     return [{
         index,

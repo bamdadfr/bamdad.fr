@@ -10,11 +10,15 @@ export default function NotFoundPage () {
 
     const router = useRouter ()
 
-    useEffect (async () => {
+    useEffect (() => {
 
-        await router.replace ('/')
+        (async () => {
 
-    }, [])
+            await router.replace ('/')
+
+        }) ()
+
+    }, [router])
 
     return <></>
 
