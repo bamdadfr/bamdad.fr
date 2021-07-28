@@ -20,7 +20,7 @@ export function useFirstRender (delay = 0) {
 
         return () => clearTimeout (timer)
 
-    }, [])
+    }, [delay])
 
     return [firstRender]
 
