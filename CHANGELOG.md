@@ -1,3 +1,15 @@
+## [0.20.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.2...v0.20.3) (2021-07-28)
+
+
+### Bug Fixes
+
+* **hooks:** enforce rules of hooks ([7c1e9fb](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/7c1e9fbd28ce1108fb576f1312a3129ce115dbe2))
+
+
+### Performance Improvements
+
+* **deps:** update to latest dependencies ([72f5232](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/72f5232e1e46b0fac80694597e26c78e020542e0))
+
 ## [0.20.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.1...v0.20.2) (2021-07-26)
 
 
