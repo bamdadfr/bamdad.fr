@@ -480,10 +480,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@iconify/icons-simple-icons@^1.1.23":
-  version "1.1.34"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.34.tgz#d2b67b13c382d8f1771b754c271333e3694d03d5"
-  integrity sha512-F8/RzRjFB8YHFZHTQ9HgmvVeH89hVpYr29JoaYoq7MlsPK1BNGFXNoc0IWn1PLQQqM8yXCDT6YOEYMn+5KRknA==
+"@iconify/icons-simple-icons@^1.1.35":
+  version "1.1.35"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.1.35.tgz#b4caeb096dbdff6e4daca40ee0f702870272f154"
+  integrity sha512-Ygy0cYuP9bEyy/udunLpAf+Li0+YjfU8xmdOWGNWPmoswSb5kdGLN2AZeLYeLiAhFkP475o+DXv+5Jjq6lns6A==
 
 "@iconify/react@^1.1.4":
   version "1.1.4"

@@ -25,7 +25,7 @@
     },
     "dependencies": {
         "@fontsource/lora": "^4.5.0",
-        "@iconify/icons-simple-icons": "^1.1.23",
+        "@iconify/icons-simple-icons": "^1.1.35",
         "@iconify/react": "^1.1.4",
         "@juggle/resize-observer": "^3.3.1",
         "@react-spring/web": "^9.2.4",
