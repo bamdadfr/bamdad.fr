@@ -11,7 +11,7 @@ export const Global = createGlobalStyle`
         color: ${Theme.colors.primary};
 
         @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
-            font-size: 1em;
+            font-size: 1.1em;
         }
 
         @media screen and (min-width: ${Breakpoints.mobile}px) {
@@ -19,23 +19,23 @@ export const Global = createGlobalStyle`
         }
 
         @media screen and (min-width: ${Breakpoints.phablet}px) {
-            font-size: 1.4em;
+            font-size: 1.3em;
         }
 
         @media screen and (min-width: ${Breakpoints.tablet}px) {
-            font-size: 1.6em;
+            font-size: 1.4em;
         }
 
         @media screen and (min-width: ${Breakpoints.desktop}px) {
-            font-size: 1.8em;
+            font-size: 1.5em;
         }
-
+        
         @media screen and (min-width: ${Breakpoints.widescreen}px) {
-            font-size: 2em;
+            font-size: 1.6em;
         }
-
+        
         @media screen and (min-width: ${Breakpoints.fullhd}px) {
-            font-size: 2.2em;
+            font-size: 1.7em;
         }
     }
 `

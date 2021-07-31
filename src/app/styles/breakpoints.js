@@ -1,3 +1,6 @@
+/**
+ * @description breakpoints in pixels
+ */
 export const Breakpoints = {
     'mobile': 360,
     'phablet': 640,
