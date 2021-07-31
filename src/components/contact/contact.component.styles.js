@@ -6,6 +6,10 @@ export const Section = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+    @media screen and (min-width: ${Breakpoints.desktop}px) {
+        font-size: .9em;
+    }
 `
 
 export const Container = styled.div`
