@@ -1,3 +1,12 @@
+## [0.20.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.3...v0.20.4) (2021-07-31)
+
+
+### Performance Improvements
+
+* **ContactComponent:** reduce size of elements when > desktop ([fafbf34](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/fafbf349d012c35271d33f6238e89cce4c729059))
+* **FooterComponent:** add delay of 2sec ([d4f87d8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/d4f87d852541fa9dd063a73a24062ff127e15a35))
+* **styles:** add smaller font sizes for big screens ([69c074b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/69c074bf126312392d2d73e43f746d1c9dc0ac91))
+
 ## [0.20.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.2...v0.20.3) (2021-07-28)
 
 
