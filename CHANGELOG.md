@@ -1,3 +1,10 @@
+## [0.20.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.4...v0.20.5) (2021-08-02)
+
+
+### Bug Fixes
+
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([7e24909](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/7e24909220fbdca50cc31be43da275a65c91a348))
+
 ## [0.20.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.3...v0.20.4) (2021-07-31)
 
 
