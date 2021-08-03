@@ -25,8 +25,8 @@ const defaultProps = {
  */
 export function SlideAnimation ({
     children,
-    delay = SlideAnimation.defaultProps.delay,
-    isVisible = SlideAnimation.defaultProps.isVisible,
+    delay,
+    isVisible,
 }) {
 
     const [ref, { height }] = useMeasure ({ 'polyfill': ResizeObserver })

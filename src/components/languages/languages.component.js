@@ -12,7 +12,7 @@ export function LanguagesComponent () {
     const [waited] = useWaited (8600)
 
     const [{ index, isVisible }] = useAnimateArray (LanguagesConstants, {
-        'start': waited,
+        'autostart': waited,
     })
 
     return (

@@ -30,14 +30,12 @@ const defaultProps = {
  * @returns {React.ReactElement} react component
  */
 export function MetaComponent ({
-    title = defaultProps.title,
-    url = defaultProps.url,
-    description = defaultProps.description,
-    image = defaultProps.image,
-    customTitle = defaultProps.customTitle,
+    title,
+    url,
+    description,
+    image,
+    customTitle,
 }) {
-
-    // console.log (title, url, description, image)
 
     // noinspection HtmlUnknownTarget, HtmlRequiredTitleElement
     return (
@@ -50,6 +48,7 @@ export function MetaComponent ({
 
             <meta itemProp="name" content={title}/>
             <meta itemProp="description" content={description}/>
+            <meta name="description" content={description}/>
             <meta itemProp="image" content={image}/>
 
             <meta name="twitter:card" content="summary_large_image"/>

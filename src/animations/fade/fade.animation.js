@@ -22,8 +22,8 @@ const defaultProps = {
  */
 export function FadeAnimation ({
     children,
-    delay = FadeAnimation.defaultProps.delay,
-    isVisible = FadeAnimation.defaultProps.isVisible,
+    delay,
+    isVisible,
 }) {
 
     const style = useSpring ({
