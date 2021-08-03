@@ -23,6 +23,7 @@ export function ContactComponent () {
                                 // onClick={useCallback (() => element.onClick (), [])}
                                 href={element.href}
                                 target={element.target}
+                                rel={element.rel ? element.rel : null}
                             >
                                 <span>
                                     {element.icon}

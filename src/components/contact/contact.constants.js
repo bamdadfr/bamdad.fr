@@ -9,6 +9,7 @@ export const ContactConstants = [
         'delay': 4000,
         'href': 'https://cv.bamdad.fr/',
         'target': '_blank',
+        'rel': 'noopener noreferrer',
     },
     {
         'text': 'stories',
@@ -18,6 +19,7 @@ export const ContactConstants = [
         'delay': 5000,
         'href': 'https://stories.bamdad.fr/',
         'target': '_blank',
+        'rel': 'noopener noreferrer',
     },
     {
         'text': 'email me',
