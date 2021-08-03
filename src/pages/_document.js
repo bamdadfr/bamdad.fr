@@ -1,6 +1,6 @@
-/* eslint-disable react/no-danger */
 // noinspection JSUnusedGlobalSymbols
 
+/* eslint-disable react/no-danger */
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
 
         // noinspection HtmlRequiredTitleElement
         return (
-            <Html>
+            <Html lang="en">
                 <Head>
                     {/* Global Site Tag (gtag.js) - Google Analytics */}
                     <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}/>
