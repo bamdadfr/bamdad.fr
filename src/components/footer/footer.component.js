@@ -18,6 +18,7 @@ export function FooterComponent () {
                             target="_blank"
                             title={`link to ${element.text}`}
                             color={element.color}
+                            rel="noopener noreferrer"
                         >
                             {element.icon}
                         </Link>
