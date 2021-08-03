@@ -1,3 +1,12 @@
+## [0.20.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.5...v0.20.6) (2021-08-03)
+
+
+### Performance Improvements
+
+* **deps:** update dependencies to latest ([627755c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/627755ce97fd2d3a3c3aacc5361a72b75f89a28c))
+* **test:** add unit tests ([aa2b9ef](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/aa2b9ef1dbbdd6ad75657dd594b9dfe488a996ae))
+* **testing:** add full coverage to jest.config.js + add command `yarn test:coverage` ([adc01e5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/adc01e512d5d2fbe0144b9c2a3fc977317d3e66e))
+
 ## [0.20.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.4...v0.20.5) (2021-08-02)
 
 
