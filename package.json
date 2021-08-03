@@ -20,7 +20,8 @@
         "package:sort": "npx sort-package-json",
         "start": "next start",
         "test": "jest",
-        "test:cov": "jest --coverage && codecov",
+        "test:cov": "yarn test:coverage",
+        "test:coverage": "jest --coverage && codecov",
         "test:watch": "jest --watch"
     },
     "dependencies": {
