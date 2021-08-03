@@ -7,7 +7,7 @@ import { GreetingsComponent, LanguagesComponent } from '../components'
 /**
  * @returns {React.ReactElement} react component
  */
-export default function Index () {
+export default function IndexPage () {
 
     return (
         <>

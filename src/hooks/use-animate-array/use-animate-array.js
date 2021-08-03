@@ -4,14 +4,13 @@ import { useState, useEffect, useCallback } from 'react'
  * @description iterate an array item by item
  * @param {Array.<*>} array array to iterate through
  * @param {object} options hook options
- * @param {boolean} [options.start=true] trigger render manually / externally
- *      (useful for delayed render)
+ * @param {boolean} [options.autostart=true] useful if you want to delay render
  * @returns {Array.<{index: number, isVisible: boolean}>} state
  */
 export function useAnimateArray (
     array,
     {
-        start = true,
+        autostart = true,
     },
 ) {
 
@@ -38,46 +37,44 @@ export function useAnimateArray (
 
     useEffect (() => {
 
-        if (start) {
+        if (!autostart) return
 
-            new Promise ((resolve) => {
+        new Promise ((resolve) => {
+
+            setTimeout (() => {
+
+                setIsVisible (false)
+
+                resolve ()
+
+            }, keyframes.hide)
+
+        })
+            .then (() => new Promise ((resolve) => {
 
                 setTimeout (() => {
 
-                    setIsVisible (false)
+                    nextIndex ()
 
                     resolve ()
 
-                }, keyframes.hide)
+                }, keyframes.iterate)
 
-            })
-                .then (() => new Promise ((resolve) => {
+            }))
+            .then (() => new Promise (
+                (resolve) => {
 
                     setTimeout (() => {
 
-                        nextIndex ()
+                        setIsVisible (true)
 
                         resolve ()
 
-                    }, keyframes.iterate)
+                    }, keyframes.show)
 
                 }))
-                .then (() => new Promise (
-                    (resolve) => {
 
-                        setTimeout (() => {
-
-                            setIsVisible (true)
-
-                            resolve ()
-
-                        }, keyframes.show)
-
-                    }))
-
-        }
-
-    }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, start])
+    }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, autostart])
 
     return [{
         index,

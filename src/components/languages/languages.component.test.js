@@ -1,13 +1,11 @@
 import React from 'react'
 import { render as defaultRender } from '@testing-library/react'
-import { FadeAnimation } from './fade.animation'
+import { LanguagesComponent } from './languages.component'
 
 const render = () => {
 
     const { container } = defaultRender (
-        <FadeAnimation>
-            <span>this my testing child</span>
-        </FadeAnimation>,
+        <LanguagesComponent/>,
     )
 
     return {
@@ -16,23 +14,25 @@ const render = () => {
 
 }
 
-describe ('FadeAnimation', () => {
+describe ('LanguagesComponent', () => {
 
     describe ('container', () => {
 
-        it ('should be in the document', () => {
+        it ('should be defined and visible', () => {
 
             const { container } = render ()
 
             expect (container).toBeInTheDocument ()
 
+            expect (container).toBeVisible ()
+
         })
 
-        it ('should be visible', () => {
+        it ('should not be empty', () => {
 
             const { container } = render ()
 
-            expect (container).toBeVisible ()
+            expect (container).not.toBeEmptyDOMElement ()
 
         })
 

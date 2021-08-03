@@ -1,13 +1,11 @@
 import React from 'react'
 import { render as defaultRender } from '@testing-library/react'
-import { FadeAnimation } from './fade.animation'
+import NotFoundPage from '../pages/404'
 
 const render = () => {
 
     const { container } = defaultRender (
-        <FadeAnimation>
-            <span>this my testing child</span>
-        </FadeAnimation>,
+        <NotFoundPage/>,
     )
 
     return {
@@ -16,26 +14,22 @@ const render = () => {
 
 }
 
-describe ('FadeAnimation', () => {
+describe ('NotFoundPage', () => {
 
     describe ('container', () => {
 
-        it ('should be in the document', () => {
+        it ('should be in the document, visible and empty', () => {
 
             const { container } = render ()
 
             expect (container).toBeInTheDocument ()
 
-        })
-
-        it ('should be visible', () => {
-
-            const { container } = render ()
-
             expect (container).toBeVisible ()
 
+            expect (container).toBeEmptyDOMElement ()
+        
         })
-
+    
     })
 
 })
