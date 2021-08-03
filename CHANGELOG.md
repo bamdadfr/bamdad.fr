@@ -1,3 +1,12 @@
+## [0.20.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.6...v0.20.7) (2021-08-03)
+
+
+### Bug Fixes
+
+* **ContactComponent:** add `rel` tag for cross-origin destinations ([91e4eed](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/91e4eed22e19dd20b231fc5311b0e14be7ae0979))
+* **FooterComponent:** add `rel` tag for cross-origin destinations ([a68c385](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a68c385859e776836982d88140e4f336fd0e8d8b))
+* **MyDocument:** add language attribute to `html` ([1287925](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/1287925b510678cea34fb5ef29e46bf48a4b87e0))
+
 ## [0.20.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.5...v0.20.6) (2021-08-03)
 
 
