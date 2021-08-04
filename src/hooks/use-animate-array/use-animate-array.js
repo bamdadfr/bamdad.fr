@@ -76,9 +76,9 @@ export function useAnimateArray (
 
     }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, autostart])
 
-    return [{
+    return {
         index,
         isVisible,
-    }]
+    }
 
 }

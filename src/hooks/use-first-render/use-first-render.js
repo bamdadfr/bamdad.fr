@@ -22,6 +22,6 @@ export function useFirstRender (delay = 0) {
 
     }, [delay])
 
-    return [firstRender]
+    return { firstRender }
 
 }

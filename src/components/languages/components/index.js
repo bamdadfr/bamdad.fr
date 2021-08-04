@@ -1,0 +1,1 @@
+export { LanguageComponent } from './language'

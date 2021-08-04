@@ -30,7 +30,7 @@ export function SlideAnimation ({
 }) {
 
     const [ref, { height }] = useMeasure ({ 'polyfill': ResizeObserver })
-    const [firstRender] = useFirstRender (delay)
+    const { firstRender } = useFirstRender (delay)
 
     const style = useSpring ({
         'from': {

@@ -9,7 +9,7 @@ describe ('useFirstRender', () => {
 
             const { result } = renderHook (() => useFirstRender ())
 
-            expect (result.current[0]).toBe (true)
+            expect (result.current.firstRender).toBe (true)
         
         })
     

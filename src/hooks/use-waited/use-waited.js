@@ -19,6 +19,6 @@ export function useWaited (delay = 0) {
 
     }, [delay])
 
-    return [waited]
+    return { waited }
 
 }

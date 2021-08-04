@@ -9,7 +9,7 @@ describe ('useWaited', () => {
 
             const { result } = renderHook (() => useWaited ())
 
-            expect (result.current[0]).toBe (false)
+            expect (result.current.waited).toBe (false)
         
         })
     

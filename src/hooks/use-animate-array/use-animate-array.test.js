@@ -12,7 +12,7 @@ describe ('useAnimateArray', () => {
             const { result } = renderHook (() => useAnimateArray (array, { 'autostart': true }))
             // todo understand why `autostart` does not use default value
 
-            expect (result.current[0].index).toBe (0)
+            expect (result.current.index).toBe (0)
 
         })
 
@@ -24,7 +24,7 @@ describe ('useAnimateArray', () => {
 
             const { result } = renderHook (() => useAnimateArray (array, { 'autostart': true }))
 
-            expect (result.current[0].isVisible).toBe (true)
+            expect (result.current.isVisible).toBe (true)
         
         })
 
@@ -32,7 +32,7 @@ describe ('useAnimateArray', () => {
 
             const { result } = renderHook (() => useAnimateArray (array, { 'autostart': false }))
 
-            expect (result.current[0].isVisible).toBe (true)
+            expect (result.current.isVisible).toBe (true)
 
         })
 
