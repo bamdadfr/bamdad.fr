@@ -1,3 +1,13 @@
+## [0.20.9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.8...v0.20.9) (2021-08-04)
+
+
+### Performance Improvements
+
+* **SlideAnimation:** add barrel export for `getEnterOrLeaveDelay` + remove `useCallback` wrapper ([17cd076](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/17cd07619102e121bc2a467f00b8e31d30baea78))
+* **SlideAnimation:** extract delay logic to its own utility ([8e16efa](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/8e16efa49613133f5955243cfae2e13a76c47aa0))
+* better custom hooks exports + improve rendering by splitting `LanguagesComponent` ([33c27ef](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/33c27ef2199171e54dbeffd5518600f8aa44458d))
+* cleaning `ContactComponent` ([baddfc9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/baddfc912529175f4553eaa135489c70e56b4ce0))
+
 ## [0.20.8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.7...v0.20.8) (2021-08-04)
 
 
