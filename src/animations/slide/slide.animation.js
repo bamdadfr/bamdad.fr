@@ -1,10 +1,10 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import { animated, useSpring } from '@react-spring/web'
 import useMeasure from 'react-use-measure'
 import { ResizeObserver } from '@juggle/resize-observer'
 import { useFirstRender } from '../../hooks'
-import { getEnterOrLeaveDelay } from '../../utils/get-enter-or-leave-delay/get-enter-or-leave-delay'
+import { getEnterOrLeaveDelay } from '../../utils'
 
 const propTypes = {
     'children': PropTypes.node.isRequired,
@@ -44,11 +44,7 @@ export function SlideAnimation ({
             'opacity': isVisible ? 1 : 0,
             'height': isVisible ? height : 0,
         },
-        'delay': useCallback (() => {
-
-            getEnterOrLeaveDelay (delay, firstRender, !isVisible)
-        
-        }, [delay, firstRender, isVisible]),
+        'delay': getEnterOrLeaveDelay (delay, firstRender, !isVisible),
     })
 
     return (
