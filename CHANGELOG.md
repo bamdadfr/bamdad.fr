@@ -1,3 +1,10 @@
+## [0.20.8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.7...v0.20.8) (2021-08-04)
+
+
+### Performance Improvements
+
+* **tests:** add global mock `next/router` + remove `jest-transform-stub` dep ([801f135](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/801f1350e951c21517bc5bf9389ee1cd65ef7f05))
+
 ## [0.20.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.6...v0.20.7) (2021-08-03)
 
 
