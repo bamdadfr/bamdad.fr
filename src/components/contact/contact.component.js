@@ -20,7 +20,6 @@ export function ContactComponent () {
                             <Button
                                 color={element.color}
                                 hover={element.hover}
-                                // onClick={useCallback (() => element.onClick (), [])}
                                 href={element.href}
                                 target={element.target}
                                 rel={element.rel ? element.rel : null}
