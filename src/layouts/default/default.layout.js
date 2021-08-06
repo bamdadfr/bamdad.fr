@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { BackgroundComponent, FooterComponent, ContactComponent, MetaComponent } from '../../components'
+import { BackgroundComponent } from '../../components/background/background.component'
+import { FooterComponent } from '../../components/footer/footer.component'
+import { ContactComponent } from '../../components/contact/contact.component'
+import { MetaComponent } from '../../components/meta/meta.component'
 import { Container, TopSection } from './default.layout.styles'
 
 const propTypes = {

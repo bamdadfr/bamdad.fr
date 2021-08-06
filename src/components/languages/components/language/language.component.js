@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FadeAnimation, SlideAnimation } from '../../../../animations'
+import { FadeAnimation } from '../../../../animations/fade/fade.animation'
+import { SlideAnimation } from '../../../../animations/slide/slide.animation'
 import { Icon, Label, LanguageContainer } from './language.component.styles'
 import { LanguagesConstants } from '../../languages.constants'
-import { useAnimateArray, useWaited } from '../../../../hooks'
+import { useAnimateArray } from '../../../../hooks/use-animate-array/use-animate-array'
+import { useWaited } from '../../../../hooks/use-waited/use-waited'
 
 const propTypes = {
     'delay': PropTypes.number.isRequired,

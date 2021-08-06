@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from './languages.component.styles'
-import { LanguageComponent } from './components'
-import { SlideAnimation } from '../../animations'
+import { LanguageComponent } from './components/language/language.component'
+import { SlideAnimation } from '../../animations/slide/slide.animation'
 
 /**
  * @returns {React.ReactElement} react component

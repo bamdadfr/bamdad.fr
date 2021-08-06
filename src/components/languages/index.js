@@ -1,1 +1,0 @@
-export { LanguagesComponent } from './languages.component'

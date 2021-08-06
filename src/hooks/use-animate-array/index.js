@@ -1,1 +1,0 @@
-export { useAnimateArray } from './use-animate-array'

@@ -4,8 +4,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import 'sass-reset'
-import { useApp } from '../app/hooks'
-import { WithStyledComponents } from '../app/components'
+import { useApp } from '../app/hooks/use-app/use-app'
+import { WithStyledComponents } from '../app/components/with-styled-components/with-styled-components'
 
 const propTypes = {
     'Component': PropTypes.func.isRequired,
