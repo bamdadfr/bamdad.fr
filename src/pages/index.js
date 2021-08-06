@@ -1,8 +1,7 @@
-// noinspection JSUnusedGlobalSymbols
-
 import React from 'react'
-import { DefaultLayout } from '../layouts'
-import { GreetingsComponent, LanguagesComponent } from '../components'
+import { DefaultLayout } from '../layouts/default/default.layout'
+import { GreetingsComponent } from '../components/greetings/greetings.component'
+import { LanguagesComponent } from '../components/languages/languages.component'
 
 /**
  * @returns {React.ReactElement} react component

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SlideAnimation } from '../../animations'
+import { SlideAnimation } from '../../animations/slide/slide.animation'
 import { GreetingsConstants } from './greetings.constants'
 import { Container } from './greetings.component.styles'
 

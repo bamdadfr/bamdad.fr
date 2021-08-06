@@ -1,5 +1,5 @@
 import React from 'react'
-import { SlideAnimation } from '../../animations'
+import { SlideAnimation } from '../../animations/slide/slide.animation'
 import { FooterConstants } from './footer.constants'
 import { Section, Link } from './footer.component.styles'
 

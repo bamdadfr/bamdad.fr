@@ -16,7 +16,7 @@ import reactIcon from '@iconify/icons-simple-icons/react'
 import sassIcon from '@iconify/icons-simple-icons/sass'
 import typescriptIcon from '@iconify/icons-simple-icons/typescript'
 import webpackIcon from '@iconify/icons-simple-icons/webpack'
-import { shuffleArray } from '../../utils'
+import { shuffleArray } from '../../utils/shuffle-array/shuffle-array'
 
 export const LanguagesConstants = shuffleArray ([
     {

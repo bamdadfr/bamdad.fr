@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { animated, useSpring } from '@react-spring/web'
 import useMeasure from 'react-use-measure'
 import { ResizeObserver } from '@juggle/resize-observer'
-import { useFirstRender } from '../../hooks'
-import { getEnterOrLeaveDelay } from '../../utils'
+import { useFirstRender } from '../../hooks/use-first-render/use-first-render'
+import { getEnterOrLeaveDelay } from '../../utils/get-enter-or-leave-delay/get-enter-or-leave-delay'
 
 const propTypes = {
     'children': PropTypes.node.isRequired,
