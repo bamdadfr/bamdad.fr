@@ -1,3 +1,10 @@
+## [0.21.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.0...v0.21.1) (2021-08-06)
+
+
+### Performance Improvements
+
+* **deps:** update to latest dependencies ([3305d29](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3305d292ae9e32aba98db6b05ecab843d84602f2))
+
 # [0.21.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.9...v0.21.0) (2021-08-06)
 
 
