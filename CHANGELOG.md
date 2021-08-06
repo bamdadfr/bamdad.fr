@@ -1,3 +1,10 @@
+# [0.21.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.9...v0.21.0) (2021-08-06)
+
+
+### Features
+
+* remove all barrel files ([dfac8a8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/dfac8a8a511e834218424e330244e030ecef8391))
+
 ## [0.20.9](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.20.8...v0.20.9) (2021-08-04)
 
 
