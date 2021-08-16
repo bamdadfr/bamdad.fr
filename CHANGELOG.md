@@ -1,3 +1,11 @@
+## [0.21.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.3...v0.21.4) (2021-08-16)
+
+
+### Performance Improvements
+
+* **deps:** upgrade deps ([43ce2c1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/43ce2c19650de0e12c33816f9df0ba86202723ea))
+* **dev:** remove intellij page comments ([82c612e](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/82c612e6ee0c1f381e907d9abada496f5d2e43cb))
+
 ## [0.21.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.2...v0.21.3) (2021-08-13)
 
 
