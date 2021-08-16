@@ -1,6 +1,3 @@
-// noinspection JSUnusedGlobalSymbols
-
-/* eslint-disable react/forbid-prop-types */
 import React from 'react'
 import PropTypes from 'prop-types'
 import 'sass-reset'
@@ -9,7 +6,9 @@ import { WithStyledComponents } from '../app/components/with-styled-components/w
 
 const propTypes = {
     'Component': PropTypes.func.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
     'pageProps': PropTypes.object.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
     'err': PropTypes.any,
 }
 
