@@ -1,3 +1,11 @@
+## [0.21.11](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.10...v0.21.11) (2021-09-20)
+
+
+### Bug Fixes
+
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([be56a3a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/be56a3abb0fc2d9429f8258f2aeebed58d194d91))
+* **CI:** use node version 14 in pipelines ([74ec876](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/74ec876c33085743f02ecc89e1a8d828567097f9))
+
 ## [0.21.10](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.9...v0.21.10) (2021-09-13)
 
 
