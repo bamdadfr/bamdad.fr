@@ -56,7 +56,7 @@
         "eslint-plugin-testing-library": "^4.10.1",
         "jest": "^27.0.4",
         "rimraf": "^3.0.2",
-        "sass": "^1.39.0",
+        "sass": "^1.42.0",
         "sass-reset": "^1.0.3"
     }
 }
