@@ -1,35 +1,8 @@
-<!--suppress HtmlDeprecatedAttribute, HtmlRequiredAltAttribute -->
+![license](https://img.shields.io/github/license/bamdadsabbagh/bamdadsabbagh-com--www)
+![maintainability](https://img.shields.io/codeclimate/maintainability/bamdadsabbagh/bamdadsabbagh-com--www)
+![coverage](https://img.shields.io/codeclimate/coverage/bamdadsabbagh/bamdadsabbagh-com--www)
+![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/bamdadsabbagh-com--www)
 
-<p align=center>
-    <a href="https://bamdadsabbagh.com">
-        <img width=150 src="https://avatars.githubusercontent.com/u/17913954">
-    </a>
-</p>
+<img alt="avatar" width="100px" src="https://avatars.githubusercontent.com/u/17913954">
 
-<p align=center>
-    my personal website
-</p>
-
-<p align=center>
-    <a href="https://github.com/bamdadsabbagh/bamdadsabbagh-com--www">
-        <img src="https://img.shields.io/github/stars/bamdadsabbagh/bamdadsabbagh-com--www?label=git">
-    </a>
-    <img src="https://img.shields.io/github/license/bamdadsabbagh/bamdadsabbagh-com--www">
-</p>
-
-<p align=center>
-    <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/bamdadsabbagh-com--www">
-    <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/bamdadsabbagh-com--www">
-</p>
-
-<p align=center>
-    <img src="https://img.shields.io/github/v/release/bamdadsabbagh/bamdadsabbagh-com--www">
-    <img src="https://api.codeclimate.com/v1/badges/44a57c4c2f4b45296159/maintainability">
-    <img src="https://codecov.io/gh/bamdadsabbagh/bamdadsabbagh-com--www/branch/master/graph/badge.svg?token=AI9D3IK15Z">
-</p>
-
-<p align=center>
-    <img src="https://img.shields.io/david/bamdadsabbagh/bamdadsabbagh-com--www">
-    <img src="https://img.shields.io/david/dev/bamdadsabbagh/bamdadsabbagh-com--www">
-    <img src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/bamdadsabbagh-com--www">
-</p>
+My personal website
