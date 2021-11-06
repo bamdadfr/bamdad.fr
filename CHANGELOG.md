@@ -1,3 +1,10 @@
+## [0.21.19](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.18...v0.21.19) (2021-11-06)
+
+
+### Bug Fixes
+
+* add coverage command ([588934c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/588934c79ba2f385b8f69f798d0838c55794a6b8))
+
 ## [0.21.18](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.17...v0.21.18) (2021-11-06)
 
 
