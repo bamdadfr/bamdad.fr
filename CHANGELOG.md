@@ -1,3 +1,15 @@
+## [0.21.18](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.17...v0.21.18) (2021-11-06)
+
+
+### Bug Fixes
+
+* add new build commands ([1efc124](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/1efc124bad286969ce2861f2a625b2b03e4f57e0))
+
+
+### Performance Improvements
+
+* update dependencies ([bddc211](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/bddc211bb5027e65c4bea5deb304f7bea7d36476))
+
 ## [0.21.17](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.16...v0.21.17) (2021-11-01)
 
 
