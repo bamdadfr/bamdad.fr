@@ -11,6 +11,7 @@
     "build": "yarn build:run && yarn build:post",
     "build:run": "next build",
     "build:post": "find .next/static -type f -name \"*.map\" -exec rm {} \\;",
+    "coverage": "yarn test:coverage",
     "clean": "yarn next:clean && yarn package:clean",
     "dev": "next dev",
     "export": "next export",
@@ -21,8 +22,7 @@
     "package:sort": "npx sort-package-json",
     "start": "next start",
     "test": "jest",
-    "test:cov": "yarn test:coverage",
-    "test:coverage": "jest --coverage && codecov",
+    "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "dependencies": {
