@@ -1,3 +1,10 @@
+## [0.21.21](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.20...v0.21.21) (2021-11-11)
+
+
+### Performance Improvements
+
+* update dependencies + apply new code style ([66fa4ce](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/66fa4ced5d26a9b2c318dd9d21f35dd4ca03dd1b))
+
 ## [0.21.20](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.19...v0.21.20) (2021-11-08)
 
 
