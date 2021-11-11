@@ -1,15 +1,15 @@
-import React from 'react'
-import { Container } from './background.component.styles'
+import React from 'react';
+import { Container } from './background.component.styles';
 
 /**
- * @returns {React.ReactElement} react component
+ * Component to render the background of the application
+ *
+ * @returns {React.ReactElement} - Background component
  */
 export function BackgroundComponent () {
-
-    return (
-        <>
-            <Container/>
-        </>
-    )
-
+  return (
+    <>
+      <Container />
+    </>
+  );
 }

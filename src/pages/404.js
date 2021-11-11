@@ -1,23 +1,20 @@
-import React, { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import React, { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 /**
- * @returns {React.ReactElement} react component
+ * 404 page
+ * Path: /404 and any other path that doesn't match
+ *
+ * @returns {React.ReactElement} - 404 page
  */
 export default function NotFoundPage () {
+  const router = useRouter ();
 
-    const router = useRouter ()
+  useEffect (() => {
+    (async () => {
+      await router.replace ('/');
+    }) ();
+  }, [router]);
 
-    useEffect (() => {
-
-        (async () => {
-
-            await router.replace ('/')
-
-        }) ()
-
-    }, [router])
-
-    return <></>
-
+  return <></>;
 }
