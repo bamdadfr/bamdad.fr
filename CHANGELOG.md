@@ -1,3 +1,10 @@
+## [0.21.23](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.22...v0.21.23) (2021-11-16)
+
+
+### Bug Fixes
+
+* **next.js:** disable `outputFileTracing` to prevent sentry from crashing server functions ([310869b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/310869b5eff71f1360b52197ac70534a88b20e05))
+
 ## [0.21.22](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.21...v0.21.22) (2021-11-15)
 
 
