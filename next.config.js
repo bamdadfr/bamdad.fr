@@ -7,6 +7,7 @@ const { withSentryConfig } = require ('@sentry/nextjs');
 
 const moduleExports = {
   'poweredByHeader': false,
+  'outputFileTracing': false,
 };
 
 const SentryWebpackPluginOptions = {
