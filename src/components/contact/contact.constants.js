@@ -1,4 +1,4 @@
-import { Theme } from '../../app/styles/theme';
+import {Theme} from '../../app/styles/theme';
 
 export const ContactConstants = [
   {
@@ -8,16 +8,6 @@ export const ContactConstants = [
     hover: Theme.colors.white,
     delay: 4000,
     href: 'https://cv.bamdad.fr/',
-    target: '_blank',
-    rel: 'noopener noreferrer',
-  },
-  {
-    text: 'stories',
-    icon: '🧩',
-    color: Theme.colors.button.red,
-    hover: Theme.colors.white,
-    delay: 5000,
-    href: 'https://stories.bamdad.fr/',
     target: '_blank',
     rel: 'noopener noreferrer',
   },
