@@ -1,3 +1,15 @@
+# [0.22.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.24...v0.22.0) (2021-11-26)
+
+
+### Features
+
+* remove stories and npm links ([df64b44](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/df64b442869f7ecc28a062b0516cc612180f8712))
+
+
+### Performance Improvements
+
+* update all dependencies + apply new code style from linter config ([2dd1180](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2dd1180b81176fc7bd487d9098d2dd0ebac79ea2))
+
 ## [0.21.24](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.21.23...v0.21.24) (2021-11-22)
 
 
