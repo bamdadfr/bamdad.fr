@@ -1,18 +1,18 @@
 import React from 'react';
-import { SlideAnimation } from '../../animations/slide/slide.animation';
-import { FooterConstants } from './footer.constants';
-import { Section, Link } from './footer.component.styles';
+import {SlideAnimation} from '../../animations/slide/slide.animation';
+import {FooterConstants} from './footer.constants';
+import {Section, Link} from './footer.component.styles';
 
 /**
  * Component to render the footer
  *
  * @returns {React.ReactElement} - Footer component
  */
-export function FooterComponent () {
+export function FooterComponent() {
   return (
     <>
       <Section>
-        {FooterConstants.map ((element) => (
+        {FooterConstants.map((element) => (
           <SlideAnimation key={element.text} delay={2000}>
             <Link
               href={element.href}

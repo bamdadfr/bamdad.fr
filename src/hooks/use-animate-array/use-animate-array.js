@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import {useState, useEffect, useCallback} from 'react';
 
 /**
  * Hook to iterate over an array and animate each item
@@ -8,46 +8,46 @@ import { useState, useEffect, useCallback } from 'react';
  * @param {boolean} [options.autostart=true] - Whether to start the animation automatically
  * @returns {Array.<{index: number, isVisible: boolean}>} - The array of items
  */
-export function useAnimateArray (
+export function useAnimateArray(
   array,
   {
     autostart = true,
   },
 ) {
-  const [index, setIndex] = useState (0);
-  const [isVisible, setIsVisible] = useState (true);
+  const [index, setIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
-  const [keyframes] = useState ({ show: 0, iterate: 1200, hide: 2400 });
+  const [keyframes] = useState({show: 0, iterate: 1200, hide: 2400});
 
-  const nextIndex = useCallback (() => {
+  const nextIndex = useCallback(() => {
     if (typeof array[index + 1] === 'undefined') {
-      return setIndex (0);
+      return setIndex(0);
     }
-    return setIndex (index + 1);
+    return setIndex(index + 1);
   }, [array, index]);
 
-  useEffect (() => {
+  useEffect(() => {
     if (!autostart) {
       return;
     }
 
-    new Promise ((resolve) => {
-      setTimeout (() => {
-        setIsVisible (false);
-        resolve ();
+    new Promise((resolve) => {
+      setTimeout(() => {
+        setIsVisible(false);
+        resolve();
       }, keyframes.hide);
     })
-      .then (() => new Promise ((resolve) => {
-        setTimeout (() => {
-          nextIndex ();
-          resolve ();
+      .then(() => new Promise((resolve) => {
+        setTimeout(() => {
+          nextIndex();
+          resolve();
         }, keyframes.iterate);
       }))
-      .then (() => new Promise (
+      .then(() => new Promise(
         (resolve) => {
-          setTimeout (() => {
-            setIsVisible (true);
-            resolve ();
+          setTimeout(() => {
+            setIsVisible(true);
+            resolve();
           }, keyframes.show);
         }));
   }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, autostart]);

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { animated, useSpring } from '@react-spring/web';
+import {animated, useSpring} from '@react-spring/web';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -22,14 +22,14 @@ const defaultProps = {
  * @param {boolean} [props.isVisible=true] - Whether the element is visible
  * @returns {React.ReactElement} - Rendered component
  */
-export function FadeAnimation ({
+export function FadeAnimation({
   children,
   delay,
   isVisible,
 }) {
-  const style = useSpring ({
-    from: { opacity: isVisible ? 0 : 1 },
-    to: { opacity: isVisible ? 1 : 0 },
+  const style = useSpring({
+    from: {opacity: isVisible ? 0 : 1},
+    to: {opacity: isVisible ? 1 : 0},
     delay: isVisible ? delay : 0,
   });
 

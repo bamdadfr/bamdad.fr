@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import 'sass-reset';
-import { useApp } from '../app/hooks/use-app/use-app';
-import { WithStyledComponents } from '../app/components/with-styled-components/with-styled-components';
+import {useApp} from '../app/hooks/use-app/use-app';
+import {WithStyledComponents} from '../app/components/with-styled-components/with-styled-components';
 
 const propTypes = {
   Component: PropTypes.func.isRequired,
@@ -25,8 +25,8 @@ const defaultProps = {
  * @param {*} props.err - Error
  * @returns {React.ReactElement} - Rendered component
  */
-export default function MyApp ({ Component, pageProps, err }) {
-  useApp ();
+export default function MyApp({Component, pageProps, err}) {
+  useApp();
 
   return (
     <>

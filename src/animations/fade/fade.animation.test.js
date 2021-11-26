@@ -1,9 +1,9 @@
 import React from 'react';
-import { render as defaultRender } from '@testing-library/react';
-import { FadeAnimation } from './fade.animation';
+import {render as defaultRender} from '@testing-library/react';
+import {FadeAnimation} from './fade.animation';
 
 const render = () => {
-  const { container } = defaultRender (
+  const {container} = defaultRender(
     <FadeAnimation>
       <span>this my testing child</span>
     </FadeAnimation>,
@@ -14,16 +14,16 @@ const render = () => {
   };
 };
 
-describe ('FadeAnimation', () => {
-  describe ('container', () => {
-    it ('should be in the document', () => {
-      const { container } = render ();
-      expect (container).toBeInTheDocument ();
+describe('FadeAnimation', () => {
+  describe('container', () => {
+    it('should be in the document', () => {
+      const {container} = render();
+      expect(container).toBeInTheDocument();
     });
 
-    it ('should be visible', () => {
-      const { container } = render ();
-      expect (container).toBeVisible ();
+    it('should be visible', () => {
+      const {container} = render();
+      expect(container).toBeVisible();
     });
   });
 });

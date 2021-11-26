@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container } from './languages.component.styles';
-import { LanguageComponent } from './components/language/language.component';
-import { SlideAnimation } from '../../animations/slide/slide.animation';
+import {Container} from './languages.component.styles';
+import {LanguageComponent} from './components/language/language.component';
+import {SlideAnimation} from '../../animations/slide/slide.animation';
 
 /**
  * Component to display the languages
  *
  * @returns {React.ReactElement} - Languages component
  */
-export function LanguagesComponent () {
+export function LanguagesComponent() {
   return (
     <>
       <Container>

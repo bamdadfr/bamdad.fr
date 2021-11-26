@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import { Theme } from './theme';
-import { Breakpoints } from './breakpoints';
+import {createGlobalStyle} from 'styled-components';
+import {Theme} from './theme';
+import {Breakpoints} from './breakpoints';
 import '@fontsource/lora';
 
 export const Global = createGlobalStyle`

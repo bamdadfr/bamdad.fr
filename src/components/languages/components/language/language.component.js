@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FadeAnimation } from '../../../../animations/fade/fade.animation';
-import { SlideAnimation } from '../../../../animations/slide/slide.animation';
-import { Icon, Label, LanguageContainer } from './language.component.styles';
-import { LanguagesConstants } from '../../languages.constants';
-import { useAnimateArray } from '../../../../hooks/use-animate-array/use-animate-array';
-import { useWaited } from '../../../../hooks/use-waited/use-waited';
+import {FadeAnimation} from '../../../../animations/fade/fade.animation';
+import {SlideAnimation} from '../../../../animations/slide/slide.animation';
+import {Icon, Label, LanguageContainer} from './language.component.styles';
+import {LanguagesConstants} from '../../languages.constants';
+import {useAnimateArray} from '../../../../hooks/use-animate-array/use-animate-array';
+import {useWaited} from '../../../../hooks/use-waited/use-waited';
 
 const propTypes = {
   delay: PropTypes.number.isRequired,
@@ -18,10 +18,10 @@ const propTypes = {
  * @param {number} props.delay - Delay to animate the component
  * @returns {React.ReactElement} - Rendered component
  */
-export function LanguageComponent ({ delay }) {
-  const { waited } = useWaited (delay);
+export function LanguageComponent({delay}) {
+  const {waited} = useWaited(delay);
 
-  const { index, isVisible } = useAnimateArray (
+  const {index, isVisible} = useAnimateArray(
     LanguagesConstants, {
       autostart: waited,
     });

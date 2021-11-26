@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { animated, useSpring } from '@react-spring/web';
+import {animated, useSpring} from '@react-spring/web';
 import useMeasure from 'react-use-measure';
-import { ResizeObserver } from '@juggle/resize-observer';
-import { useFirstRender } from '../../hooks/use-first-render/use-first-render';
-import { getEnterOrLeaveDelay } from '../../utils/get-enter-or-leave-delay/get-enter-or-leave-delay';
+import {ResizeObserver} from '@juggle/resize-observer';
+import {useFirstRender} from '../../hooks/use-first-render/use-first-render';
+import {getEnterOrLeaveDelay} from '../../utils/get-enter-or-leave-delay/get-enter-or-leave-delay';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -26,15 +26,15 @@ const defaultProps = {
  * @param {boolean} [props.isVisible=true] - Whether the component is visible
  * @returns {React.ReactElement} - Rendered component
  */
-export function SlideAnimation ({
+export function SlideAnimation({
   children,
   delay,
   isVisible,
 }) {
-  const [ref, { height }] = useMeasure ({ polyfill: ResizeObserver });
-  const { firstRender } = useFirstRender (delay);
+  const [ref, {height}] = useMeasure({polyfill: ResizeObserver});
+  const {firstRender} = useFirstRender(delay);
 
-  const style = useSpring ({
+  const style = useSpring({
     from: {
       display: 'none',
       opacity: isVisible ? 0 : 1,
@@ -45,7 +45,7 @@ export function SlideAnimation ({
       opacity: isVisible ? 1 : 0,
       height: isVisible ? height : 0,
     },
-    delay: getEnterOrLeaveDelay (delay, firstRender, !isVisible),
+    delay: getEnterOrLeaveDelay(delay, firstRender, !isVisible),
   });
 
   return (

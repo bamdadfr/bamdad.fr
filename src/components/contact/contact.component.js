@@ -1,19 +1,19 @@
 import React from 'react';
-import { SlideAnimation } from '../../animations/slide/slide.animation';
-import { ContactConstants } from './contact.constants';
-import { Section, Container, Button } from './contact.component.styles';
+import {SlideAnimation} from '../../animations/slide/slide.animation';
+import {ContactConstants} from './contact.constants';
+import {Section, Container, Button} from './contact.component.styles';
 
 /**
  * Component to display contact information
  *
  * @returns {React.ReactElement} - Contact component
  */
-export function ContactComponent () {
+export function ContactComponent() {
   return (
     <>
       <Section>
         <Container>
-          {ContactConstants.map ((element) => (
+          {ContactConstants.map((element) => (
             <SlideAnimation
               key={element.text}
               delay={element.delay}

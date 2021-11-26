@@ -1,10 +1,10 @@
 import React from 'react';
-import { render as defaultRender } from '@testing-library/react';
+import {render as defaultRender} from '@testing-library/react';
 import IndexPage from '../pages';
-import { WithStyledComponents } from '../app/components/with-styled-components/with-styled-components';
+import {WithStyledComponents} from '../app/components/with-styled-components/with-styled-components';
 
 const render = () => {
-  const { container } = defaultRender (
+  const {container} = defaultRender(
     <WithStyledComponents>
       <IndexPage />
     </WithStyledComponents>,
@@ -15,17 +15,17 @@ const render = () => {
   };
 };
 
-describe ('IndexPage', () => {
-  describe ('container', () => {
-    it ('should be in the document and visible', () => {
-      const { container } = render ();
-      expect (container).toBeInTheDocument ();
-      expect (container).toBeVisible ();
+describe('IndexPage', () => {
+  describe('container', () => {
+    it('should be in the document and visible', () => {
+      const {container} = render();
+      expect(container).toBeInTheDocument();
+      expect(container).toBeVisible();
     });
 
-    it ('should not be empty', () => {
-      const { container } = render ();
-      expect (container).not.toBeEmptyDOMElement ();
+    it('should not be empty', () => {
+      const {container} = render();
+      expect(container).not.toBeEmptyDOMElement();
     });
   });
 });

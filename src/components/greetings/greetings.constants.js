@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bold } from './greetings.component.styles';
+import {Bold} from './greetings.component.styles';
 
 export const GreetingsConstants = [
   {

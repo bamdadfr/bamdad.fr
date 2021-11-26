@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import React, {useEffect} from 'react';
+import {useRouter} from 'next/router';
 
 /**
  * 404 page
@@ -7,13 +7,13 @@ import { useRouter } from 'next/router';
  *
  * @returns {React.ReactElement} - 404 page
  */
-export default function NotFoundPage () {
-  const router = useRouter ();
+export default function NotFoundPage() {
+  const router = useRouter();
 
-  useEffect (() => {
+  useEffect(() => {
     (async () => {
-      await router.replace ('/');
-    }) ();
+      await router.replace('/');
+    })();
   }, [router]);
 
   return <></>;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from '@iconify/react';
+import {Icon} from '@iconify/react';
 import debianIcon from '@iconify/icons-simple-icons/debian';
 import dockerIcon from '@iconify/icons-simple-icons/docker';
 import githubActionsIcon from '@iconify/icons-simple-icons/githubactions';
@@ -16,9 +16,9 @@ import reactIcon from '@iconify/icons-simple-icons/react';
 import sassIcon from '@iconify/icons-simple-icons/sass';
 import typescriptIcon from '@iconify/icons-simple-icons/typescript';
 import webpackIcon from '@iconify/icons-simple-icons/webpack';
-import { shuffleArray } from '../../utils/shuffle-array/shuffle-array';
+import {shuffleArray} from '../../utils/shuffle-array/shuffle-array';
 
-export const LanguagesConstants = shuffleArray ([
+export const LanguagesConstants = shuffleArray([
   {
     'text': 'Debian',
     'icon': <Icon icon={debianIcon} />,

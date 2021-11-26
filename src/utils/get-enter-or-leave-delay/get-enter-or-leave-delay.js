@@ -6,7 +6,7 @@
  * @param {boolean} isLeaving - If the element is leaving
  * @returns {number} - The final delay
  */
-export function getEnterOrLeaveDelay (delay, isFirstRender, isLeaving) {
+export function getEnterOrLeaveDelay(delay, isFirstRender, isLeaving) {
   if (isFirstRender) {
     return delay;
   }
