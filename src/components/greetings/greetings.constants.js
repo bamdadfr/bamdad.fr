@@ -15,15 +15,15 @@ export const GreetingsConstants = [
     delay: 2600,
   },
   {
-    text: (<>a <Bold>Full Stack</Bold> developer</>),
+    text: (<>a <Bold>Front-End</Bold> developer</>),
     delay: 3000,
   },
   {
-    text: 'shifting towards',
+    text: 'specialized in',
     delay: 4500,
   },
   {
-    text: (<><Bold>Front End</Bold>.</>),
+    text: (<><Bold>JavaScript</Bold>.</>),
     delay: 5500,
   },
 ];
