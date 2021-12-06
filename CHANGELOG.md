@@ -1,3 +1,16 @@
+# [0.23.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.22.2...v0.23.0) (2021-12-06)
+
+
+### Bug Fixes
+
+* change contact timing ([0cdb872](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0cdb87280fdab951b29883a57f6f297496909911))
+
+
+### Features
+
+* change greetings text ([89ab286](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/89ab286ca5890336a342fe4673a90409c7e1b757))
+* change languages ([27797dd](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/27797dd65fd56cb21510797fb86e42f809c60e31))
+
 ## [0.22.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.22.1...v0.22.2) (2021-12-06)
 
 
