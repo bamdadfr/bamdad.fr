@@ -16,7 +16,7 @@ export const ContactConstants = [
     icon: '✉️',
     color: Theme.colors.button.yellow,
     hover: Theme.colors.primary,
-    delay: 6000,
+    delay: 5000,
     href: 'mailto:hi@bamdad.fr',
     target: '_self',
   },
