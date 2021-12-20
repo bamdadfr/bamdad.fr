@@ -1,3 +1,10 @@
+## [0.23.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.23.1...v0.23.2) (2021-12-20)
+
+
+### Performance Improvements
+
+* ⚙️ yarn-upgrade--onMondays-1000 ([0487a8c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/0487a8c8838d50806ff61b238afa843115bb9d92))
+
 ## [0.23.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.23.0...v0.23.1) (2021-12-13)
 
 
