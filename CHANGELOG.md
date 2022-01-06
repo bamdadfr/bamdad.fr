@@ -1,3 +1,10 @@
+# [0.24.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.23.4...v0.24.0) (2022-01-06)
+
+
+### Features
+
+* remove linkedin ([3e65e7a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/3e65e7a33629177d471543343a56b544f57a5b4e))
+
 ## [0.23.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.23.3...v0.23.4) (2022-01-03)
 
 
