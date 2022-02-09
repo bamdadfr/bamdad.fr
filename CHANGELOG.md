@@ -1,3 +1,19 @@
+## [0.24.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.5...v0.24.6) (2022-02-09)
+
+
+### Bug Fixes
+
+* **Breakpoints:** Use more maintainable media queries ([5f98bba](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/5f98bbafdc7d77f181ebd31ab30bd8812b7bc73f))
+* **LanguagesConstants:** Update list ([caa5342](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/caa53428a007b2a2fc6a0ef22dd310cf18f8fc6e))
+* **Styled:** Use lowercase for `theme` object ([a66beb2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a66beb2c1267f371a805a6aedd1ef0328813a0d6))
+* **Utils:** Replace shuffle-array.js with `just-shuffle` ([67c87c1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/67c87c11c4ba0d5817c546ff036bd8b43280f45b))
+
+
+### Performance Improvements
+
+* **Dependencies:** Upgrade to latest ([17992f2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/17992f22264edc61592faf5a659e11e6776808a6))
+* **Styled:** Replace `styled-components` with `emotion` ([67501e1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/67501e18db65557eb6b8ebd426d059917e72e5a5))
+
 ## [0.24.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.4...v0.24.5) (2022-02-07)
 
 
