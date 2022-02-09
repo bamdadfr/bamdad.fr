@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {ThemeProvider} from 'styled-components';
-import {Global} from '../../styles/global';
+import {ThemeProvider} from '@emotion/react';
 import {Theme} from '../../styles/theme';
+import {globalStyles} from '../../styles/global';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -14,10 +14,10 @@ const propTypes = {
  * @param {React.ReactNode} children - React children
  * @returns {React.ReactElement} - Rendered component
  */
-export function WithStyledComponents({children}) {
+export function WithTheme({children}) {
   return (
     <>
-      <Global />
+      {globalStyles}
       <ThemeProvider theme={Theme}>
         {children}
       </ThemeProvider>
@@ -25,4 +25,4 @@ export function WithStyledComponents({children}) {
   );
 }
 
-WithStyledComponents.propTypes = propTypes;
+WithTheme.propTypes = propTypes;

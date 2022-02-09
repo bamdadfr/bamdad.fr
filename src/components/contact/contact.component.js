@@ -1,7 +1,7 @@
 import React from 'react';
 import {SlideAnimation} from '../../animations/slide/slide.animation';
 import {ContactConstants} from './contact.constants';
-import {Section, Container, Button} from './contact.component.styles';
+import {Button, Container, Section} from './contact.component.styles';
 
 /**
  * Component to display contact information

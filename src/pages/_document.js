@@ -1,36 +1,27 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
-import Document, {Html, Head, Main, NextScript} from 'next/document';
-import {ServerStyleSheet} from 'styled-components';
-import {GA_TRACKING_ID} from '../app/hooks/use-google-analytics/use-google-analytics.constants';
+import Document, {Head, Html, Main, NextScript} from 'next/document';
+import {
+  GA_TRACKING_ID,
+} from '../app/hooks/use-google-analytics/use-google-analytics.constants';
+import {renderStatic} from '../utils/render-static/render-static';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const sheet = new ServerStyleSheet();
-    const originalRenderPage = ctx.renderPage;
-
-    try {
-      ctx.renderPage = () =>
-        originalRenderPage({
-          'enhanceApp': (App) => (props) =>
-            // eslint-disable-next-line react/jsx-props-no-spreading
-            sheet.collectStyles(<App {...props} />),
-        });
-
-      const initialProps = await Document.getInitialProps(ctx);
-
-      return {
-        ...initialProps,
-        'styles': (
-          <>
-            {initialProps.styles}
-            {sheet.getStyleElement()}
-          </>
-        ),
-      };
-    } finally {
-      sheet.seal();
-    }
+    const initialProps = await Document.getInitialProps(ctx);
+    const {css, ids} = await renderStatic(initialProps.html);
+    return {
+      ...initialProps,
+      styles: (
+        <>
+          {initialProps.styles}
+          <style
+            data-emotion={`css ${ids.join(' ')}`}
+            dangerouslySetInnerHTML={{__html: css}}
+          />
+        </>
+      ),
+    };
   }
 
   render() {

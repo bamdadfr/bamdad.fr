@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import {Breakpoints} from '../../app/styles/breakpoints';
 
 export const Section = styled.section`
@@ -33,7 +33,7 @@ export const Container = styled.div`
     height: 2.667em;
     margin: 0.25em 0;
 
-    > div {
+    & > div {
       display: flex;
       justify-content: center;
       align-items: center;
