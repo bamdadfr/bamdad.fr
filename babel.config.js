@@ -3,9 +3,6 @@ module.exports = {
     'next/babel',
   ],
   plugins: [
-    ['styled-components', {
-      ssr: true,
-      displayName: false,
-    }],
+    '@emotion/babel-plugin',
   ],
 };

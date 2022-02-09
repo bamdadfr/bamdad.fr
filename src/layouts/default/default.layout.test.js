@@ -1,15 +1,15 @@
 import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
 import {DefaultLayout} from './default.layout';
-import {WithStyledComponents} from '../../app/components/with-styled-components/with-styled-components';
+import {WithTheme} from '../../app/components/with-theme/with-theme';
 
 const render = () => {
   const {container} = defaultRender(
-    <WithStyledComponents>
+    <WithTheme>
       <DefaultLayout>
         <span>children</span>
       </DefaultLayout>
-    </WithStyledComponents>,
+    </WithTheme>,
   );
 
   return {

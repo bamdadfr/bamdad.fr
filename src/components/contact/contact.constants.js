@@ -1,11 +1,11 @@
-import {Theme} from '../../app/styles/theme';
+import {theme} from '../../app/styles/theme';
 
 export const ContactConstants = [
   {
     text: 'curriculum vitæ',
     icon: '🚀',
-    color: Theme.colors.button.blue,
-    hover: Theme.colors.white,
+    color: theme.colors.button.blue,
+    hover: theme.colors.white,
     delay: 4000,
     href: 'https://cv.bamdad.fr/',
     target: '_blank',
@@ -14,8 +14,8 @@ export const ContactConstants = [
   {
     text: 'email me',
     icon: '✉️',
-    color: Theme.colors.button.yellow,
-    hover: Theme.colors.primary,
+    color: theme.colors.button.yellow,
+    hover: theme.colors.primary,
     delay: 5000,
     href: 'mailto:hi@bamdad.fr',
     target: '_self',

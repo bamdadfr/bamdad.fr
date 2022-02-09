@@ -36,3 +36,6 @@ TODO.md
 
 # env
 .env
+
+# sonar
+/.idea/sonarlint/issuestore/

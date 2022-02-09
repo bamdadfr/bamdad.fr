@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import {Breakpoints} from '../../app/styles/breakpoints';
+import styled from '@emotion/styled';
+import {mediaQueries} from '../../app/styles/breakpoints';
 
 export const Container = styled.div`
   position: fixed;
@@ -17,7 +17,7 @@ export const TopSection = styled.section`
   padding-bottom: 1em;
   grid-gap: 2em;
 
-  @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
+  ${mediaQueries.below.tablet} {
     grid-gap: 1em;
     padding-bottom: 0;
     transform: translate3d(0, 7.5%, 0);
@@ -30,7 +30,7 @@ export const TopSection = styled.section`
     min-width: 11em;
     transform: translate3d(5%, 0, 0);
 
-    @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
+    ${mediaQueries.below.tablet} {
       transform: none;
       width: calc(100% - 1.7em);
     }

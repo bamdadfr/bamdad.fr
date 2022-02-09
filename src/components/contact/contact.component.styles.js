@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import {Breakpoints} from '../../app/styles/breakpoints';
+import styled from '@emotion/styled';
+import {mediaQueries} from '../../app/styles/breakpoints';
 
 export const Section = styled.section`
   display: flex;
@@ -7,7 +7,7 @@ export const Section = styled.section`
   align-items: center;
   flex-direction: column;
 
-  @media screen and (min-width: ${Breakpoints.desktop}px) {
+  ${mediaQueries.above.desktop} {
     font-size: .9em;
   }
 `;
@@ -17,23 +17,23 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: flex-end;
 
-  @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
-    height: 9em;
+  ${mediaQueries.below.mobile} {
+    transform: translate3d(0, -2vh, 0);
   }
 
-  @media screen and (max-width: ${Breakpoints.phablet - 1}px) {
+  ${mediaQueries.below.phablet} {
     transform: translate3d(0, -4vh, 0);
   }
 
-  @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
-    transform: translate3d(0, -2vh, 0);
+  ${mediaQueries.below.tablet} {
+    height: 9em;
   }
 
   > div {
     height: 2.667em;
     margin: 0.25em 0;
 
-    > div {
+    & > div {
       display: flex;
       justify-content: center;
       align-items: center;

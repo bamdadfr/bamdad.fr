@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import 'sass-reset';
 import {useApp} from '../app/hooks/use-app/use-app';
-import {WithStyledComponents} from '../app/components/with-styled-components/with-styled-components';
+import {WithTheme} from '../app/components/with-theme/with-theme';
 
 const propTypes = {
   Component: PropTypes.func.isRequired,
@@ -30,10 +30,10 @@ export default function MyApp({Component, pageProps, err}) {
 
   return (
     <>
-      <WithStyledComponents>
+      <WithTheme>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Component {...pageProps} err={err} />
-      </WithStyledComponents>
+      </WithTheme>
     </>
   );
 }

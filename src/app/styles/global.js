@@ -1,41 +1,48 @@
-import {createGlobalStyle} from 'styled-components';
-import {Theme} from './theme';
-import {Breakpoints} from './breakpoints';
+import React from 'react';
+import {css, Global} from '@emotion/react';
+import {theme} from './theme';
+import {mediaQueries} from './breakpoints';
 import '@fontsource/lora';
 
-export const Global = createGlobalStyle`
+const styles = css`
   body {
     font-family: 'Lora', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: ${Theme.colors.primary};
+    color: ${theme.colors.primary};
 
-    @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
+    ${mediaQueries.below.mobile} {
       font-size: 1.1em;
+      background: red;
     }
 
-    @media screen and (min-width: ${Breakpoints.mobile}px) {
+    ${mediaQueries.above.mobile} {
       font-size: 1.2em;
+      background: red;
     }
 
-    @media screen and (min-width: ${Breakpoints.phablet}px) {
+    ${mediaQueries.above.phablet} {
       font-size: 1.3em;
+      background: red;
     }
 
-    @media screen and (min-width: ${Breakpoints.tablet}px) {
+    ${mediaQueries.above.tablet} {
       font-size: 1.4em;
+      background: red;
     }
 
-    @media screen and (min-width: ${Breakpoints.desktop}px) {
+    ${mediaQueries.above.desktop} {
       font-size: 1.5em;
     }
 
-    @media screen and (min-width: ${Breakpoints.widescreen}px) {
+    ${mediaQueries.above.widescreen} {
       font-size: 1.6em;
     }
 
-    @media screen and (min-width: ${Breakpoints.fullhd}px) {
+    ${mediaQueries.above.fullhd} {
       font-size: 1.7em;
     }
   }
 `;
+
+export const globalStyles = <Global styles={styles} />;
