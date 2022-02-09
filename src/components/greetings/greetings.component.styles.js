@@ -1,12 +1,12 @@
 import styled from '@emotion/styled';
-import {Breakpoints} from '../../app/styles/breakpoints';
+import {mediaQueries} from '../../app/styles/breakpoints';
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
-  @media screen and (max-width: ${Breakpoints.tablet - 1}px) {
+  ${mediaQueries.below.tablet} {
     height: 8em;
   }
 `;
