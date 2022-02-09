@@ -1,4 +1,5 @@
 import React from 'react';
+import shuffle from 'just-shuffle';
 import {Icon} from '@iconify/react';
 import typescriptIcon from '@iconify/icons-simple-icons/typescript';
 import reactIcon from '@iconify/icons-simple-icons/react';
@@ -17,9 +18,8 @@ import reactivexIcon from '@iconify/icons-simple-icons/reactivex';
 import d3dotjsIcon from '@iconify/icons-simple-icons/d3dotjs';
 import threedotjsIcon from '@iconify/icons-simple-icons/threedotjs';
 import gitIcon from '@iconify/icons-simple-icons/git';
-import {shuffleArray} from '../../utils/shuffle-array/shuffle-array';
 
-export const LanguagesConstants = shuffleArray([
+export const LanguagesConstants = shuffle([
   {
     'text': 'TypeScript',
     'icon': <Icon icon={typescriptIcon} />,
