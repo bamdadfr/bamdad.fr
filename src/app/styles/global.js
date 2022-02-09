@@ -1,6 +1,6 @@
 import React from 'react';
 import {css, Global} from '@emotion/react';
-import {Theme} from './theme';
+import {theme} from './theme';
 import {Breakpoints} from './breakpoints';
 import '@fontsource/lora';
 
@@ -11,7 +11,7 @@ export const globalStyles = (
         font-family: 'Lora', sans-serif;
         font-size: 18px;
         font-weight: 400;
-        color: ${Theme.colors.primary};
+        color: ${theme.colors.primary};
 
         @media screen and (max-width: ${Breakpoints.mobile - 1}px) {
           font-size: 1.1em;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {ThemeProvider} from '@emotion/react';
-import {Theme} from '../../styles/theme';
+import {theme} from '../../styles/theme';
 import {globalStyles} from '../../styles/global';
 
 const propTypes = {
@@ -18,7 +18,7 @@ export function WithTheme({children}) {
   return (
     <>
       {globalStyles}
-      <ThemeProvider theme={Theme}>
+      <ThemeProvider theme={theme}>
         {children}
       </ThemeProvider>
     </>
