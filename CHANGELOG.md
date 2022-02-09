@@ -1,3 +1,10 @@
+## [0.24.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.6...v0.24.7) (2022-02-09)
+
+
+### Bug Fixes
+
+* **Utils/renderStatic:** Remove unused `await`s ([058dc6d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/058dc6dfd9ea5893ddc2bab8d7e8e0fa20c69250))
+
 ## [0.24.6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.5...v0.24.6) (2022-02-09)
 
 
