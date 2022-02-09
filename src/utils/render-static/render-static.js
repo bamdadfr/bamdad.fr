@@ -7,7 +7,7 @@ import {cache} from '@emotion/css';
  * @param {string} html - Stringified HTML
  * @returns {object} - Object with `css` and `ids` keys
  */
-export async function renderStatic(html) {
+export function renderStatic(html) {
   if (html === undefined) {
     throw new Error('did you forget to return html from renderToString?');
   }

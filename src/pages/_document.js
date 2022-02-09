@@ -9,7 +9,7 @@ import {renderStatic} from '../utils/render-static/render-static';
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
-    const {css, ids} = await renderStatic(initialProps.html);
+    const {css, ids} = renderStatic(initialProps.html);
     return {
       ...initialProps,
       styles: (
