@@ -35,7 +35,7 @@
     "@iconify/react": "^3.1.0",
     "@juggle/resize-observer": "^3.3.1",
     "@react-spring/web": "^9.3.1",
-    "@sentry/nextjs": "^6.17.6",
+    "@sentry/nextjs": "^6.19.3",
     "just-shuffle": "^4.0.1",
     "next": "^12.0.3",
     "prop-types": "^15.7.2",
