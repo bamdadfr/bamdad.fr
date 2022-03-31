@@ -1,3 +1,10 @@
+## [0.24.15](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.14...v0.24.15) (2022-03-31)
+
+
+### Performance Improvements
+
+* **Dependencies:** Update to latest ([13c3455](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/13c3455440b967462999bdbae91b9f3377b2e911))
+
 ## [0.24.14](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.13...v0.24.14) (2022-03-28)
 
 
