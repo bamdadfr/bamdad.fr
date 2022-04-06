@@ -28,7 +28,7 @@
   "dependencies": {
     "@emotion/babel-plugin": "^11.7.2",
     "@emotion/css": "^11.7.1",
-    "@emotion/react": "^11.7.1",
+    "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.6.0",
     "@fontsource/lora": "^4.5.0",
     "@iconify/icons-simple-icons": "^1.1.23",
