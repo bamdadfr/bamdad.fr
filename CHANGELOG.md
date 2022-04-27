@@ -1,3 +1,10 @@
+# [0.25.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.18...v0.25.0) (2022-04-27)
+
+
+### Features
+
+* **SEO:** Update Meta constants ([f577845](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/f577845ec89d15b9b1a2bedf85dc51bdc0324bc6))
+
 ## [0.24.18](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.17...v0.24.18) (2022-04-18)
 
 
