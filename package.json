@@ -37,7 +37,7 @@
     "@react-spring/web": "^9.3.1",
     "@sentry/nextjs": "^6.19.3",
     "just-shuffle": "^4.0.1",
-    "next": "^12.1.4",
+    "next": "^12.1.6",
     "prop-types": "^15.7.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
