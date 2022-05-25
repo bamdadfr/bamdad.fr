@@ -30,7 +30,7 @@
     "@emotion/css": "^11.7.1",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    "@fontsource/lora": "^4.5.0",
+    "@fontsource/lora": "^4.5.9",
     "@iconify/icons-simple-icons": "^1.1.23",
     "@iconify/react": "^3.2.1",
     "@juggle/resize-observer": "^3.3.1",

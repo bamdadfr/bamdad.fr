@@ -513,10 +513,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/lora@^4.5.0":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.6.tgz#f564c0be3e609efd158306fc15fac524ef048ca2"
-  integrity sha512-HUKUFTj2stjpSbEEeQ4CFHMqjUqRTkmRhGmiICemovZvGdjJnnDRx9HmA9Bj/3kVeJaH3/NyRt/ft5onlLy5/g==
+"@fontsource/lora@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/lora/-/lora-4.5.9.tgz#e0af833966fe234928c40fbbbc05db87a56577f4"
+  integrity sha512-P8yVmdSyMhAA2UbxctmtkInOKwuOFG6EniwajO96o/1ZiFmJMtEP/e2oZLmrY5ZqpUIG+83K4TFEAGAnWsZkuA==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
