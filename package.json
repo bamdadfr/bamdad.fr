@@ -39,7 +39,7 @@
     "just-shuffle": "^4.0.1",
     "next": "^12.1.4",
     "prop-types": "^15.7.2",
-    "react": "^18.0.0",
+    "react": "^18.1.0",
     "react-dom": "^18.0.0",
     "react-use-measure": "^2.1.0"
   },
@@ -50,7 +50,7 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/react-hooks": "^7.0.2",
-    "@types/react": "^17.0.37",
+    "@types/react": "^18.0.10",
     "@types/react-dom": "^17.0.11",
     "babel-jest": "^27.5.1",
     "codecov": "^3.8.3",
