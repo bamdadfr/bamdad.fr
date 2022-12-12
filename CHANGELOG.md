@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.25.0...v1.0.0) (2022-12-12)
+
+
+### Features
+
+* Upgrade dependencies to latest ([85558f2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/85558f2cd6ba51cdee7585b00069c53e4cafa186))
+
+
+### BREAKING CHANGES
+
+* Upgrade Next 12 to 13
+
 # [0.25.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.24.18...v0.25.0) (2022-04-27)
 
 
