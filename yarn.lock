@@ -4125,10 +4125,10 @@ json5@^2.2.1:
     array-includes "^3.1.5"
     object.assign "^4.1.3"
 
-just-shuffle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-4.1.1.tgz#b5b180823649058e9c0f7cedcc32460bb75daf6b"
-  integrity sha512-UKnk2ihUNE+bXjidVZSpcgtbfR1L9cricnw4VnIJaU9uJj4V8UAUqJC3JGTR4kwbB3Ym/F/zrXXT3IJ3QeGfUg==
+just-shuffle@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/just-shuffle/-/just-shuffle-4.2.0.tgz#795c09dbac1f9e94e797efd10a7ef537363c8903"
+  integrity sha512-/dDmNseAWLf3XkFY9xf3/BdQoiy27LNUy/7uG4zdSAX526nIHMYPYeJ4pN4lT1/pgNEX8XCXPtUB6gJqTpBEng==
 
 kind-of@^6.0.2, kind-of@^6.0.3:
   version "6.0.3"
