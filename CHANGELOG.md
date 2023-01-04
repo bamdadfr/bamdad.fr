@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.0.1...v1.1.0) (2023-01-04)
+
+
+### Features
+
+* Upgrade dependencies to latest ([30e85b1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/30e85b17dbc498e769ddd0789ed5e68db528d5eb))
+
 ## [1.0.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.0.0...v1.0.1) (2023-01-04)
 
 
