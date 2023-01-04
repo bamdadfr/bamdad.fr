@@ -13,22 +13,18 @@ const styles = css`
 
     ${mediaQueries.below.mobile} {
       font-size: 1.1em;
-      background: red;
     }
 
     ${mediaQueries.above.mobile} {
       font-size: 1.2em;
-      background: red;
     }
 
     ${mediaQueries.above.phablet} {
       font-size: 1.3em;
-      background: red;
     }
 
     ${mediaQueries.above.tablet} {
       font-size: 1.4em;
-      background: red;
     }
 
     ${mediaQueries.above.desktop} {
