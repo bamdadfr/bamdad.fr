@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.0.0...v1.0.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* **Styles:** Remove debugging backgrounds ([fa1e5b3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/fa1e5b3417421df56c4a176fd2a492995bccbcb2))
+
 # [1.0.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v0.25.0...v1.0.0) (2022-12-12)
 
 
