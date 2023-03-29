@@ -550,10 +550,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iconify/icons-simple-icons@^1.2.40":
-  version "1.2.40"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.2.40.tgz#7a3d67e2ae56b5f6e9c124a4d856df668d5cadc0"
-  integrity sha512-O96uVDFNfPL4AbzwPyTyr4Wp8whzE77aYiKhQLaxapXpxNDdFkiBSESWVZly4Y2Q3C9vZuxUGEqmNU7aw/E6Hw==
+"@iconify/icons-simple-icons@^1.2.44":
+  version "1.2.46"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.2.46.tgz#4c8de1c3f46e5fce804f92a68b9319c1fe2d7dc6"
+  integrity sha512-Suj/PnMDdIO1obdmQ7DKC/anEmZtZqYMeye1AnSGr7SSei8641Y/n5bFfnnG9lDVWwE+qAaP1UU8nbS9XH4D9w==
   dependencies:
     "@iconify/types" "*"
 
