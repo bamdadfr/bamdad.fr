@@ -5,7 +5,7 @@ const moduleExports = {
 };
 
 const SentryWebpackPluginOptions = {
-  hideSourcemaps: true,
+  hideSourceMaps: true,
 };
 
 module.exports = withSentryConfig(moduleExports, SentryWebpackPluginOptions);
