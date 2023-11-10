@@ -29,11 +29,7 @@ export function FadeAnimation({children, delay, isVisible}) {
     delay: isVisible ? delay : 0,
   });
 
-  return (
-    <>
-      <animated.div style={style}>{children}</animated.div>
-    </>
-  );
+  return <animated.div style={style}>{children}</animated.div>;
 }
 
 FadeAnimation.propTypes = propTypes;

@@ -11,11 +11,9 @@ import {Container} from './languages.component.styles';
  */
 export function LanguagesComponent() {
   return (
-    <>
-      <Container>
-        <LanguageComponent delay={8600} />
-        <SlideAnimation delay={7600}>I spend my time with</SlideAnimation>
-      </Container>
-    </>
+    <Container>
+      <LanguageComponent delay={8600} />
+      <SlideAnimation delay={7600}>I spend my time with</SlideAnimation>
+    </Container>
   );
 }

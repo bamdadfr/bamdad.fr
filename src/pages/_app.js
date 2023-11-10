@@ -31,15 +31,13 @@ export default function MyApp({Component, pageProps, err}) {
   useApp();
 
   return (
-    <>
-      <WithTheme>
-        <Component
-          /* eslint-disable-next-line react/jsx-props-no-spreading */
-          {...pageProps}
-          err={err}
-        />
-      </WithTheme>
-    </>
+    <WithTheme>
+      <Component
+        /* eslint-disable-next-line react/jsx-props-no-spreading */
+        {...pageProps}
+        err={err}
+      />
+    </WithTheme>
   );
 }
 

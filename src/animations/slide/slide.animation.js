@@ -46,11 +46,9 @@ export function SlideAnimation({children, delay, isVisible}) {
   });
 
   return (
-    <>
-      <animated.div style={style}>
-        <div ref={ref}>{children}</div>
-      </animated.div>
-    </>
+    <animated.div style={style}>
+      <div ref={ref}>{children}</div>
+    </animated.div>
   );
 }
 

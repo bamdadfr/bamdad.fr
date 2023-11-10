@@ -11,27 +11,25 @@ import {ContactConstants} from './contact.constants';
  */
 export function ContactComponent() {
   return (
-    <>
-      <Section>
-        <Container>
-          {ContactConstants.map((element) => (
-            <SlideAnimation
-              key={element.text}
-              delay={element.delay}
+    <Section>
+      <Container>
+        {ContactConstants.map((element) => (
+          <SlideAnimation
+            key={element.text}
+            delay={element.delay}
+          >
+            <Button
+              color={element.color}
+              hover={element.hover}
+              href={element.href}
+              target={element.target}
+              rel={element.rel ? element.rel : null}
             >
-              <Button
-                color={element.color}
-                hover={element.hover}
-                href={element.href}
-                target={element.target}
-                rel={element.rel ? element.rel : null}
-              >
-                <span>{element.icon}</span> {element.text}
-              </Button>
-            </SlideAnimation>
-          ))}
-        </Container>
-      </Section>
-    </>
+              <span>{element.icon}</span> {element.text}
+            </Button>
+          </SlideAnimation>
+        ))}
+      </Container>
+    </Section>
   );
 }

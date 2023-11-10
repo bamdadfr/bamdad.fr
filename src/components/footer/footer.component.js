@@ -11,25 +11,23 @@ import {FooterConstants} from './footer.constants';
  */
 export function FooterComponent() {
   return (
-    <>
-      <Section>
-        {FooterConstants.map((element) => (
-          <SlideAnimation
-            key={element.text}
-            delay={2000}
+    <Section>
+      {FooterConstants.map((element) => (
+        <SlideAnimation
+          key={element.text}
+          delay={2000}
+        >
+          <Link
+            href={element.href}
+            target="_blank"
+            title={`link to ${element.text}`}
+            color={element.color}
+            rel="noopener noreferrer"
           >
-            <Link
-              href={element.href}
-              target="_blank"
-              title={`link to ${element.text}`}
-              color={element.color}
-              rel="noopener noreferrer"
-            >
-              {element.icon}
-            </Link>
-          </SlideAnimation>
-        ))}
-      </Section>
-    </>
+            {element.icon}
+          </Link>
+        </SlideAnimation>
+      ))}
+    </Section>
   );
 }

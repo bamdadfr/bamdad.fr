@@ -12,15 +12,13 @@ import {DefaultLayout} from '../layouts/default/default.layout';
  */
 export default function IndexPage() {
   return (
-    <>
-      <DefaultLayout>
-        <div>
-          <GreetingsComponent />
-        </div>
-        <div>
-          <LanguagesComponent />
-        </div>
-      </DefaultLayout>
-    </>
+    <DefaultLayout>
+      <div>
+        <GreetingsComponent />
+      </div>
+      <div>
+        <LanguagesComponent />
+      </div>
+    </DefaultLayout>
   );
 }

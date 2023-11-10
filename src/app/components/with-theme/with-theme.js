@@ -17,12 +17,10 @@ const propTypes = {
  */
 export function WithTheme({children}) {
   return (
-    <>
-      <ThemeProvider theme={theme}>
-        {globalStyles}
-        {children}
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={theme}>
+      {globalStyles}
+      {children}
+    </ThemeProvider>
   );
 }
 
