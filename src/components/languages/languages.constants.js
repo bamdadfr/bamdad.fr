@@ -1,20 +1,20 @@
-import React from 'react';
-import shuffle from 'just-shuffle';
-import {Icon} from '@iconify/react';
-import typescriptIcon from '@iconify/icons-simple-icons/typescript';
-import reactIcon from '@iconify/icons-simple-icons/react';
-import nextdotjsIcon from '@iconify/icons-simple-icons/nextdotjs';
-import jestIcon from '@iconify/icons-simple-icons/jest';
-import testingLibraryIcon from '@iconify/icons-simple-icons/testinglibrary';
-import cypressIcon from '@iconify/icons-simple-icons/cypress';
-import webpackIcon from '@iconify/icons-simple-icons/webpack';
 import babelIcon from '@iconify/icons-simple-icons/babel';
-import githubActionsIcon from '@iconify/icons-simple-icons/githubactions';
-import immerIcon from '@iconify/icons-simple-icons/immer';
-import reactivexIcon from '@iconify/icons-simple-icons/reactivex';
+import cypressIcon from '@iconify/icons-simple-icons/cypress';
 import d3dotjsIcon from '@iconify/icons-simple-icons/d3dotjs';
-import threedotjsIcon from '@iconify/icons-simple-icons/threedotjs';
 import gitIcon from '@iconify/icons-simple-icons/git';
+import githubActionsIcon from '@iconify/icons-simple-icons/githubactions';
+import jestIcon from '@iconify/icons-simple-icons/jest';
+import nextdotjsIcon from '@iconify/icons-simple-icons/nextdotjs';
+import pythonIcon from '@iconify/icons-simple-icons/python';
+import reactIcon from '@iconify/icons-simple-icons/react';
+import testingLibraryIcon from '@iconify/icons-simple-icons/testinglibrary';
+import threedotjsIcon from '@iconify/icons-simple-icons/threedotjs';
+import typescriptIcon from '@iconify/icons-simple-icons/typescript';
+import vueIcon from '@iconify/icons-simple-icons/vuedotjs';
+import webpackIcon from '@iconify/icons-simple-icons/webpack';
+import {Icon} from '@iconify/react';
+import shuffle from 'just-shuffle';
+import React from 'react';
 
 export const LanguagesConstants = shuffle([
   {
@@ -63,16 +63,6 @@ export const LanguagesConstants = shuffle([
     color: '#2088FF',
   },
   {
-    text: 'Immer',
-    icon: <Icon icon={immerIcon} />,
-    color: '#00E7C3',
-  },
-  {
-    text: 'RxJS',
-    icon: <Icon icon={reactivexIcon} />,
-    color: '#F4218A',
-  },
-  {
     text: 'D3',
     icon: <Icon icon={d3dotjsIcon} />,
     color: '#F79144',
@@ -86,5 +76,15 @@ export const LanguagesConstants = shuffle([
     text: 'Git',
     icon: <Icon icon={gitIcon} />,
     color: '#E94E31',
+  },
+  {
+    text: 'Python',
+    icon: <Icon icon={pythonIcon} />,
+    color: '#FFD43B',
+  },
+  {
+    text: 'Vue.js',
+    icon: <Icon icon={vueIcon} />,
+    color: '#41B883',
   },
 ]);
