@@ -13,7 +13,10 @@ export function FooterComponent() {
     <>
       <Section>
         {FooterConstants.map((element) => (
-          <SlideAnimation key={element.text} delay={2000}>
+          <SlideAnimation
+            key={element.text}
+            delay={2000}
+          >
             <Link
               href={element.href}
               target="_blank"

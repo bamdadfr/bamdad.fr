@@ -13,7 +13,10 @@ export function GreetingsComponent() {
     <>
       <Container>
         {GreetingsConstants.map((element) => (
-          <SlideAnimation key={element.delay} delay={element.delay}>
+          <SlideAnimation
+            key={element.delay}
+            delay={element.delay}
+          >
             {element.text}
           </SlideAnimation>
         ))}

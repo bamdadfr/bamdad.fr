@@ -25,11 +25,7 @@ export function ContactComponent() {
                 target={element.target}
                 rel={element.rel ? element.rel : null}
               >
-                <span>
-                  {element.icon}
-                </span>
-                {' '}
-                {element.text}
+                <span>{element.icon}</span> {element.text}
               </Button>
             </SlideAnimation>
           ))}

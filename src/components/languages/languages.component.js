@@ -13,9 +13,7 @@ export function LanguagesComponent() {
     <>
       <Container>
         <LanguageComponent delay={8600} />
-        <SlideAnimation delay={7600}>
-          I spend my time with
-        </SlideAnimation>
+        <SlideAnimation delay={7600}>I spend my time with</SlideAnimation>
       </Container>
     </>
   );

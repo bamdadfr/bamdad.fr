@@ -3,9 +3,7 @@ import {render as defaultRender} from '@testing-library/react';
 import {GreetingsComponent} from './greetings.component';
 
 const render = () => {
-  const {container} = defaultRender(
-    <GreetingsComponent />,
-  );
+  const {container} = defaultRender(<GreetingsComponent />);
 
   return {
     container,

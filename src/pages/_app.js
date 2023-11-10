@@ -32,7 +32,10 @@ export default function MyApp({Component, pageProps, err}) {
     <>
       <WithTheme>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-        <Component {...pageProps} err={err} />
+        <Component
+          {...pageProps}
+          err={err}
+        />
       </WithTheme>
     </>
   );

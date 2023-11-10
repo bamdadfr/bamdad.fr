@@ -6,7 +6,11 @@ export const Container = styled.div`
   width: 100vw;
   z-index: -10;
 
-  background: linear-gradient(to bottom right, ${(props) => props.theme.colors.background.blue}, ${(props) => props.theme.colors.background.purple});
+  background: linear-gradient(
+    to bottom right,
+    ${(props) => props.theme.colors.background.blue},
+    ${(props) => props.theme.colors.background.purple}
+  );
   background-size: 400% 400%;
 
   animation: BackgroundAnimation 5s cubic-bezier(0.42, 0, 0.58, 1) infinite;

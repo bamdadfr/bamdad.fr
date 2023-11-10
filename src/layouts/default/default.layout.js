@@ -23,9 +23,7 @@ export function DefaultLayout({children}) {
       <MetaComponent />
       <BackgroundComponent />
       <Container>
-        <TopSection>
-          {children}
-        </TopSection>
+        <TopSection>{children}</TopSection>
         <ContactComponent />
       </Container>
       <FooterComponent />

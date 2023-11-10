@@ -26,11 +26,7 @@ const defaultProps = {
  * @param {boolean} [props.isVisible=true] - Whether the component is visible
  * @returns {React.ReactElement} - Rendered component
  */
-export function SlideAnimation({
-  children,
-  delay,
-  isVisible,
-}) {
+export function SlideAnimation({children, delay, isVisible}) {
   const [ref, {height}] = useMeasure({polyfill: ResizeObserver});
   const {firstRender} = useFirstRender(delay);
 
@@ -51,9 +47,7 @@ export function SlideAnimation({
   return (
     <>
       <animated.div style={style}>
-        <div ref={ref}>
-          {children}
-        </div>
+        <div ref={ref}>{children}</div>
       </animated.div>
     </>
   );

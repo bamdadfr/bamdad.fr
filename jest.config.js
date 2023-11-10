@@ -7,12 +7,8 @@ module.exports = {
     'next/router': '<rootDir>/__mocks__/next-router.js',
   },
   testEnvironment: 'jsdom',
-  modulePathIgnorePatterns: [
-    '<rootDir>/.next/',
-  ],
+  modulePathIgnorePatterns: ['<rootDir>/.next/'],
   // collectCoverage: true,
   coverageDirectory: './coverage/',
-  collectCoverageFrom: [
-    '<rootDir>/src/**/*.js',
-  ],
+  collectCoverageFrom: ['<rootDir>/src/**/*.js'],
 };

@@ -8,7 +8,7 @@ import {GA_TRACKING_ID} from './use-google-analytics.constants';
  */
 function pageview(url) {
   window.gtag('config', GA_TRACKING_ID, {
-    'page_path': url,
+    page_path: url,
   });
 }
 

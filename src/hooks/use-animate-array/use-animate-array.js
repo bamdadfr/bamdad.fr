@@ -8,12 +8,7 @@ import {useState, useEffect, useCallback} from 'react';
  * @param {boolean} [options.autostart=true] - Whether to start the animation automatically
  * @returns {Array.<{index: number, isVisible: boolean}>} - The array of items
  */
-export function useAnimateArray(
-  array,
-  {
-    autostart = true,
-  },
-) {
+export function useAnimateArray(array, {autostart = true}) {
   const [index, setIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
 
@@ -37,20 +32,32 @@ export function useAnimateArray(
         resolve();
       }, keyframes.hide);
     })
-      .then(() => new Promise((resolve) => {
-        setTimeout(() => {
-          nextIndex();
-          resolve();
-        }, keyframes.iterate);
-      }))
-      .then(() => new Promise(
-        (resolve) => {
-          setTimeout(() => {
-            setIsVisible(true);
-            resolve();
-          }, keyframes.show);
-        }));
-  }, [index, keyframes.hide, keyframes.iterate, keyframes.show, nextIndex, autostart]);
+      .then(
+        () =>
+          new Promise((resolve) => {
+            setTimeout(() => {
+              nextIndex();
+              resolve();
+            }, keyframes.iterate);
+          }),
+      )
+      .then(
+        () =>
+          new Promise((resolve) => {
+            setTimeout(() => {
+              setIsVisible(true);
+              resolve();
+            }, keyframes.show);
+          }),
+      );
+  }, [
+    index,
+    keyframes.hide,
+    keyframes.iterate,
+    keyframes.show,
+    nextIndex,
+    autostart,
+  ]);
 
   return {
     index,

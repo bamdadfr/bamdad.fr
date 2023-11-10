@@ -7,7 +7,11 @@ export const GreetingsConstants = [
     delay: 0,
   },
   {
-    text: (<>my name is <Bold>Bamdad</Bold>.</>),
+    text: (
+      <>
+        my name is <Bold>Bamdad</Bold>.
+      </>
+    ),
     delay: 1000,
   },
   {
@@ -15,7 +19,11 @@ export const GreetingsConstants = [
     delay: 2600,
   },
   {
-    text: (<>a <Bold>Front-End</Bold> developer</>),
+    text: (
+      <>
+        a <Bold>Front-End</Bold> developer
+      </>
+    ),
     delay: 3000,
   },
   {
@@ -23,7 +31,11 @@ export const GreetingsConstants = [
     delay: 4500,
   },
   {
-    text: (<><Bold>JavaScript</Bold>.</>),
+    text: (
+      <>
+        <Bold>JavaScript</Bold>.
+      </>
+    ),
     delay: 5500,
   },
 ];

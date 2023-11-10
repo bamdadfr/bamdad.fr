@@ -22,11 +22,7 @@ const defaultProps = {
  * @param {boolean} [props.isVisible=true] - Whether the element is visible
  * @returns {React.ReactElement} - Rendered component
  */
-export function FadeAnimation({
-  children,
-  delay,
-  isVisible,
-}) {
+export function FadeAnimation({children, delay, isVisible}) {
   const style = useSpring({
     from: {opacity: isVisible ? 0 : 1},
     to: {opacity: isVisible ? 1 : 0},
@@ -35,9 +31,7 @@ export function FadeAnimation({
 
   return (
     <>
-      <animated.div style={style}>
-        {children}
-      </animated.div>
+      <animated.div style={style}>{children}</animated.div>
     </>
   );
 }

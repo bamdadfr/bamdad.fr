@@ -21,29 +21,29 @@ const propTypes = {
 export function LanguageComponent({delay}) {
   const {waited} = useWaited(delay);
 
-  const {index, isVisible} = useAnimateArray(
-    LanguagesConstants, {
-      autostart: waited,
-    });
+  const {index, isVisible} = useAnimateArray(LanguagesConstants, {
+    autostart: waited,
+  });
 
   return (
     <>
-      {
-        waited && <>
-          <FadeAnimation delay={350} isVisible={isVisible}>
+      {waited && (
+        <>
+          <FadeAnimation
+            delay={350}
+            isVisible={isVisible}
+          >
             <Icon color={LanguagesConstants[index].color}>
               {LanguagesConstants[index].icon}
             </Icon>
           </FadeAnimation>
           <LanguageContainer>
             <SlideAnimation isVisible={isVisible}>
-              <Label>
-                {LanguagesConstants[index].text}
-              </Label>
+              <Label>{LanguagesConstants[index].text}</Label>
             </SlideAnimation>
           </LanguageContainer>
         </>
-      }
+      )}
     </>
   );
 }
