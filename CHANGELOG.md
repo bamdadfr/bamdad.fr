@@ -1,3 +1,24 @@
+# [1.2.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.1.0...v1.2.0) (2023-11-10)
+
+
+### Bug Fixes
+
+* Disable source maps publishing ([228269b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/228269b52b14d774b33f9421cc88eec7dbed0ba2))
+* Rectify typo in sentry settings ([70cead3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/70cead390ed6eae34f0cf103288db1130bca2dcc))
+
+
+### Features
+
+* Add eslint plugin for automatical import sorting ([2e69387](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/2e693876633fe8e92d27abe496708d62446f723c))
+* Add prettier + Format files ([712903a](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/712903a73ad097a3dc02e11b062b5074efbcbf5d))
+* Replace `yarn` with `pnpm` ([cd25d85](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/cd25d853055ae0dc7f8d41ee00e5c6e19523a6c7))
+* Update languages ([9c55c37](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/9c55c37c9558156d447233baaba92ad5d8202fd1))
+
+
+### Performance Improvements
+
+* Remove redundant fragments ([6b0586e](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/6b0586ed62a7d91da94e352086d56ea21bb48fbb))
+
 # [1.1.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.0.1...v1.1.0) (2023-01-04)
 
 
