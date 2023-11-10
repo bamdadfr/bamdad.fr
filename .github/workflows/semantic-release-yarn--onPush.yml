@@ -9,14 +9,15 @@ jobs:
   semantic-release-yarn--onPush:
     runs-on: ubuntu-latest
     steps:
-
       - uses: actions/checkout@master
 
       - uses: actions/setup-node@master
         with:
-          node-version: '14'
+          node-version: '18'
 
-      - run: yarn
+      - run: npm -g i pnpm
+
+      - run: pnpm i --frozen-lockfile --ignore-scripts
 
       - run: |
           npm install -g \
