@@ -1,8 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
+
 import {BackgroundComponent} from '../../components/background/background.component';
-import {FooterComponent} from '../../components/footer/footer.component';
 import {ContactComponent} from '../../components/contact/contact.component';
+import {FooterComponent} from '../../components/footer/footer.component';
 import {MetaComponent} from '../../components/meta/meta.component';
 import {Container, TopSection} from './default.layout.styles';
 
@@ -23,9 +24,7 @@ export function DefaultLayout({children}) {
       <MetaComponent />
       <BackgroundComponent />
       <Container>
-        <TopSection>
-          {children}
-        </TopSection>
+        <TopSection>{children}</TopSection>
         <ContactComponent />
       </Container>
       <FooterComponent />

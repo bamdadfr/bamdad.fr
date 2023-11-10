@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {Container} from './background.component.styles';
 
 /**
@@ -7,9 +8,5 @@ import {Container} from './background.component.styles';
  * @returns {React.ReactElement} - Background component
  */
 export function BackgroundComponent() {
-  return (
-    <>
-      <Container />
-    </>
-  );
+  return <Container />;
 }

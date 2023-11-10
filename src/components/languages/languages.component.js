@@ -1,7 +1,8 @@
 import React from 'react';
-import {Container} from './languages.component.styles';
-import {LanguageComponent} from './components/language/language.component';
+
 import {SlideAnimation} from '../../animations/slide/slide.animation';
+import {LanguageComponent} from './components/language/language.component';
+import {Container} from './languages.component.styles';
 
 /**
  * Component to display the languages
@@ -10,13 +11,9 @@ import {SlideAnimation} from '../../animations/slide/slide.animation';
  */
 export function LanguagesComponent() {
   return (
-    <>
-      <Container>
-        <LanguageComponent delay={8600} />
-        <SlideAnimation delay={7600}>
-          I spend my time with
-        </SlideAnimation>
-      </Container>
-    </>
+    <Container>
+      <LanguageComponent delay={8600} />
+      <SlideAnimation delay={7600}>I spend my time with</SlideAnimation>
+    </Container>
   );
 }

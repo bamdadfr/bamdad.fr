@@ -1,11 +1,10 @@
-import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
+
 import {ContactComponent} from './contact.component';
 
 const render = () => {
-  const {container} = defaultRender(
-    <ContactComponent />,
-  );
+  const {container} = defaultRender(<ContactComponent />);
 
   return {
     container,

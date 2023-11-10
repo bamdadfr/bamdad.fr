@@ -1,11 +1,10 @@
-import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
+import React from 'react';
+
 import {LanguagesComponent} from './languages.component';
 
 const render = () => {
-  const {container} = defaultRender(
-    <LanguagesComponent />,
-  );
+  const {container} = defaultRender(<LanguagesComponent />);
 
   return {
     container,

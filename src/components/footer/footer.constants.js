@@ -1,6 +1,6 @@
-import React from 'react';
-import {Icon} from '@iconify/react';
 import githubIcon from '@iconify/icons-simple-icons/github';
+import {Icon} from '@iconify/react';
+import React from 'react';
 
 export const FooterConstants = [
   {

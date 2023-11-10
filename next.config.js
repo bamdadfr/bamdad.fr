@@ -1,9 +1,11 @@
 const {withSentryConfig} = require('@sentry/nextjs');
 
 const moduleExports = {
-  'poweredByHeader': false,
+  poweredByHeader: false,
 };
 
-const SentryWebpackPluginOptions = {};
+const SentryWebpackPluginOptions = {
+  hideSourceMaps: true,
+};
 
 module.exports = withSentryConfig(moduleExports, SentryWebpackPluginOptions);

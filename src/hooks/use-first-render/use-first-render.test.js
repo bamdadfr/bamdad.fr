@@ -1,4 +1,5 @@
 import {renderHook} from '@testing-library/react-hooks';
+
 import {useFirstRender} from './use-first-render';
 
 describe('useFirstRender', () => {

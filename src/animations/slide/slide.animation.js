@@ -1,8 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {animated, useSpring} from '@react-spring/web';
-import useMeasure from 'react-use-measure';
 import {ResizeObserver} from '@juggle/resize-observer';
+import {animated, useSpring} from '@react-spring/web';
+import PropTypes from 'prop-types';
+import React from 'react';
+import useMeasure from 'react-use-measure';
+
 import {useFirstRender} from '../../hooks/use-first-render/use-first-render';
 import {getEnterOrLeaveDelay} from '../../utils/get-enter-or-leave-delay/get-enter-or-leave-delay';
 
@@ -26,11 +27,7 @@ const defaultProps = {
  * @param {boolean} [props.isVisible=true] - Whether the component is visible
  * @returns {React.ReactElement} - Rendered component
  */
-export function SlideAnimation({
-  children,
-  delay,
-  isVisible,
-}) {
+export function SlideAnimation({children, delay, isVisible}) {
   const [ref, {height}] = useMeasure({polyfill: ResizeObserver});
   const {firstRender} = useFirstRender(delay);
 
@@ -49,13 +46,9 @@ export function SlideAnimation({
   });
 
   return (
-    <>
-      <animated.div style={style}>
-        <div ref={ref}>
-          {children}
-        </div>
-      </animated.div>
-    </>
+    <animated.div style={style}>
+      <div ref={ref}>{children}</div>
+    </animated.div>
   );
 }
 

@@ -1,5 +1,6 @@
-import {useEffect} from 'react';
 import {useRouter} from 'next/router';
+import {useEffect} from 'react';
+
 import {GA_TRACKING_ID} from './use-google-analytics.constants';
 
 /**
@@ -8,7 +9,7 @@ import {GA_TRACKING_ID} from './use-google-analytics.constants';
  */
 function pageview(url) {
   window.gtag('config', GA_TRACKING_ID, {
-    'page_path': url,
+    page_path: url,
   });
 }
 

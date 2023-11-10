@@ -1,8 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import {ThemeProvider} from '@emotion/react';
-import {theme} from '../../styles/theme';
+import PropTypes from 'prop-types';
+import React from 'react';
+
 import {globalStyles} from '../../styles/global';
+import {theme} from '../../styles/theme';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -16,12 +17,10 @@ const propTypes = {
  */
 export function WithTheme({children}) {
   return (
-    <>
-      <ThemeProvider theme={theme}>
-        {globalStyles}
-        {children}
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={theme}>
+      {globalStyles}
+      {children}
+    </ThemeProvider>
   );
 }
 

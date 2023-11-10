@@ -1,5 +1,5 @@
-import createEmotionServer from '@emotion/server/create-instance';
 import {cache} from '@emotion/css';
+import createEmotionServer from '@emotion/server/create-instance';
 
 /**
  * Render static styles

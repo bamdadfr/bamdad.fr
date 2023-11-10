@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+
 import {mediaQueries} from '../../app/styles/breakpoints';
 
 export const Section = styled.section`
@@ -8,7 +9,7 @@ export const Section = styled.section`
   flex-direction: column;
 
   ${mediaQueries.above.desktop} {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 `;
 
@@ -47,7 +48,7 @@ export const Button = styled.a`
 
   box-shadow: rgb(50 50 50 / 10%) 0 1px 2px 1px;
   transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0s;
-  padding: calc(.5em + 1px) 1em;
+  padding: calc(0.5em + 1px) 1em;
   border-radius: 4px;
 
   &:hover {

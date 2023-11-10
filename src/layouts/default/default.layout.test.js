@@ -1,7 +1,8 @@
-import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
-import {DefaultLayout} from './default.layout';
+import React from 'react';
+
 import {WithTheme} from '../../app/components/with-theme/with-theme';
+import {DefaultLayout} from './default.layout';
 
 const render = () => {
   const {container} = defaultRender(

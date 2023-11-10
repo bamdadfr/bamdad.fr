@@ -1,9 +1,8 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
 import Document, {Head, Html, Main, NextScript} from 'next/document';
-import {
-  GA_TRACKING_ID,
-} from '../app/hooks/use-google-analytics/use-google-analytics.constants';
+import React from 'react';
+
+import {GA_TRACKING_ID} from '../app/hooks/use-google-analytics/use-google-analytics.constants';
 import {renderStatic} from '../utils/render-static/render-static';
 
 export default class MyDocument extends Document {
@@ -35,7 +34,9 @@ export default class MyDocument extends Document {
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
           <script
-            dangerouslySetInnerHTML={{'__html': `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","${GA_TRACKING_ID}",{page_path:window.location.pathname});`}}
+            dangerouslySetInnerHTML={{
+              __html: `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","${GA_TRACKING_ID}",{page_path:window.location.pathname});`,
+            }}
           />
         </Head>
         <body>
