@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
 import Document, {Head, Html, Main, NextScript} from 'next/document';
+import React from 'react';
+
 import {GA_TRACKING_ID} from '../app/hooks/use-google-analytics/use-google-analytics.constants';
 import {renderStatic} from '../utils/render-static/render-static';
 

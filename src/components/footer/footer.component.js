@@ -1,7 +1,8 @@
 import React from 'react';
+
 import {SlideAnimation} from '../../animations/slide/slide.animation';
+import {Link, Section} from './footer.component.styles';
 import {FooterConstants} from './footer.constants';
-import {Section, Link} from './footer.component.styles';
 
 /**
  * Component to render the footer

@@ -1,7 +1,8 @@
 import React from 'react';
+
 import {SlideAnimation} from '../../animations/slide/slide.animation';
-import {GreetingsConstants} from './greetings.constants';
 import {Container} from './greetings.component.styles';
+import {GreetingsConstants} from './greetings.constants';
 
 /**
  * Component to display the greetings

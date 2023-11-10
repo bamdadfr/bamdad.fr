@@ -1,11 +1,12 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
+
 import {FadeAnimation} from '../../../../animations/fade/fade.animation';
 import {SlideAnimation} from '../../../../animations/slide/slide.animation';
-import {Icon, Label, LanguageContainer} from './language.component.styles';
-import {LanguagesConstants} from '../../languages.constants';
 import {useAnimateArray} from '../../../../hooks/use-animate-array/use-animate-array';
 import {useWaited} from '../../../../hooks/use-waited/use-waited';
+import {LanguagesConstants} from '../../languages.constants';
+import {Icon, Label, LanguageContainer} from './language.component.styles';
 
 const propTypes = {
   delay: PropTypes.number.isRequired,

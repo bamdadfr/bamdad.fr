@@ -1,7 +1,8 @@
 import React from 'react';
-import {Container} from './languages.component.styles';
-import {LanguageComponent} from './components/language/language.component';
+
 import {SlideAnimation} from '../../animations/slide/slide.animation';
+import {LanguageComponent} from './components/language/language.component';
+import {Container} from './languages.component.styles';
 
 /**
  * Component to display the languages

@@ -1,8 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import 'sass-reset';
-import {useApp} from '../app/hooks/use-app/use-app';
+
+import PropTypes from 'prop-types';
+import React from 'react';
+
 import {WithTheme} from '../app/components/with-theme/with-theme';
+import {useApp} from '../app/hooks/use-app/use-app';
 
 const propTypes = {
   Component: PropTypes.func.isRequired,
@@ -31,8 +33,8 @@ export default function MyApp({Component, pageProps, err}) {
   return (
     <>
       <WithTheme>
-        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Component
+          /* eslint-disable-next-line react/jsx-props-no-spreading */
           {...pageProps}
           err={err}
         />

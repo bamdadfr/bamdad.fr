@@ -1,7 +1,8 @@
-import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
-import IndexPage from '../pages';
+import React from 'react';
+
 import {WithTheme} from '../app/components/with-theme/with-theme';
+import IndexPage from '../pages';
 
 const render = () => {
   const {container} = defaultRender(

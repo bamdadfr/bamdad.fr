@@ -1,7 +1,8 @@
-import React from 'react';
 import {render as defaultRender} from '@testing-library/react';
-import {BackgroundComponent} from './background.component';
+import React from 'react';
+
 import {WithTheme} from '../../app/components/with-theme/with-theme';
+import {BackgroundComponent} from './background.component';
 
 const render = () => {
   const {container} = defaultRender(

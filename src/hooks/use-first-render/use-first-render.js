@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 /**
  * Hook to determine if the component has been rendered for the first time

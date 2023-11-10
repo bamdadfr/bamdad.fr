@@ -1,5 +1,6 @@
-import React from 'react';
 import {cleanup, render} from '@testing-library/react';
+import React from 'react';
+
 import {MetaComponent} from './meta.component';
 import {MetaConstants} from './meta.constants';
 

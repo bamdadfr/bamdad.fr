@@ -1,8 +1,10 @@
-import React from 'react';
-import {css, Global} from '@emotion/react';
-import {theme} from './theme';
-import {mediaQueries} from './breakpoints';
 import '@fontsource/lora';
+
+import {css, Global} from '@emotion/react';
+import React from 'react';
+
+import {mediaQueries} from './breakpoints';
+import {theme} from './theme';
 
 const styles = css`
   body {

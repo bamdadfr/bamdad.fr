@@ -1,4 +1,4 @@
-import {useState, useEffect, useCallback} from 'react';
+import {useCallback, useEffect, useState} from 'react';
 
 /**
  * Hook to iterate over an array and animate each item

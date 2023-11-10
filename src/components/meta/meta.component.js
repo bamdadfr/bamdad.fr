@@ -1,6 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Head from 'next/head';
+import PropTypes from 'prop-types';
+import React from 'react';
+
 import {MetaConstants} from './meta.constants';
 
 const propTypes = {

@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+
 import {mediaQueries} from '../../app/styles/breakpoints';
 
 export const Section = styled.section`

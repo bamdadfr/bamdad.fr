@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import {animated, useSpring} from '@react-spring/web';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
