@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.2.0...v1.3.0) (2024-04-27)
+
+
+### Bug Fixes
+
+* update workflows ([83c43f6](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/83c43f6db5a43c2a76467a55a9f23e15b64329f8))
+
+
+### Features
+
+* improve layout ([a57a7e5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a57a7e575ed2e5f7ae1f5acb079c0432859f595c))
+
+
+### Performance Improvements
+
+* **pnpm:** upgrade lockfile version ([a23b862](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/a23b862a092503f213575ffc1d7b3239840fc1ec))
+
 # [1.2.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.1.0...v1.2.0) (2023-11-10)
 
 
