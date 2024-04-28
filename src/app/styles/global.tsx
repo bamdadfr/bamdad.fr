@@ -14,31 +14,31 @@ const styles = css`
     color: ${theme.colors.primary};
 
     ${mediaQueries.below.mobile} {
-      font-size: 1.6em;
+      font-size: 1.5em;
     }
 
     ${mediaQueries.above.mobile} {
-      font-size: 1.7em;
+      font-size: 1.6em;
     }
 
     ${mediaQueries.above.phablet} {
-      font-size: 1.8em;
+      font-size: 1.7em;
     }
 
     ${mediaQueries.above.tablet} {
-      font-size: 1.9em;
+      font-size: 1.8em;
     }
 
     ${mediaQueries.above.desktop} {
-      font-size: 2em;
+      font-size: 1.9em;
     }
 
     ${mediaQueries.above.widescreen} {
-      font-size: 2.1em;
+      font-size: 2em;
     }
 
     ${mediaQueries.above.fullhd} {
-      font-size: 2.2em;
+      font-size: 2.1em;
     }
   }
 `;
