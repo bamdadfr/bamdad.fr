@@ -25,15 +25,14 @@ export const TopSection = styled.section`
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 1em;
-  grid-gap: 2em;
+  gap: 2em;
+  padding-bottom: 2em;
 
   ${mediaQueries.below.tablet} {
-    grid-gap: 1em;
-    padding-bottom: 0;
-    //transform: translate3d(0, 7.5%, 0);
     flex-direction: column;
     align-items: center;
+    gap: 1em;
+    padding-bottom: 0.85em;
   }
 
   > div {
