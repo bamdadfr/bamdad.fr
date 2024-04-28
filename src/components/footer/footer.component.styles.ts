@@ -13,7 +13,7 @@ export const Section = styled.section`
   font-size: 1.4em;
 
   > div {
-    margin-right: 0.46em;
+    margin-right: 0.37em;
 
     &:last-child {
       margin-right: 0;

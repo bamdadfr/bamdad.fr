@@ -3,8 +3,7 @@ import React from 'react';
 import {FooterElement} from 'src/components/footer/footer.component';
 import {D} from 'src/constants';
 
-// todo: rename to footerElements
-export const FooterConstants: FooterElement[] = [
+export const footerElements: FooterElement[] = [
   {
     text: 'github',
     href: 'https://github.com/bamdadsabbagh',

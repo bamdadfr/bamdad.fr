@@ -2,7 +2,7 @@ import React, {MouseEventHandler, ReactElement} from 'react';
 
 import {SlideAnimation} from 'src/animations/slide/slide.animation';
 import {Link, Section} from 'src/components/footer/footer.component.styles';
-import {FooterConstants} from 'src/components/footer/footer.constants';
+import {footerElements} from 'src/components/footer/footer.elements';
 
 export interface FooterElement {
   href?: string;
@@ -17,7 +17,7 @@ export interface FooterElement {
 
 export const FooterComponent = () => (
   <Section>
-    {FooterConstants.map((element) => (
+    {footerElements.map((element) => (
       <SlideAnimation
         key={element.text}
         delay={element.delay}
