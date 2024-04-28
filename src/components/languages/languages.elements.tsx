@@ -2,7 +2,7 @@ import {Icon} from '@iconify-icon/react';
 import shuffle from 'just-shuffle';
 import React from 'react';
 
-export const LanguagesConstants = shuffle(
+export const languagesElements = shuffle(
   [
     {
       text: 'TypeScript',
@@ -66,7 +66,7 @@ export const LanguagesConstants = shuffle(
     },
     {
       text: 'Vue.js',
-      icon: <Icon icon="simple-icons:vue" />,
+      icon: <Icon icon="simple-icons:vuedotjs" />,
       color: '#41B883',
     },
     {
