@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.0...v1.3.1) (2024-04-28)
+
+
+### Bug Fixes
+
+* **fonts:** reduce sizes a bit ([65c6847](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/65c6847691dc1ae299e23cbb94cb68f8d40ca8cb))
+
 # [1.3.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.2.0...v1.3.0) (2024-04-27)
 
 
