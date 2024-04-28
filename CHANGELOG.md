@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.1...v1.3.2) (2024-04-28)
+
+
+### Bug Fixes
+
+* **constants:** improve delay timings ([99e83cf](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/99e83cf1d46346ab6d4813f8fa723167699d8069))
+* **footer:** reduce gap and rename const ([8ff089b](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/8ff089b2980e313a94afc49657fabb8e365eac5a))
+* **languages:** set correct vuejs logo and rename data const ([db527de](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/db527def4e12adee5aa2e559896d063eebd23119))
+* **layout:** improve positionning ([574e01d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/574e01dc917ef1c361a10114f5895b019f9fee7a))
+
 ## [1.3.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.0...v1.3.1) (2024-04-28)
 
 
