@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.1...v1.4.2) (2024-07-02)
+
+
+### Bug Fixes
+
+* improve link tooltips ([a6b63dd](https://github.com/bamdadfr/bamdad.fr/commit/a6b63ddedea31faea8d3ceb06d866eab5edece25))
+
 ## [1.4.1](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.0...v1.4.1) (2024-07-02)
 
 
