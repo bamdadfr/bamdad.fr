@@ -1,29 +1,24 @@
-import {render as defaultRender} from '@testing-library/react';
 import React from 'react';
+import {render} from 'src/utils/test-utils';
 
 import {FadeAnimation} from './fade.animation';
 
-const render = () => {
-  const {container} = defaultRender(
+const r = () =>
+  render(
     <FadeAnimation>
-      <span>this my testing child</span>
+      <span>this is my testing component</span>
     </FadeAnimation>,
   );
-
-  return {
-    container,
-  };
-};
 
 describe('FadeAnimation', () => {
   describe('container', () => {
     it('should be in the document', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).toBeInTheDocument();
     });
 
     it('should be visible', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).toBeVisible();
     });
   });

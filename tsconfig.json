@@ -28,8 +28,14 @@
     "paths": {
       "src/*": [
         "src/*"
+      ],
+      "__mocks__/*": [
+        "__mocks__/*"
       ]
-    }
+    },
+    "types": [
+      "@testing-library/jest-dom"
+    ]
   },
   "include": [
     "next-env.d.ts",

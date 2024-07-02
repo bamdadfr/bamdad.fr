@@ -1,9 +1,7 @@
 import {useRouter} from 'next/router';
 import {useEffect} from 'react';
 
-import {
-  GA_TRACKING_ID,
-} from 'src/app/hooks/use-google-analytics/use-google-analytics.constants';
+import {GA_TRACKING_ID} from 'src/app/hooks/use-google-analytics/use-google-analytics.constants';
 
 /**
  * @see https://developers.google.com/analytics/devguides/collection/gtagjs/pages

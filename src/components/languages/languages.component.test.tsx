@@ -1,26 +1,20 @@
-import {render as defaultRender} from '@testing-library/react';
 import React from 'react';
+import {render} from 'src/utils/test-utils';
 
 import {LanguagesComponent} from './languages.component';
 
-const render = () => {
-  const {container} = defaultRender(<LanguagesComponent />);
-
-  return {
-    container,
-  };
-};
+const r = () => render(<LanguagesComponent />);
 
 describe('LanguagesComponent', () => {
   describe('container', () => {
     it('should be defined and visible', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).toBeInTheDocument();
       expect(container).toBeVisible();
     });
 
     it('should not be empty', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).not.toBeEmptyDOMElement();
     });
   });

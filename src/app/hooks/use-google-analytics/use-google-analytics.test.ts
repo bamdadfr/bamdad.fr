@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import {renderHook} from '@testing-library/react-hooks';
 
-import {useRouter} from '../../../../__mocks__/next-router';
+import {useRouter} from '__mocks__/next-router';
 import {useGoogleAnalytics} from './use-google-analytics';
 
 const MOCK_EVENTS_ON = useRouter().events.on;
@@ -26,7 +26,7 @@ describe('useGoogleAnalytics', () => {
         expect(typeof MOCK_EVENTS_ON.mock.calls[0][1]).toEqual('function');
       });
 
-      it('should unmount corectly', () => {
+      it('should unmount correctly', () => {
         const {unmount} = renderHook(() => useGoogleAnalytics());
         unmount();
         expect(MOCK_EVENTS_OFF).toHaveBeenCalledTimes(1);
