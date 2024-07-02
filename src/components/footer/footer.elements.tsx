@@ -12,14 +12,6 @@ export const footerElements: FooterElement[] = [
     delay: D.f.github,
   },
   {
-    text: 'curriculum',
-    href: 'https://cv.bamdad.fr/',
-    icon: <Icon icon="ph:file-text" />,
-    color: '#24292e',
-    offset: 1,
-    delay: D.f.curriculum,
-  },
-  {
     text: 'email',
     callback: (e) => {
       e.stopPropagation();

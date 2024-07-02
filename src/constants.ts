@@ -20,7 +20,6 @@ export const D = {
   // footer
   f: {
     github: t * d[8],
-    curriculum: t * d[9],
-    email: t * d[10],
+    email: t * d[9],
   },
 };
