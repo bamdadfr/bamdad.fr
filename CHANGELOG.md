@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.0...v1.4.1) (2024-07-02)
+
+
+### Bug Fixes
+
+* update links and fix package.json ([c48db63](https://github.com/bamdadfr/bamdad.fr/commit/c48db63673a58859bafeec17ae99a82530c95a1a))
+
 # [1.4.0](https://github.com/bamdadfr/bamdad.fr/compare/v1.3.3...v1.4.0) (2024-07-02)
 
 
