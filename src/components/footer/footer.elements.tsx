@@ -6,7 +6,7 @@ import {D} from 'src/constants';
 export const footerElements: FooterElement[] = [
   {
     text: 'github',
-    href: 'https://github.com/bamdadsabbagh',
+    href: 'https://github.com/bamdadfr',
     icon: <Icon icon="ph:github-logo" />,
     color: '#24292e',
     delay: D.f.github,

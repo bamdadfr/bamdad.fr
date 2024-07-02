@@ -1,5 +1,5 @@
 {
-  "name": "bamdadsabbagh-www",
+  "name": "bamdad.fr",
   "version": "1.4.0",
   "license": "MIT",
   "author": {
@@ -8,17 +8,17 @@
     "url": "https://www.bamdad.fr"
   },
   "scripts": {
-    "build": "pnpm build:run && yarn build:post",
+    "build": "pnpm build:run && pnpm build:post",
     "build:run": "next build",
     "build:post": "find .next/static -type f -name \"*.map\" -exec rm {} \\;",
     "coverage": "pnpm test:coverage",
-    "clean": "pnpm next:clean && yarn package:clean",
+    "clean": "pnpm next:clean && pnpm package:clean",
     "dev": "next dev",
     "export": "next export",
     "lint": "eslint src --ext .js --fix",
     "next:clean": "rimraf .next",
     "package:clean": "rimraf node_modules",
-    "package:reinstall": "pnpm package:clean && yarn",
+    "package:reinstall": "pnpm package:clean && pnpm i",
     "package:sort": "npx sort-package-json",
     "start": "next start",
     "test": "jest",
