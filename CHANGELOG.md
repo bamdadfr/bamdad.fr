@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.2...v1.3.3) (2024-07-02)
+
+
+### Bug Fixes
+
+* **footer:** remove link to cv ([3421697](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/commit/34216973cc7014cd757f83cc2d500d61112e267b))
+
 ## [1.3.2](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.1...v1.3.2) (2024-04-28)
 
 
