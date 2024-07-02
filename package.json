@@ -5,7 +5,7 @@
   "author": {
     "name": "Bamdad Sabbagh",
     "email": "hi@bamdad.fr",
-    "url": "https://www.bamdadsabbagh.com"
+    "url": "https://www.bamdad.fr"
   },
   "scripts": {
     "build": "pnpm build:run && yarn build:post",
