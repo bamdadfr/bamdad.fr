@@ -27,7 +27,7 @@ export const FooterComponent = () => (
             <Link
               href={element.href}
               target="_blank"
-              title={`link to ${element.text}`}
+              title={element.text}
               color={element.color}
               rel="noopener noreferrer"
               offset={element.offset}
@@ -38,7 +38,7 @@ export const FooterComponent = () => (
           {typeof element.callback !== 'undefined' && (
             <Link
               onClick={element.callback}
-              title={`link to ${element.text}`}
+              title={element.text}
               color={element.color}
               offset={element.offset}
             >

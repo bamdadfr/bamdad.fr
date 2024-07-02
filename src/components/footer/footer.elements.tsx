@@ -5,14 +5,14 @@ import {D} from 'src/constants';
 
 export const footerElements: FooterElement[] = [
   {
-    text: 'github',
+    text: 'go to my github',
     href: 'https://github.com/bamdadfr',
     icon: <Icon icon="ph:github-logo" />,
     color: '#24292e',
     delay: D.f.github,
   },
   {
-    text: 'email',
+    text: 'email me',
     callback: (e) => {
       e.stopPropagation();
       e.preventDefault();
