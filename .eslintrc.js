@@ -1,6 +1,6 @@
 'use strict';
 
-export default {
+module.exports = {
   env: {
     browser: true,
     node: true,
@@ -8,7 +8,7 @@ export default {
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    requireConfigFile: false,
+    requireConfigFile: true,
     sourceType: 'module',
   },
   extends: [
@@ -20,6 +20,7 @@ export default {
     'plugin:@typescript-eslint/recommended',
   ],
   plugins: [
+    '@typescript-eslint',
     '@babel',
     'jsx-a11y',
     'prettier',
