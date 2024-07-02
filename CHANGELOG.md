@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/bamdadfr/bamdad.fr/compare/v1.3.3...v1.4.0) (2024-07-02)
+
+
+### Features
+
+* use bamdad.fr ([af96f8c](https://github.com/bamdadfr/bamdad.fr/commit/af96f8c2536e98d484f2a5c709ffb50a8eef4667))
+
 ## [1.3.3](https://github.com/bamdadsabbagh/bamdadsabbagh-com--www/compare/v1.3.2...v1.3.3) (2024-07-02)
 
 
