@@ -1,5 +1,3 @@
-export type MyTheme = typeof theme;
-
 export const theme = {
   colors: {
     primary: '#4a4a4a',
@@ -15,3 +13,5 @@ export const theme = {
     },
   },
 };
+
+export type MyTheme = typeof theme;

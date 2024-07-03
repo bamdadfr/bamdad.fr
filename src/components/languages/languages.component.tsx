@@ -1,9 +1,7 @@
 import React from 'react';
 
 import {SlideAnimation} from 'src/animations/slide/slide.animation';
-import {
-  LanguageComponent,
-} from 'src/components/languages/components/language/language.component';
+import {LanguageComponent} from 'src/components/languages/components/language/language.component';
 import {Container} from 'src/components/languages/languages.component.styles';
 import {D} from 'src/constants';
 

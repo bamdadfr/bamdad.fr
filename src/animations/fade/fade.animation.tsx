@@ -7,11 +7,7 @@ interface Props {
   isVisible?: boolean;
 }
 
-export const FadeAnimation = ({
-  children,
-  delay = 0,
-  isVisible = true,
-}: Props) => {
+export function FadeAnimation({children, delay = 0, isVisible = true}: Props) {
   const style = useSpring({
     from: {opacity: isVisible ? 0 : 1},
     to: {opacity: isVisible ? 1 : 0},
@@ -19,4 +15,4 @@ export const FadeAnimation = ({
   });
 
   return <animated.div style={style}>{children}</animated.div>;
-};
+}

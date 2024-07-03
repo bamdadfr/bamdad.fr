@@ -4,8 +4,8 @@ import {SlideAnimation} from 'src/animations/slide/slide.animation';
 import {Container} from 'src/components/greetings/greetings.component.styles';
 import {GreetingsConstants} from 'src/components/greetings/greetings.constants';
 
-export const GreetingsComponent = () => (
-  <Container>
+export function GreetingsComponent() {
+  return <Container>
     {GreetingsConstants.map((element) => (
       <SlideAnimation
         key={element.delay}
@@ -14,5 +14,5 @@ export const GreetingsComponent = () => (
         {element.text}
       </SlideAnimation>
     ))}
-  </Container>
-);
+  </Container>;
+}

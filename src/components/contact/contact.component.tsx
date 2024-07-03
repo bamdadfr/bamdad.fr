@@ -1,18 +1,14 @@
 import React from 'react';
 
 import {SlideAnimation} from 'src/animations/slide/slide.animation';
-import {
-  Button,
-  Container,
-  Section,
-} from 'src/components/contact/contact.component.styles';
+import {Button, Container, Section} from 'src/components/contact/contact.component.styles';
 import {ContactConstants} from 'src/components/contact/contact.constants';
 
 /**
  * Component to display contact information
  */
-export const ContactComponent = () => (
-  <Section>
+export function ContactComponent() {
+  return <Section>
     <Container>
       {ContactConstants.map((element) => (
         <SlideAnimation
@@ -32,5 +28,5 @@ export const ContactComponent = () => (
         </SlideAnimation>
       ))}
     </Container>
-  </Section>
-);
+  </Section>;
+}

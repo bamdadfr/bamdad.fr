@@ -22,7 +22,7 @@ export function LanguageComponent({delay}: Props) {
   });
 
   return (
-    <>
+    <div>
       {waited && (
         <>
           <FadeAnimation
@@ -40,6 +40,6 @@ export function LanguageComponent({delay}: Props) {
           </LanguageContainer>
         </>
       )}
-    </>
+    </div>
   );
 }

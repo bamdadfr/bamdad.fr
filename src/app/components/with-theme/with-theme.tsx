@@ -8,9 +8,9 @@ interface Props {
   children: ReactElement;
 }
 
-export const WithTheme = ({children}: Props) => (
-  <ThemeProvider theme={theme}>
+export function WithTheme({children}: Props) {
+  return <ThemeProvider theme={theme}>
     {globalStyles}
     {children}
-  </ThemeProvider>
-);
+  </ThemeProvider>;
+}

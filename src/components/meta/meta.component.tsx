@@ -12,14 +12,14 @@ interface Props {
 }
 
 // todo: migrate to next-sitemap?
-export const MetaComponent = ({
+export function MetaComponent({
   title = MetaConstants.title,
   url = MetaConstants.url,
   description = MetaConstants.description,
   image = MetaConstants.image,
   customTitle = false,
-}: Props) => (
-  <Head>
+}: Props) {
+  return <Head>
     <meta charSet="UTF-8" />
     <meta
       property="viewport"
@@ -122,5 +122,5 @@ export const MetaComponent = ({
       name="theme-color"
       content="#ffffff"
     />
-  </Head>
-);
+  </Head>;
+}

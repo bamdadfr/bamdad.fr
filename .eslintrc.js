@@ -38,6 +38,7 @@ module.exports = {
     'simple-import-sort',
   ],
   rules: {
+    'react/require-default-props': 'off',
     // .jsx rules
     'react/jsx-filename-extension': [
       1,

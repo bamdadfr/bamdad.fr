@@ -1,10 +1,6 @@
-import Document, {
-  type DocumentContext,
-  Head,
-  Html,
-  Main,
-  NextScript,
-} from 'next/document';
+/* eslint-disable react/no-danger */
+
+import Document, {type DocumentContext, Head, Html, Main, NextScript} from 'next/document';
 import React from 'react';
 import {renderStatic} from 'src/utils/render-static/render-static';
 
