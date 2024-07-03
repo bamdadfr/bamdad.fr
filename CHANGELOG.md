@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.2...v1.4.3) (2024-07-03)
+
+
+### Bug Fixes
+
+* build ([97c9370](https://github.com/bamdadfr/bamdad.fr/commit/97c9370eb810e6ffb2f34991131a5e9002b0c3ef))
+
 ## [1.4.2](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.1...v1.4.2) (2024-07-02)
 
 
