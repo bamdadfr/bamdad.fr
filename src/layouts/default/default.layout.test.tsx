@@ -6,6 +6,7 @@ const r = () =>
   render(
     <DefaultLayout>
       <span>children</span>
+      <span>children</span>
     </DefaultLayout>,
   );
 

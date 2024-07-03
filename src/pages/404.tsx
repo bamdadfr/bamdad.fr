@@ -1,5 +1,5 @@
 import {useRouter} from 'next/router';
-import React, {useEffect} from 'react';
+import {useEffect} from 'react';
 
 /**
  * 404 page
@@ -13,6 +13,4 @@ export default function NotFoundPage() {
       await router.replace('/');
     })();
   }, [router]);
-
-  return <></>;
 }

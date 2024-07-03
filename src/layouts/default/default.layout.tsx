@@ -12,13 +12,15 @@ interface Props {
 /**
  * Component to render the default layout
  */
-export const DefaultLayout = ({children}: Props) => (
-  <>
-    <MetaComponent />
-    <BackgroundComponent />
-    <NewContainer>
-      <TopSection>{children}</TopSection>
-    </NewContainer>
-    <FooterComponent />
-  </>
-);
+export function DefaultLayout({children}: Props) {
+  return (
+    <>
+      <MetaComponent />
+      <BackgroundComponent />
+      <NewContainer>
+        <TopSection>{children}</TopSection>
+      </NewContainer>
+      <FooterComponent />
+    </>
+  );
+}

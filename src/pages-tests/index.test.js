@@ -1,31 +1,19 @@
-import {render as defaultRender} from '@testing-library/react';
 import React from 'react';
-
-import {WithTheme} from '../app/components/with-theme/with-theme';
+import {render} from 'src/utils/test-utils';
 import IndexPage from '../pages';
 
-const render = () => {
-  const {container} = defaultRender(
-    <WithTheme>
-      <IndexPage />
-    </WithTheme>,
-  );
-
-  return {
-    container,
-  };
-};
+const r = () => render(<IndexPage />);
 
 describe('IndexPage', () => {
   describe('container', () => {
     it('should be in the document and visible', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).toBeInTheDocument();
       expect(container).toBeVisible();
     });
 
     it('should not be empty', () => {
-      const {container} = render();
+      const {container} = r();
       expect(container).not.toBeEmptyDOMElement();
     });
   });
