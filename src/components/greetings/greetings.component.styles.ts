@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 import {mediaQueries} from 'src/app/styles/breakpoints';
 
-export const Container = styled.div`
+export const Container = styled.h1`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

@@ -34,7 +34,10 @@ export function LanguageComponent({delay}: Props) {
             </Icon>
           </FadeAnimation>
           <LanguageContainer>
-            <SlideAnimation isVisible={isVisible}>
+            <SlideAnimation
+              type="span"
+              isVisible={isVisible}
+            >
               <Label>{languagesElements[index].text}</Label>
             </SlideAnimation>
           </LanguageContainer>

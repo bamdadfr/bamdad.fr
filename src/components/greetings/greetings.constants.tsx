@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {type ReactElement} from 'react';
 
 import {Bold} from 'src/components/greetings/greetings.component.styles';
 import {D} from 'src/constants';
 
-export const GreetingsConstants = [
+interface Greeting {
+  text: string | ReactElement;
+  delay: number;
+}
+
+export const greetings: Greeting[] = [
   {
     text: 'Hi 👋🏽,',
     delay: D.g.hi,
