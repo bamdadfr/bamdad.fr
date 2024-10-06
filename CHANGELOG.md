@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.2...v1.5.3) (2024-10-06)
+
+
+### Bug Fixes
+
+* update open graph tags ([e30adc4](https://github.com/bamdadfr/bamdad.fr/commit/e30adc4cd5d1ec3fdf15e7282cf0d554381e8119))
+
 ## [1.5.2](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.1...v1.5.2) (2024-10-06)
 
 
