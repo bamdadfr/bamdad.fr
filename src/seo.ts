@@ -12,6 +12,13 @@ export const SEO: DefaultSeoProps = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bamdad.fr/',
+    images: [
+      {
+        url: '/favicon/android-chrome-512x512.png',
+        width: 512,
+        height: 512,
+      },
+    ],
   },
   twitter: {
     cardType: 'summary_large_image',
