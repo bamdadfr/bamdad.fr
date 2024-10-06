@@ -4,6 +4,7 @@ export const SEO: DefaultSeoProps = {
   defaultTitle: 'Bamdad Sabbagh',
   description: 'Web Developer',
   canonical: 'https://www.bamdad.fr/',
+  norobots: false,
   openGraph: {
     title: 'Bamdad Sabbagh',
     description: 'Web Developer',
