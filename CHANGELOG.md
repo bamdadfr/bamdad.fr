@@ -1,3 +1,23 @@
+# [1.5.0](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.3...v1.5.0) (2024-10-06)
+
+
+### Bug Fixes
+
+* add open graph image ([5db495b](https://github.com/bamdadfr/bamdad.fr/commit/5db495bf08f3162d6d6e6b2b562b4ddd76c58bd6))
+* add workflow permissions ([ee0d439](https://github.com/bamdadfr/bamdad.fr/commit/ee0d439796024bff9f0069d244859a2cf836b808))
+* build post commands ([46d828b](https://github.com/bamdadfr/bamdad.fr/commit/46d828b3c70a8204e7e2d10f650f2b7638f14449))
+* remove sentry ([e166317](https://github.com/bamdadfr/bamdad.fr/commit/e16631765473b96639c23bcc47ab575f14863f42))
+* return null from 404 page ([5e89d63](https://github.com/bamdadfr/bamdad.fr/commit/5e89d63cf5899c9c95de37412f07d1fbc185f77b))
+
+
+### Features
+
+* add next-seo + improve html semantics + remove dead code ([f3c3697](https://github.com/bamdadfr/bamdad.fr/commit/f3c369720cdee724e67b1eeecfba88134e79da6e))
+* add sitemap generation ([b6bdbe7](https://github.com/bamdadfr/bamdad.fr/commit/b6bdbe7540e51a8e0a69560136922bd8b5c58344))
+* index and follow ([01289d5](https://github.com/bamdadfr/bamdad.fr/commit/01289d5d3f85856e8477ea117d52de95dbb9c8d8))
+* update greeting details ([1841439](https://github.com/bamdadfr/bamdad.fr/commit/18414397c1f05e41b36fa1a4356123d5b2393b3b))
+* use languages part as h2 ([8470543](https://github.com/bamdadfr/bamdad.fr/commit/8470543712678a10090344ace749d4987713846b))
+
 ## [1.4.3](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.2...v1.4.3) (2024-07-03)
 
 
