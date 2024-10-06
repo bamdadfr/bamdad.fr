@@ -34,7 +34,6 @@
     "@fontsource/lora": "^5.0.17",
     "@juggle/resize-observer": "^3.4.0",
     "@react-spring/web": "^9.7.3",
-    "@sentry/nextjs": "^8.13.0",
     "just-shuffle": "^4.2.0",
     "next": "^14.2.4",
     "next-seo": "^6.6.0",
