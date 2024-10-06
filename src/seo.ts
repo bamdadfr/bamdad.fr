@@ -1,8 +1,9 @@
 import {DefaultSeoProps} from 'next-seo';
 
 export const SEO: DefaultSeoProps = {
-  defaultTitle: 'Bamdad Sabbagh',
-  description: 'Web Developer',
+  defaultTitle: 'Bamdad Sabbagh - Web Developer',
+  description:
+    'Hi 👋🏽, my name is Bamdad. I am a Web Developer specialized in Front End.',
   canonical: 'https://www.bamdad.fr/',
   norobots: false,
   openGraph: {
