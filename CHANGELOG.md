@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.0...v1.5.1) (2024-10-06)
+
+
+### Bug Fixes
+
+* update SEO props ([60874a0](https://github.com/bamdadfr/bamdad.fr/commit/60874a00a444422894a21568522e15bdc31a762b))
+
 # [1.5.0](https://github.com/bamdadfr/bamdad.fr/compare/v1.4.3...v1.5.0) (2024-10-06)
 
 
