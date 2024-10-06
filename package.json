@@ -10,7 +10,7 @@
   "scripts": {
     "build": "pnpm build:run && pnpm build:post",
     "build:run": "next build",
-    "build:post": "build:post:sitemap && build:post:clearmaps",
+    "build:post": "pnpm build:post:sitemap && pnpm build:post:clearmaps",
     "build:post:sitemap": "next-sitemap",
     "build:post:clearmaps": "find .next/static -type f -name \"*.map\" -exec rm {} \\;",
     "coverage": "pnpm test:coverage",
