@@ -10,7 +10,9 @@
   "scripts": {
     "build": "pnpm build:run && pnpm build:post",
     "build:run": "next build",
-    "build:post": "find .next/static -type f -name \"*.map\" -exec rm {} \\;",
+    "build:post": "build:post:sitemap && build:post:clearmaps",
+    "build:post:sitemap": "next-sitemap",
+    "build:post:clearmaps": "find .next/static -type f -name \"*.map\" -exec rm {} \\;",
     "coverage": "pnpm test:coverage",
     "clean": "pnpm next:clean && pnpm package:clean",
     "dev": "next dev",
@@ -36,6 +38,7 @@
     "just-shuffle": "^4.2.0",
     "next": "^14.2.4",
     "next-seo": "^6.6.0",
+    "next-sitemap": "^4.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-use-measure": "^2.1.1"
