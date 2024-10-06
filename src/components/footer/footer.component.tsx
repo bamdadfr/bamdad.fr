@@ -21,6 +21,7 @@ export function FooterComponent() {
         <SlideAnimation
           key={element.text}
           delay={element.delay}
+          type="div"
         >
           <>
             {element.href && (

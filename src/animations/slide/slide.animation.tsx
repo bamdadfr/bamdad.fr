@@ -10,12 +10,15 @@ interface Props {
   children: ReactElement | string;
   delay?: number;
   isVisible?: boolean;
+  type: 'div' | 'span';
 }
 
-/**
- * Component to animate slide in and out of view
- */
-export function SlideAnimation({children, delay = 0, isVisible = true}: Props) {
+export function SlideAnimation({
+  children,
+  delay = 0,
+  isVisible = true,
+  type,
+}: Props) {
   const [ref, {height}] = useMeasure({polyfill: ResizeObserver});
   const {firstRender} = useFirstRender(delay);
 
@@ -32,6 +35,14 @@ export function SlideAnimation({children, delay = 0, isVisible = true}: Props) {
     },
     delay: getEnterOrLeaveDelay(delay, firstRender, !isVisible),
   });
+
+  if (type === 'span') {
+    return (
+      <animated.span style={style}>
+        <div ref={ref}>{children}</div>
+      </animated.span>
+    );
+  }
 
   return (
     <animated.div style={style}>
