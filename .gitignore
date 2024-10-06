@@ -39,3 +39,7 @@ TODO.md
 
 # sonar
 /.idea/sonarlint/issuestore/
+
+# next-sitemap
+robots.txt
+sitemap*.xml
