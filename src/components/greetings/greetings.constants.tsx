@@ -23,7 +23,7 @@ export const GreetingsConstants = [
   {
     text: (
       <>
-        a <Bold>Front-End</Bold> developer
+        a <Bold>Web</Bold> developer
       </>
     ),
     delay: D.g.developer,
@@ -35,7 +35,7 @@ export const GreetingsConstants = [
   {
     text: (
       <>
-        <Bold>JavaScript</Bold>.
+        <Bold>Front End</Bold>.
       </>
     ),
     delay: D.g.javascript,
