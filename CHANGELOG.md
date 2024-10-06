@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.1...v1.5.2) (2024-10-06)
+
+
+### Bug Fixes
+
+* update deps ([c1f587e](https://github.com/bamdadfr/bamdad.fr/commit/c1f587e94f52fd98969f7f10d04e715d0d7d4909))
+
 ## [1.5.1](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.0...v1.5.1) (2024-10-06)
 
 
