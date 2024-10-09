@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.3...v1.5.4) (2024-10-09)
+
+
+### Bug Fixes
+
+* use absolute apple touch favicon ([67c702d](https://github.com/bamdadfr/bamdad.fr/commit/67c702d5373fc20326e7c4b2006e4c89a75d2bb2))
+
 ## [1.5.3](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.2...v1.5.3) (2024-10-06)
 
 
