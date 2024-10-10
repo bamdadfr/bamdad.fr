@@ -4,10 +4,12 @@ const title = 'Bamdad Sabbagh - Web Developer';
 const description =
   'Hi 👋🏽, my name is Bamdad. I am a Web Developer specialized in Front End.';
 
+const url = 'https://www.bamdad.fr';
+
 export const SEO: DefaultSeoProps = {
   defaultTitle: title,
   description,
-  canonical: 'https://www.bamdad.fr/',
+  canonical: url,
   norobots: false,
   openGraph: {
     title,
@@ -15,7 +17,7 @@ export const SEO: DefaultSeoProps = {
     siteName: title,
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.bamdad.fr/',
+    url,
     images: [
       {
         url: '/favicon/android-chrome-512x512.png',
