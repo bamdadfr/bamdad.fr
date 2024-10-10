@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.4...v1.5.5) (2024-10-10)
+
+
+### Bug Fixes
+
+* use canonical without trailing slash ([9bcbaa0](https://github.com/bamdadfr/bamdad.fr/commit/9bcbaa0c0c04b88666cbb5c67c64e3acffe46599))
+
 ## [1.5.4](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.3...v1.5.4) (2024-10-09)
 
 
