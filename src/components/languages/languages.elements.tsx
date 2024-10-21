@@ -84,6 +84,11 @@ export const languagesElements = shuffle(
       icon: <Icon icon="simple-icons:electron" />,
       color: '#47848F',
     },
+    {
+      text: 'Sass',
+      icon: <Icon icon="simple-icons:sass" />,
+      color: '#CC6699',
+    },
   ],
   {shuffleAll: true},
 );
