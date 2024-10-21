@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.5...v1.6.0) (2024-10-21)
+
+
+### Features
+
+* add scss lang ([5acefc6](https://github.com/bamdadfr/bamdad.fr/commit/5acefc6cd9a31975dd33254d298c3b1ed2ea3041))
+
 ## [1.5.5](https://github.com/bamdadfr/bamdad.fr/compare/v1.5.4...v1.5.5) (2024-10-10)
 
 
